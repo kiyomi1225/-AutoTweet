@@ -140,7 +140,7 @@ class BaseAutomation:
             pyperclip.copy(file_path)
             pyautogui.hotkey('ctrl', 'v')
             pyautogui.press('enter')
-            time.sleep(3)
+            time.sleep(10)
             
             self.logger.info(f"ファイルアップロード完了: {filename} ({ai_type})")
             return True

@@ -254,28 +254,28 @@ class FrontendNoteAutomation(BaseAutomation):
             pyautogui.typewrite(str(num1))
             pyautogui.press('enter')
             pyautogui.press('enter')
-            time.sleep(30)
+            time.sleep(120)
             
             # 1～10のランダム数値
             num2 = random.randint(*ranges['second'])
             pyautogui.typewrite(str(num2))
             pyautogui.press('enter')
             pyautogui.press('enter')
-            time.sleep(30)
+            time.sleep(90)
             
             # 「タイトル」入力
             pyperclip.copy("タイトル")
             pyautogui.hotkey('ctrl', 'v')
             pyautogui.press('enter')
             pyautogui.press('enter')
-            time.sleep(30)
+            time.sleep(90)
             
             # 1～10のランダム数値
             num3 = random.randint(*ranges['third'])
             pyautogui.typewrite(str(num3))
             pyautogui.press('enter')
             pyautogui.press('enter')
-            time.sleep(30)
+            time.sleep(90)
 
             # スクロール（基底クラスのメソッド使用）
             self._scroll_down()
