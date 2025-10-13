@@ -1,0 +1,28 @@
+2025-09-02 00:00:36 | TwitterAutomation.GPTImageAutomation | INFO | 10件保存 → 合計: 150件
+2025-09-02 00:00:46 | TwitterAutomation.GPTImageAutomation | INFO | 第16回実行 (acc3: 150/200件)
+2025-09-02 00:00:50 | TwitterAutomation.GPTImageAutomation | INFO | GPT応答待機中... (120秒)
+2025-09-02 00:03:08 | TwitterAutomation.GPTImageAutomation | INFO | 10件保存 → 合計: 160件
+2025-09-02 00:03:18 | TwitterAutomation.GPTImageAutomation | INFO | 第17回実行 (acc3: 160/200件)
+2025-09-02 00:03:22 | TwitterAutomation.GPTImageAutomation | INFO | GPT応答待機中... (120秒)
+2025-09-02 00:05:40 | TwitterAutomation.GPTImageAutomation | INFO | 10件保存 → 合計: 170件
+2025-09-02 00:05:50 | TwitterAutomation.GPTImageAutomation | INFO | 第18回実行 (acc3: 170/200件)
+2025-09-02 00:05:55 | TwitterAutomation.GPTImageAutomation | INFO | GPT応答待機中... (120秒)
+2025-09-02 00:08:13 | TwitterAutomation.GPTImageAutomation | INFO | 10件保存 → 合計: 180件
+2025-09-02 00:08:23 | TwitterAutomation.GPTImageAutomation | INFO | 第19回実行 (acc3: 180/200件)
+2025-09-02 00:08:27 | TwitterAutomation.GPTImageAutomation | INFO | GPT応答待機中... (120秒)
+2025-09-02 00:10:45 | TwitterAutomation.GPTImageAutomation | INFO | 10件保存 → 合計: 190件
+2025-09-02 00:10:55 | TwitterAutomation.GPTImageAutomation | INFO | 第20回実行 (acc3: 190/200件)
+2025-09-02 00:10:59 | TwitterAutomation.GPTImageAutomation | INFO | GPT応答待機中... (120秒)
+2025-09-02 00:13:17 | TwitterAutomation.GPTImageAutomation | INFO | 2件保存 → 合計: 192件
+2025-09-02 00:13:27 | TwitterAutomation.GPTImageAutomation | INFO | 第21回実行 (acc3: 192/200件)
+2025-09-02 00:13:31 | TwitterAutomation.GPTImageAutomation | INFO | GPT応答待機中... (120秒)
+2025-09-02 00:15:50 | TwitterAutomation.GPTImageAutomation | INFO | 10件保存 → 合計: 202件
+2025-09-02 00:15:54 | TwitterAutomation.VPNManager | INFO | VPN切断開始: acc3
+2025-09-02 00:15:54 | TwitterAutomation.VPNManager | INFO | OpenVPNプロセス終了: 1件
+2025-09-02 00:15:57 | TwitterAutomation.VPNManager | INFO | VPN切断完了: 116.82.24.214
+2025-09-02 00:15:57 | TwitterAutomation.GPTImageAutomation | INFO | 自動化完了: 成功 1/1件
+2025-09-02 00:15:57 | TwitterAutomation.GPTImageAutomation | INFO | 成功アカウント: ['acc3']
+2025-09-02 00:15:57 | TwitterAutomation.GPTImageAutomation | INFO | 失敗アカウント: []
+2025-09-02 00:19:13 | TwitterAutomation.ChromeManager | ERROR | Chrome画像認識終了エラー: Could not locate the image (highest confidence = 0.718)
+2025-09-02 00:19:13 | TwitterAutomation.ChromeManager | WARNING | 画像認識終了失敗、プロセス終了でフォールバック
+2025-09-02 00:19:16 | TwitterAutomation.VPNManager | INFO | VPN切断完了: 116.82.24.214

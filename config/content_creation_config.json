@@ -1,0 +1,17 @@
+{
+  "note_ai_url": "https://chatgpt.com/g/g-68e51cd4467c81919ecedad4c4685e51-5-hurontoentonotezuo-cheng-ai-atuhurotoban",
+  "sales_letter_ai_url": "https://chatgpt.com/g/g-68e65bb07dc08191abb65d140f934c9d-6-hurontoentoserusuretazuo-cheng-ai-atuhurotoban",
+  "daily_mail_ai_url": "https://chatgpt.com/g/g-68e7b972cd2081918171915dbdac6ba3-12-teirimerumakazuo-cheng-ai-atuhurotoban",
+  "optin_page_url": "https://chatgpt.com/g/g-68e3e99b9d6c8191b3697f6867baf4cf-4-ohutoinhesizuo-cheng-aiatuhurotoban",
+  "chrome_profile": "コンテンツ作成用プロファイル",
+  "automation": {
+    "default_wait_time": 90,
+    "default_loop_count": 10,
+    "operation_wait_time": 3,
+    "random_ranges": {
+      "first": [1,30],
+      "second": [1,10],
+      "third": [1,10]
+    }
+  }
+}

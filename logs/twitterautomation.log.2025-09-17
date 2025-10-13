@@ -1,0 +1,1299 @@
+2025-09-17 00:46:56 | TwitterAutomation.ConfigManager | INFO | 設定ファイル読み込み完了: config\config.json
+2025-09-17 00:46:56 | TwitterAutomation.ConfigManager | INFO | アカウントデータベース読み込み完了: 5件
+2025-09-17 00:46:56 | TwitterAutomation.ConfigManager | INFO | 設定管理を初期化しました
+2025-09-17 00:46:57 | TwitterAutomation.VPNManager | INFO | 元のIPアドレス記録: 116.82.24.214
+2025-09-17 00:46:57 | TwitterAutomation.VPNManager | INFO | VPN管理を初期化しました
+2025-09-17 00:46:57 | TwitterAutomation.ChromeManager | INFO | Chrome管理を初期化しました
+2025-09-17 00:46:57 | TwitterAutomation.CSVManager | INFO | CSV管理を初期化しました
+2025-09-17 00:46:57 | TwitterAutomation.GPTImageAutomation | INFO | GPT画像認識自動化を初期化しました
+2025-09-17 00:46:57 | TwitterAutomation.ThreadsRotationPoster | INFO | Threads循環投稿を初期化しました
+2025-09-17 00:46:57 | TwitterAutomation.FrontendNoteAutomation | INFO | フロントエンドnote自動取得を初期化しました
+2025-09-17 00:48:47 | TwitterAutomation.ConfigManager | INFO | 設定ファイル読み込み完了: config\config.json
+2025-09-17 00:48:47 | TwitterAutomation.ConfigManager | INFO | アカウントデータベース読み込み完了: 5件
+2025-09-17 00:48:47 | TwitterAutomation.ConfigManager | INFO | 設定管理を初期化しました
+2025-09-17 00:48:47 | TwitterAutomation.VPNManager | INFO | 元のIPアドレス記録: 116.82.24.214
+2025-09-17 00:48:47 | TwitterAutomation.VPNManager | INFO | VPN管理を初期化しました
+2025-09-17 00:48:47 | TwitterAutomation.ChromeManager | INFO | Chrome管理を初期化しました
+2025-09-17 00:48:47 | TwitterAutomation.CSVManager | INFO | CSV管理を初期化しました
+2025-09-17 00:48:47 | TwitterAutomation.GPTImageAutomation | INFO | GPT画像認識自動化を初期化しました
+2025-09-17 00:48:47 | TwitterAutomation.ThreadsRotationPoster | INFO | Threads循環投稿を初期化しました
+2025-09-17 00:48:47 | TwitterAutomation.FrontendNoteAutomation | INFO | フロントエンドnote自動取得を初期化しました
+2025-09-17 00:49:48 | TwitterAutomation.FrontendNoteAutomation | INFO | フロントエンドnote自動取得開始: acc２
+2025-09-17 00:49:48 | TwitterAutomation.FrontendNoteAutomation | INFO | 削除対象ファイルなし
+2025-09-17 00:49:48 | TwitterAutomation.FrontendNoteAutomation | INFO | 必要ファイル確認完了
+2025-09-17 00:49:48 | TwitterAutomation.FrontendNoteAutomation | INFO | ループ 1/10 開始
+2025-09-17 00:50:37 | TwitterAutomation.FrontendNoteAutomation | INFO | ファイルアップロード: キャラクターコンセプト.txt
+2025-09-17 00:50:49 | TwitterAutomation.FrontendNoteAutomation | INFO | ファイルアップロード: ターゲット.txt
+2025-09-17 00:58:48 | TwitterAutomation.FrontendNoteAutomation | INFO | フロントエンドnote自動取得開始: acc２
+2025-09-17 00:58:48 | TwitterAutomation.FrontendNoteAutomation | INFO | 削除対象ファイルなし
+2025-09-17 00:58:48 | TwitterAutomation.FrontendNoteAutomation | INFO | 必要ファイル確認完了
+2025-09-17 00:58:48 | TwitterAutomation.FrontendNoteAutomation | INFO | ループ 1/10 開始
+2025-09-17 00:59:37 | TwitterAutomation.FrontendNoteAutomation | INFO | ファイルアップロード: キャラクターコンセプト.txt
+2025-09-17 01:12:11 | TwitterAutomation.FrontendNoteAutomation | INFO | フロントエンドnote自動取得開始: acc２
+2025-09-17 01:12:11 | TwitterAutomation.FrontendNoteAutomation | INFO | 削除対象ファイルなし
+2025-09-17 01:12:11 | TwitterAutomation.FrontendNoteAutomation | INFO | 必要ファイル確認完了
+2025-09-17 01:12:11 | TwitterAutomation.FrontendNoteAutomation | INFO | ループ 1/10 開始
+2025-09-17 01:12:24 | TwitterAutomation.FrontendNoteAutomation | ERROR | Claude Sonnet4 クリックエラー: 
+2025-09-17 01:12:28 | TwitterAutomation.FrontendNoteAutomation | ERROR | ループ 1 失敗
+2025-09-17 01:12:53 | TwitterAutomation.FrontendNoteAutomation | INFO | フロントエンドnote自動取得開始: acc２
+2025-09-17 01:12:53 | TwitterAutomation.FrontendNoteAutomation | INFO | 削除対象ファイルなし
+2025-09-17 01:12:53 | TwitterAutomation.FrontendNoteAutomation | INFO | 必要ファイル確認完了
+2025-09-17 01:12:53 | TwitterAutomation.FrontendNoteAutomation | INFO | ループ 1/10 開始
+2025-09-17 01:14:34 | TwitterAutomation.FrontendNoteAutomation | INFO | フロントエンドnote自動取得開始: acc２
+2025-09-17 01:14:34 | TwitterAutomation.FrontendNoteAutomation | INFO | 削除対象ファイルなし
+2025-09-17 01:14:34 | TwitterAutomation.FrontendNoteAutomation | INFO | 必要ファイル確認完了
+2025-09-17 01:14:34 | TwitterAutomation.FrontendNoteAutomation | INFO | ループ 1/10 開始
+2025-09-17 01:26:16 | TwitterAutomation.VPNManager | INFO | OpenVPNプロセス終了: 2件
+2025-09-17 01:26:19 | TwitterAutomation.VPNManager | INFO | VPN切断完了: 116.82.24.214
+2025-09-17 01:26:28 | TwitterAutomation.ConfigManager | INFO | 設定ファイル読み込み完了: config\config.json
+2025-09-17 01:26:28 | TwitterAutomation.ConfigManager | INFO | アカウントデータベース読み込み完了: 5件
+2025-09-17 01:26:28 | TwitterAutomation.ConfigManager | INFO | 設定管理を初期化しました
+2025-09-17 01:26:28 | TwitterAutomation.VPNManager | INFO | 元のIPアドレス記録: 116.82.24.214
+2025-09-17 01:26:28 | TwitterAutomation.VPNManager | INFO | VPN管理を初期化しました
+2025-09-17 01:26:28 | TwitterAutomation.ChromeManager | INFO | Chrome管理を初期化しました
+2025-09-17 01:26:28 | TwitterAutomation.CSVManager | INFO | CSV管理を初期化しました
+2025-09-17 01:26:28 | TwitterAutomation.GPTImageAutomation | INFO | GPT画像認識自動化を初期化しました
+2025-09-17 01:26:28 | TwitterAutomation.ThreadsRotationPoster | INFO | Threads循環投稿を初期化しました
+2025-09-17 01:26:28 | TwitterAutomation.FrontendNoteAutomation | INFO | フロントエンドnote自動取得を初期化しました
+2025-09-17 01:26:48 | TwitterAutomation.FrontendNoteAutomation | INFO | フロントエンドnote自動取得開始: acc２
+2025-09-17 01:26:48 | TwitterAutomation.FrontendNoteAutomation | INFO | 削除対象ファイルなし
+2025-09-17 01:26:48 | TwitterAutomation.FrontendNoteAutomation | INFO | 必要ファイル確認完了
+2025-09-17 01:26:48 | TwitterAutomation.FrontendNoteAutomation | INFO | ループ 1/10 開始
+2025-09-17 01:27:01 | TwitterAutomation.FrontendNoteAutomation | ERROR | Claude Sonnet4 クリックエラー: 
+2025-09-17 01:27:05 | TwitterAutomation.FrontendNoteAutomation | ERROR | ループ 1 失敗
+2025-09-17 01:29:54 | TwitterAutomation.ConfigManager | INFO | 設定ファイル読み込み完了: config\config.json
+2025-09-17 01:29:54 | TwitterAutomation.ConfigManager | INFO | アカウントデータベース読み込み完了: 5件
+2025-09-17 01:29:54 | TwitterAutomation.ConfigManager | INFO | 設定管理を初期化しました
+2025-09-17 01:29:54 | TwitterAutomation.VPNManager | INFO | 元のIPアドレス記録: 116.82.24.214
+2025-09-17 01:29:54 | TwitterAutomation.VPNManager | INFO | VPN管理を初期化しました
+2025-09-17 01:29:54 | TwitterAutomation.ChromeManager | INFO | Chrome管理を初期化しました
+2025-09-17 01:29:54 | TwitterAutomation.CSVManager | INFO | CSV管理を初期化しました
+2025-09-17 01:29:54 | TwitterAutomation.GPTImageAutomation | INFO | GPT画像認識自動化を初期化しました
+2025-09-17 01:29:54 | TwitterAutomation.ThreadsRotationPoster | INFO | Threads循環投稿を初期化しました
+2025-09-17 01:29:54 | TwitterAutomation.FrontendNoteAutomation | INFO | フロントエンドnote自動取得を初期化しました
+2025-09-17 01:30:09 | TwitterAutomation.FrontendNoteAutomation | INFO | フロントエンドnote自動取得開始: acc２
+2025-09-17 01:30:09 | TwitterAutomation.FrontendNoteAutomation | INFO | 削除対象ファイルなし
+2025-09-17 01:30:09 | TwitterAutomation.FrontendNoteAutomation | INFO | 必要ファイル確認完了
+2025-09-17 01:30:10 | TwitterAutomation.FrontendNoteAutomation | INFO | ループ 1/10 開始
+2025-09-17 01:30:24 | TwitterAutomation.FrontendNoteAutomation | INFO | Step 1: Claude Sonnet4クリック
+2025-09-17 01:30:33 | TwitterAutomation.FrontendNoteAutomation | INFO | Step 2: Opus4切り替え完了
+2025-09-17 01:30:34 | TwitterAutomation.FrontendNoteAutomation | ERROR | Step 3: テキストエリアクリック
+2025-09-17 01:34:51 | TwitterAutomation.VPNManager | INFO | VPN切断完了: 116.82.24.214
+2025-09-17 01:34:58 | TwitterAutomation.ConfigManager | INFO | 設定ファイル読み込み完了: config\config.json
+2025-09-17 01:34:58 | TwitterAutomation.ConfigManager | INFO | アカウントデータベース読み込み完了: 5件
+2025-09-17 01:34:58 | TwitterAutomation.ConfigManager | INFO | 設定管理を初期化しました
+2025-09-17 01:34:58 | TwitterAutomation.VPNManager | INFO | 元のIPアドレス記録: 116.82.24.214
+2025-09-17 01:34:58 | TwitterAutomation.VPNManager | INFO | VPN管理を初期化しました
+2025-09-17 01:34:58 | TwitterAutomation.ChromeManager | INFO | Chrome管理を初期化しました
+2025-09-17 01:34:58 | TwitterAutomation.CSVManager | INFO | CSV管理を初期化しました
+2025-09-17 01:34:58 | TwitterAutomation.GPTImageAutomation | INFO | GPT画像認識自動化を初期化しました
+2025-09-17 01:34:58 | TwitterAutomation.ThreadsRotationPoster | INFO | Threads循環投稿を初期化しました
+2025-09-17 01:34:58 | TwitterAutomation.FrontendNoteAutomation | INFO | フロントエンドnote自動取得を初期化しました
+2025-09-17 01:35:11 | TwitterAutomation.FrontendNoteAutomation | INFO | フロントエンドnote自動取得開始: acc２
+2025-09-17 01:35:11 | TwitterAutomation.FrontendNoteAutomation | INFO | 削除対象ファイルなし
+2025-09-17 01:35:11 | TwitterAutomation.FrontendNoteAutomation | INFO | 必要ファイル確認完了
+2025-09-17 01:35:11 | TwitterAutomation.FrontendNoteAutomation | INFO | ループ 1/10 開始
+2025-09-17 01:35:25 | TwitterAutomation.FrontendNoteAutomation | INFO | Step 1: Claude Sonnet4クリック
+2025-09-17 01:35:34 | TwitterAutomation.FrontendNoteAutomation | INFO | Step 2: Opus4切り替え完了
+2025-09-17 01:35:35 | TwitterAutomation.FrontendNoteAutomation | ERROR | Step 3: テキストエリアクリック
+2025-09-17 01:35:39 | TwitterAutomation.FrontendNoteAutomation | ERROR | Step 3: テキストエリアクリック
+2025-09-17 01:35:43 | TwitterAutomation.FrontendNoteAutomation | ERROR | Step 3: テキストエリアクリック
+2025-09-17 01:35:47 | TwitterAutomation.FrontendNoteAutomation | ERROR | Step 3: テキストエリアクリック
+2025-09-17 01:35:51 | TwitterAutomation.FrontendNoteAutomation | ERROR | Step 3: テキストエリアクリック
+2025-09-17 01:36:44 | TwitterAutomation.ChromeManager | INFO | 残存Chromeプロセス終了: 7件
+2025-09-17 01:36:47 | TwitterAutomation.VPNManager | INFO | VPN切断完了: 116.82.24.214
+2025-09-17 01:38:42 | TwitterAutomation.ConfigManager | INFO | 設定ファイル読み込み完了: config\config.json
+2025-09-17 01:38:42 | TwitterAutomation.ConfigManager | INFO | アカウントデータベース読み込み完了: 5件
+2025-09-17 01:38:42 | TwitterAutomation.ConfigManager | INFO | 設定管理を初期化しました
+2025-09-17 01:38:42 | TwitterAutomation.VPNManager | INFO | 元のIPアドレス記録: 116.82.24.214
+2025-09-17 01:38:42 | TwitterAutomation.VPNManager | INFO | VPN管理を初期化しました
+2025-09-17 01:38:42 | TwitterAutomation.ChromeManager | INFO | Chrome管理を初期化しました
+2025-09-17 01:38:42 | TwitterAutomation.CSVManager | INFO | CSV管理を初期化しました
+2025-09-17 01:38:42 | TwitterAutomation.GPTImageAutomation | INFO | GPT画像認識自動化を初期化しました
+2025-09-17 01:38:42 | TwitterAutomation.ThreadsRotationPoster | INFO | Threads循環投稿を初期化しました
+2025-09-17 01:38:42 | TwitterAutomation.FrontendNoteAutomation | INFO | フロントエンドnote自動取得を初期化しました
+2025-09-17 01:38:57 | TwitterAutomation.FrontendNoteAutomation | INFO | フロントエンドnote自動取得開始: acc２
+2025-09-17 01:38:57 | TwitterAutomation.FrontendNoteAutomation | INFO | 削除対象ファイルなし
+2025-09-17 01:38:57 | TwitterAutomation.FrontendNoteAutomation | INFO | 必要ファイル確認完了
+2025-09-17 01:38:57 | TwitterAutomation.FrontendNoteAutomation | INFO | ループ 1/10 開始
+2025-09-17 01:39:11 | TwitterAutomation.FrontendNoteAutomation | INFO | Step 1: Claude Sonnet4クリック
+2025-09-17 01:39:20 | TwitterAutomation.FrontendNoteAutomation | INFO | Step 2: Opus4切り替え完了
+2025-09-17 01:39:21 | TwitterAutomation.FrontendNoteAutomation | ERROR | Step 3: テキストエリアクリック
+2025-09-17 01:51:33 | TwitterAutomation.VPNManager | INFO | VPN切断完了: 116.82.24.214
+2025-09-17 01:52:01 | TwitterAutomation.ConfigManager | INFO | 設定ファイル読み込み完了: config\config.json
+2025-09-17 01:52:01 | TwitterAutomation.ConfigManager | INFO | アカウントデータベース読み込み完了: 5件
+2025-09-17 01:52:01 | TwitterAutomation.ConfigManager | INFO | 設定管理を初期化しました
+2025-09-17 01:52:01 | TwitterAutomation.VPNManager | INFO | 元のIPアドレス記録: 116.82.24.214
+2025-09-17 01:52:01 | TwitterAutomation.VPNManager | INFO | VPN管理を初期化しました
+2025-09-17 01:52:01 | TwitterAutomation.ChromeManager | INFO | Chrome管理を初期化しました
+2025-09-17 01:52:01 | TwitterAutomation.CSVManager | INFO | CSV管理を初期化しました
+2025-09-17 01:52:01 | TwitterAutomation.GPTImageAutomation | INFO | GPT画像認識自動化を初期化しました
+2025-09-17 01:52:01 | TwitterAutomation.ThreadsRotationPoster | INFO | Threads循環投稿を初期化しました
+2025-09-17 01:52:01 | TwitterAutomation.FrontendNoteAutomation | INFO | フロントエンドnote自動取得を初期化しました
+2025-09-17 01:52:20 | TwitterAutomation.FrontendNoteAutomation | INFO | フロントエンドnote自動取得開始: acc２
+2025-09-17 01:52:20 | TwitterAutomation.FrontendNoteAutomation | INFO | 削除対象ファイルなし
+2025-09-17 01:52:20 | TwitterAutomation.FrontendNoteAutomation | INFO | 必要ファイル確認完了
+2025-09-17 01:52:20 | TwitterAutomation.FrontendNoteAutomation | INFO | ループ 1/10 開始
+2025-09-17 01:52:35 | TwitterAutomation.FrontendNoteAutomation | INFO | Step 1: Claude Sonnet4クリック
+2025-09-17 01:52:44 | TwitterAutomation.FrontendNoteAutomation | INFO | Step 2: Opus4切り替え完了
+2025-09-17 01:52:44 | TwitterAutomation.FrontendNoteAutomation | ERROR | テキストエリア クリックエラー: 
+2025-09-17 01:52:48 | TwitterAutomation.FrontendNoteAutomation | ERROR | ループ 1 失敗
+2025-09-17 01:55:31 | TwitterAutomation.ConfigManager | INFO | 設定ファイル読み込み完了: config\config.json
+2025-09-17 01:55:31 | TwitterAutomation.ConfigManager | INFO | アカウントデータベース読み込み完了: 5件
+2025-09-17 01:55:31 | TwitterAutomation.ConfigManager | INFO | 設定管理を初期化しました
+2025-09-17 01:55:31 | TwitterAutomation.VPNManager | INFO | 元のIPアドレス記録: 116.82.24.214
+2025-09-17 01:55:31 | TwitterAutomation.VPNManager | INFO | VPN管理を初期化しました
+2025-09-17 01:55:31 | TwitterAutomation.ChromeManager | INFO | Chrome管理を初期化しました
+2025-09-17 01:55:31 | TwitterAutomation.CSVManager | INFO | CSV管理を初期化しました
+2025-09-17 01:55:31 | TwitterAutomation.GPTImageAutomation | INFO | GPT画像認識自動化を初期化しました
+2025-09-17 01:55:31 | TwitterAutomation.ThreadsRotationPoster | INFO | Threads循環投稿を初期化しました
+2025-09-17 01:55:31 | TwitterAutomation.FrontendNoteAutomation | INFO | フロントエンドnote自動取得を初期化しました
+2025-09-17 01:55:45 | TwitterAutomation.FrontendNoteAutomation | INFO | フロントエンドnote自動取得開始: acc２
+2025-09-17 01:55:45 | TwitterAutomation.FrontendNoteAutomation | INFO | 削除対象ファイルなし
+2025-09-17 01:55:45 | TwitterAutomation.FrontendNoteAutomation | INFO | 必要ファイル確認完了
+2025-09-17 01:55:45 | TwitterAutomation.FrontendNoteAutomation | INFO | ループ 1/10 開始
+2025-09-17 01:56:06 | TwitterAutomation.FrontendNoteAutomation | INFO | Step 1: Claude Sonnet4クリック
+2025-09-17 01:56:20 | TwitterAutomation.FrontendNoteAutomation | INFO | Step 2: Opus4切り替え完了
+2025-09-17 02:04:08 | TwitterAutomation.FrontendNoteAutomation | INFO | フロントエンドnote自動取得開始: acc２
+2025-09-17 02:04:08 | TwitterAutomation.FrontendNoteAutomation | INFO | 削除対象ファイルなし
+2025-09-17 02:04:08 | TwitterAutomation.FrontendNoteAutomation | INFO | 必要ファイル確認完了
+2025-09-17 02:04:08 | TwitterAutomation.FrontendNoteAutomation | INFO | ループ 1/10 開始
+2025-09-17 02:04:29 | TwitterAutomation.FrontendNoteAutomation | INFO | Step 1: Claude Sonnet4クリック
+2025-09-17 02:04:42 | TwitterAutomation.FrontendNoteAutomation | INFO | Step 2: Opus4切り替え完了
+2025-09-17 02:08:11 | TwitterAutomation.VPNManager | INFO | VPN切断完了: 116.82.24.214
+2025-09-17 02:08:20 | TwitterAutomation.ConfigManager | INFO | 設定ファイル読み込み完了: config\config.json
+2025-09-17 02:08:20 | TwitterAutomation.ConfigManager | INFO | アカウントデータベース読み込み完了: 5件
+2025-09-17 02:08:20 | TwitterAutomation.ConfigManager | INFO | 設定管理を初期化しました
+2025-09-17 02:08:21 | TwitterAutomation.VPNManager | INFO | 元のIPアドレス記録: 116.82.24.214
+2025-09-17 02:08:21 | TwitterAutomation.VPNManager | INFO | VPN管理を初期化しました
+2025-09-17 02:08:21 | TwitterAutomation.ChromeManager | INFO | Chrome管理を初期化しました
+2025-09-17 02:08:21 | TwitterAutomation.CSVManager | INFO | CSV管理を初期化しました
+2025-09-17 02:08:21 | TwitterAutomation.GPTImageAutomation | INFO | GPT画像認識自動化を初期化しました
+2025-09-17 02:08:21 | TwitterAutomation.ThreadsRotationPoster | INFO | Threads循環投稿を初期化しました
+2025-09-17 02:08:21 | TwitterAutomation.FrontendNoteAutomation | INFO | フロントエンドnote自動取得を初期化しました
+2025-09-17 02:08:33 | TwitterAutomation.FrontendNoteAutomation | INFO | フロントエンドnote自動取得開始: acc２
+2025-09-17 02:08:33 | TwitterAutomation.FrontendNoteAutomation | INFO | 削除対象ファイルなし
+2025-09-17 02:08:33 | TwitterAutomation.FrontendNoteAutomation | INFO | 必要ファイル確認完了
+2025-09-17 02:08:33 | TwitterAutomation.FrontendNoteAutomation | INFO | ループ 1/10 開始
+2025-09-17 02:08:55 | TwitterAutomation.FrontendNoteAutomation | INFO | Step 1: Claude Sonnet4クリック
+2025-09-17 02:09:08 | TwitterAutomation.FrontendNoteAutomation | INFO | Step 2: Opus4切り替え完了
+2025-09-17 02:09:12 | TwitterAutomation.FrontendNoteAutomation | ERROR | Step 3: テキストエリアクリック_First
+2025-09-17 02:09:18 | TwitterAutomation.FrontendNoteAutomation | ERROR | スタートコピペ
+2025-09-17 02:09:52 | TwitterAutomation.FrontendNoteAutomation | INFO | ファイルアップロード: キャラクターコンセプト.txt
+2025-09-17 02:10:06 | TwitterAutomation.FrontendNoteAutomation | INFO | ファイルアップロード: ターゲット.txt
+2025-09-17 02:10:20 | TwitterAutomation.FrontendNoteAutomation | INFO | ファイルアップロード: 市場リサーチ.txt
+2025-09-17 02:18:10 | TwitterAutomation.FrontendNoteAutomation | INFO | ランダム入力完了: 18, 10, タイトル, 4
+2025-09-17 02:18:10 | TwitterAutomation.FrontendNoteAutomation | ERROR | コピーエラー: 
+2025-09-17 02:20:06 | TwitterAutomation.FrontendNoteAutomation | INFO | 1章 収集完了
+2025-09-17 02:22:02 | TwitterAutomation.FrontendNoteAutomation | INFO | 2章 収集完了
+2025-09-17 02:23:57 | TwitterAutomation.FrontendNoteAutomation | INFO | 3章 収集完了
+2025-09-17 02:25:53 | TwitterAutomation.FrontendNoteAutomation | INFO | 4章 収集完了
+2025-09-17 02:27:48 | TwitterAutomation.FrontendNoteAutomation | INFO | 5章 収集完了
+2025-09-17 02:29:44 | TwitterAutomation.FrontendNoteAutomation | INFO | 6章 収集完了
+2025-09-17 02:31:39 | TwitterAutomation.FrontendNoteAutomation | INFO | 7章 収集完了
+2025-09-17 02:31:39 | TwitterAutomation.FrontendNoteAutomation | INFO | コンテンツ保存完了: 7部分
+2025-09-17 02:31:43 | TwitterAutomation.FrontendNoteAutomation | INFO | ループ 1 完了: C:\Users\shiki\AutoTweet\data\acc２\フロントエンドnote1.txt
+2025-09-17 02:31:53 | TwitterAutomation.FrontendNoteAutomation | INFO | ループ 2/10 開始
+2025-09-17 02:32:13 | TwitterAutomation.FrontendNoteAutomation | ERROR | Claude Sonnet4 クリックエラー: 
+2025-09-17 02:32:17 | TwitterAutomation.FrontendNoteAutomation | ERROR | ループ 2 失敗
+2025-09-17 02:52:14 | TwitterAutomation.ConfigManager | INFO | 設定ファイル読み込み完了: config\config.json
+2025-09-17 02:52:14 | TwitterAutomation.ConfigManager | INFO | アカウントデータベース読み込み完了: 5件
+2025-09-17 02:52:14 | TwitterAutomation.ConfigManager | INFO | 設定管理を初期化しました
+2025-09-17 02:52:14 | TwitterAutomation.VPNManager | INFO | 元のIPアドレス記録: 116.82.24.214
+2025-09-17 02:52:14 | TwitterAutomation.VPNManager | INFO | VPN管理を初期化しました
+2025-09-17 02:52:14 | TwitterAutomation.ChromeManager | INFO | Chrome管理を初期化しました
+2025-09-17 02:52:14 | TwitterAutomation.CSVManager | INFO | CSV管理を初期化しました
+2025-09-17 02:52:14 | TwitterAutomation.GPTImageAutomation | INFO | GPT画像認識自動化を初期化しました
+2025-09-17 02:52:14 | TwitterAutomation.ThreadsRotationPoster | INFO | Threads循環投稿を初期化しました
+2025-09-17 02:52:14 | TwitterAutomation.FrontendNoteAutomation | INFO | フロントエンドnote自動取得を初期化しました
+2025-09-17 02:52:49 | TwitterAutomation.FrontendNoteAutomation | INFO | フロントエンドnote自動取得開始: acc２
+2025-09-17 02:52:49 | TwitterAutomation.FrontendNoteAutomation | INFO | 既存ファイル削除: フロントエンドnote1.txt
+2025-09-17 02:52:49 | TwitterAutomation.FrontendNoteAutomation | INFO | 既存ファイル 1件削除完了
+2025-09-17 02:52:49 | TwitterAutomation.FrontendNoteAutomation | INFO | 必要ファイル確認完了
+2025-09-17 02:52:49 | TwitterAutomation.FrontendNoteAutomation | INFO | ループ 1/10 開始
+2025-09-17 02:53:09 | TwitterAutomation.FrontendNoteAutomation | ERROR | Claude Sonnet4 クリックエラー: 
+2025-09-17 02:53:10 | TwitterAutomation.FrontendNoteAutomation | INFO | Chrome閉じるボタンクリック: (1257, 20)
+2025-09-17 02:53:13 | TwitterAutomation.FrontendNoteAutomation | ERROR | ループ 1 失敗
+2025-09-17 02:53:13 | TwitterAutomation.FrontendNoteAutomation | ERROR | Chrome終了エラー: Could not locate the image (highest confidence = 0.718)
+2025-09-17 02:54:55 | TwitterAutomation.FrontendNoteAutomation | INFO | フロントエンドnote自動取得開始: acc２
+2025-09-17 02:54:55 | TwitterAutomation.FrontendNoteAutomation | INFO | 削除対象ファイルなし
+2025-09-17 02:54:55 | TwitterAutomation.FrontendNoteAutomation | INFO | 必要ファイル確認完了
+2025-09-17 02:54:55 | TwitterAutomation.FrontendNoteAutomation | INFO | ループ 1/10 開始
+2025-09-17 02:55:15 | TwitterAutomation.FrontendNoteAutomation | ERROR | Claude Sonnet4 クリックエラー: 
+2025-09-17 02:55:17 | TwitterAutomation.FrontendNoteAutomation | INFO | Chrome閉じるボタンクリック: (1257, 20)
+2025-09-17 02:55:20 | TwitterAutomation.FrontendNoteAutomation | ERROR | ループ 1 失敗
+2025-09-17 02:55:20 | TwitterAutomation.FrontendNoteAutomation | ERROR | Chrome終了エラー: Could not locate the image (highest confidence = 0.718)
+2025-09-17 02:57:11 | TwitterAutomation.FrontendNoteAutomation | INFO | フロントエンドnote自動取得開始: acc２
+2025-09-17 02:57:11 | TwitterAutomation.FrontendNoteAutomation | INFO | 削除対象ファイルなし
+2025-09-17 02:57:11 | TwitterAutomation.FrontendNoteAutomation | INFO | 必要ファイル確認完了
+2025-09-17 02:57:11 | TwitterAutomation.FrontendNoteAutomation | INFO | ループ 1/10 開始
+2025-09-17 02:57:32 | TwitterAutomation.FrontendNoteAutomation | INFO | Step 1: Claude Sonnet4クリック
+2025-09-17 02:57:45 | TwitterAutomation.FrontendNoteAutomation | INFO | Step 2: Opus4切り替え完了
+2025-09-17 02:57:49 | TwitterAutomation.FrontendNoteAutomation | ERROR | Step 3: テキストエリアクリック_First
+2025-09-17 02:57:55 | TwitterAutomation.FrontendNoteAutomation | ERROR | スタートコピペ
+2025-09-17 02:58:29 | TwitterAutomation.FrontendNoteAutomation | INFO | ファイルアップロード: キャラクターコンセプト.txt
+2025-09-17 02:58:43 | TwitterAutomation.FrontendNoteAutomation | INFO | ファイルアップロード: ターゲット.txt
+2025-09-17 02:58:57 | TwitterAutomation.FrontendNoteAutomation | INFO | ファイルアップロード: 市場リサーチ.txt
+2025-09-17 03:06:48 | TwitterAutomation.FrontendNoteAutomation | INFO | ランダム入力完了: 4, 4, タイトル, 8
+2025-09-17 03:06:48 | TwitterAutomation.FrontendNoteAutomation | ERROR | コピーエラー: 
+2025-09-17 03:08:43 | TwitterAutomation.FrontendNoteAutomation | INFO | 1章 収集完了
+2025-09-17 03:10:39 | TwitterAutomation.FrontendNoteAutomation | INFO | 2章 収集完了
+2025-09-17 03:12:35 | TwitterAutomation.FrontendNoteAutomation | INFO | 3章 収集完了
+2025-09-17 03:14:30 | TwitterAutomation.FrontendNoteAutomation | INFO | 4章 収集完了
+2025-09-17 03:16:26 | TwitterAutomation.FrontendNoteAutomation | INFO | 5章 収集完了
+2025-09-17 03:18:21 | TwitterAutomation.FrontendNoteAutomation | INFO | 6章 収集完了
+2025-09-17 03:20:17 | TwitterAutomation.FrontendNoteAutomation | INFO | 7章 収集完了
+2025-09-17 03:20:17 | TwitterAutomation.FrontendNoteAutomation | INFO | コンテンツ保存完了: 7部分
+2025-09-17 03:20:18 | TwitterAutomation.FrontendNoteAutomation | INFO | Chrome閉じるボタンクリック: (1257, 20)
+2025-09-17 03:20:21 | TwitterAutomation.FrontendNoteAutomation | INFO | ループ 1 完了: C:\Users\shiki\AutoTweet\data\acc２\フロントエンドnote1.txt
+2025-09-17 03:20:31 | TwitterAutomation.FrontendNoteAutomation | INFO | ループ 2/10 開始
+2025-09-17 03:20:52 | TwitterAutomation.FrontendNoteAutomation | INFO | Step 1: Claude Sonnet4クリック
+2025-09-17 03:21:05 | TwitterAutomation.FrontendNoteAutomation | INFO | Step 2: Opus4切り替え完了
+2025-09-17 03:21:09 | TwitterAutomation.FrontendNoteAutomation | ERROR | Step 3: テキストエリアクリック_First
+2025-09-17 03:21:15 | TwitterAutomation.FrontendNoteAutomation | ERROR | スタートコピペ
+2025-09-17 03:21:49 | TwitterAutomation.FrontendNoteAutomation | INFO | ファイルアップロード: キャラクターコンセプト.txt
+2025-09-17 03:22:03 | TwitterAutomation.FrontendNoteAutomation | INFO | ファイルアップロード: ターゲット.txt
+2025-09-17 03:22:18 | TwitterAutomation.FrontendNoteAutomation | INFO | ファイルアップロード: 市場リサーチ.txt
+2025-09-17 03:30:08 | TwitterAutomation.FrontendNoteAutomation | INFO | ランダム入力完了: 20, 2, タイトル, 2
+2025-09-17 03:30:08 | TwitterAutomation.FrontendNoteAutomation | ERROR | コピーエラー: 
+2025-09-17 03:32:04 | TwitterAutomation.FrontendNoteAutomation | INFO | 1章 収集完了
+2025-09-17 03:33:59 | TwitterAutomation.FrontendNoteAutomation | INFO | 2章 収集完了
+2025-09-17 03:35:55 | TwitterAutomation.FrontendNoteAutomation | INFO | 3章 収集完了
+2025-09-17 03:37:50 | TwitterAutomation.FrontendNoteAutomation | INFO | 4章 収集完了
+2025-09-17 03:39:46 | TwitterAutomation.FrontendNoteAutomation | INFO | 5章 収集完了
+2025-09-17 03:41:41 | TwitterAutomation.FrontendNoteAutomation | INFO | 6章 収集完了
+2025-09-17 03:43:37 | TwitterAutomation.FrontendNoteAutomation | INFO | 7章 収集完了
+2025-09-17 03:43:37 | TwitterAutomation.FrontendNoteAutomation | INFO | コンテンツ保存完了: 7部分
+2025-09-17 03:43:38 | TwitterAutomation.FrontendNoteAutomation | INFO | Chrome閉じるボタンクリック: (1257, 20)
+2025-09-17 03:43:41 | TwitterAutomation.FrontendNoteAutomation | INFO | ループ 2 完了: C:\Users\shiki\AutoTweet\data\acc２\フロントエンドnote2.txt
+2025-09-17 03:43:51 | TwitterAutomation.FrontendNoteAutomation | INFO | ループ 3/10 開始
+2025-09-17 03:44:12 | TwitterAutomation.FrontendNoteAutomation | INFO | Step 1: Claude Sonnet4クリック
+2025-09-17 03:44:25 | TwitterAutomation.FrontendNoteAutomation | INFO | Step 2: Opus4切り替え完了
+2025-09-17 03:44:29 | TwitterAutomation.FrontendNoteAutomation | ERROR | Step 3: テキストエリアクリック_First
+2025-09-17 03:44:35 | TwitterAutomation.FrontendNoteAutomation | ERROR | スタートコピペ
+2025-09-17 03:45:09 | TwitterAutomation.FrontendNoteAutomation | INFO | ファイルアップロード: キャラクターコンセプト.txt
+2025-09-17 03:45:24 | TwitterAutomation.FrontendNoteAutomation | INFO | ファイルアップロード: ターゲット.txt
+2025-09-17 03:45:38 | TwitterAutomation.FrontendNoteAutomation | INFO | ファイルアップロード: 市場リサーチ.txt
+2025-09-17 03:53:28 | TwitterAutomation.FrontendNoteAutomation | INFO | ランダム入力完了: 2, 3, タイトル, 9
+2025-09-17 03:53:28 | TwitterAutomation.FrontendNoteAutomation | ERROR | コピーエラー: 
+2025-09-17 03:55:24 | TwitterAutomation.FrontendNoteAutomation | INFO | 1章 収集完了
+2025-09-17 03:57:19 | TwitterAutomation.FrontendNoteAutomation | INFO | 2章 収集完了
+2025-09-17 03:59:15 | TwitterAutomation.FrontendNoteAutomation | INFO | 3章 収集完了
+2025-09-17 04:01:10 | TwitterAutomation.FrontendNoteAutomation | INFO | 4章 収集完了
+2025-09-17 04:03:06 | TwitterAutomation.FrontendNoteAutomation | INFO | 5章 収集完了
+2025-09-17 04:05:01 | TwitterAutomation.FrontendNoteAutomation | INFO | 6章 収集完了
+2025-09-17 04:06:57 | TwitterAutomation.FrontendNoteAutomation | INFO | 7章 収集完了
+2025-09-17 04:06:57 | TwitterAutomation.FrontendNoteAutomation | INFO | コンテンツ保存完了: 7部分
+2025-09-17 04:06:58 | TwitterAutomation.FrontendNoteAutomation | INFO | Chrome閉じるボタンクリック: (1257, 20)
+2025-09-17 04:07:01 | TwitterAutomation.FrontendNoteAutomation | INFO | ループ 3 完了: C:\Users\shiki\AutoTweet\data\acc２\フロントエンドnote3.txt
+2025-09-17 04:07:11 | TwitterAutomation.FrontendNoteAutomation | INFO | ループ 4/10 開始
+2025-09-17 04:07:31 | TwitterAutomation.FrontendNoteAutomation | ERROR | Claude Sonnet4 クリックエラー: 
+2025-09-17 04:07:32 | TwitterAutomation.FrontendNoteAutomation | INFO | Chrome閉じるボタンクリック: (1257, 20)
+2025-09-17 04:07:35 | TwitterAutomation.FrontendNoteAutomation | ERROR | ループ 4 失敗
+2025-09-17 04:07:35 | TwitterAutomation.FrontendNoteAutomation | ERROR | Chrome終了エラー: Could not locate the image (highest confidence = 0.718)
+2025-09-17 08:25:30 | TwitterAutomation.ConfigManager | INFO | 設定ファイル読み込み完了: config\config.json
+2025-09-17 08:25:30 | TwitterAutomation.ConfigManager | INFO | アカウントデータベース読み込み完了: 5件
+2025-09-17 08:25:30 | TwitterAutomation.ConfigManager | INFO | 設定管理を初期化しました
+2025-09-17 08:25:31 | TwitterAutomation.VPNManager | INFO | 元のIPアドレス記録: 116.82.24.214
+2025-09-17 08:25:31 | TwitterAutomation.VPNManager | INFO | VPN管理を初期化しました
+2025-09-17 08:25:31 | TwitterAutomation.ChromeManager | INFO | Chrome管理を初期化しました
+2025-09-17 08:25:31 | TwitterAutomation.CSVManager | INFO | CSV管理を初期化しました
+2025-09-17 08:25:31 | TwitterAutomation.GPTImageAutomation | INFO | GPT画像認識自動化を初期化しました
+2025-09-17 08:25:31 | TwitterAutomation.ThreadsRotationPoster | INFO | Threads循環投稿を初期化しました
+2025-09-17 08:25:31 | TwitterAutomation.FrontendNoteAutomation | INFO | フロントエンドnote自動取得を初期化しました
+2025-09-17 08:26:03 | TwitterAutomation.FrontendNoteAutomation | INFO | フロントエンドnote自動取得開始: acc２
+2025-09-17 08:26:03 | TwitterAutomation.FrontendNoteAutomation | INFO | 削除対象ファイルなし
+2025-09-17 08:26:03 | TwitterAutomation.FrontendNoteAutomation | INFO | 必要ファイル確認完了
+2025-09-17 08:26:03 | TwitterAutomation.FrontendNoteAutomation | INFO | ループ 1/7 開始
+2025-09-17 08:26:24 | TwitterAutomation.FrontendNoteAutomation | ERROR | Claude Sonnet4 クリックエラー: 
+2025-09-17 08:26:25 | TwitterAutomation.FrontendNoteAutomation | INFO | Chrome閉じるボタンクリック: (1257, 20)
+2025-09-17 08:26:28 | TwitterAutomation.FrontendNoteAutomation | ERROR | ループ 1 失敗
+2025-09-17 08:26:28 | TwitterAutomation.FrontendNoteAutomation | ERROR | Chrome終了エラー: Could not locate the image (highest confidence = 0.719)
+2025-09-17 08:27:29 | TwitterAutomation.FrontendNoteAutomation | INFO | フロントエンドnote自動取得開始: acc２
+2025-09-17 08:27:29 | TwitterAutomation.FrontendNoteAutomation | INFO | 削除対象ファイルなし
+2025-09-17 08:27:29 | TwitterAutomation.FrontendNoteAutomation | INFO | 必要ファイル確認完了
+2025-09-17 08:27:29 | TwitterAutomation.FrontendNoteAutomation | INFO | ループ 1/7 開始
+2025-09-17 08:27:49 | TwitterAutomation.FrontendNoteAutomation | ERROR | Claude Sonnet4 クリックエラー: 
+2025-09-17 08:27:50 | TwitterAutomation.FrontendNoteAutomation | INFO | Chrome閉じるボタンクリック: (1257, 20)
+2025-09-17 08:27:53 | TwitterAutomation.FrontendNoteAutomation | ERROR | ループ 1 失敗
+2025-09-17 08:27:53 | TwitterAutomation.FrontendNoteAutomation | ERROR | Chrome終了エラー: Could not locate the image (highest confidence = 0.719)
+2025-09-17 08:31:33 | TwitterAutomation.VPNManager | INFO | VPN切断完了: 116.82.24.214
+2025-09-17 08:31:46 | TwitterAutomation.ConfigManager | INFO | 設定ファイル読み込み完了: config\config.json
+2025-09-17 08:31:46 | TwitterAutomation.ConfigManager | INFO | アカウントデータベース読み込み完了: 5件
+2025-09-17 08:31:46 | TwitterAutomation.ConfigManager | INFO | 設定管理を初期化しました
+2025-09-17 08:31:47 | TwitterAutomation.VPNManager | INFO | 元のIPアドレス記録: 116.82.24.214
+2025-09-17 08:31:47 | TwitterAutomation.VPNManager | INFO | VPN管理を初期化しました
+2025-09-17 08:31:47 | TwitterAutomation.ChromeManager | INFO | Chrome管理を初期化しました
+2025-09-17 08:31:47 | TwitterAutomation.CSVManager | INFO | CSV管理を初期化しました
+2025-09-17 08:31:47 | TwitterAutomation.GPTImageAutomation | INFO | GPT画像認識自動化を初期化しました
+2025-09-17 08:31:47 | TwitterAutomation.ThreadsRotationPoster | INFO | Threads循環投稿を初期化しました
+2025-09-17 08:31:47 | TwitterAutomation.FrontendNoteAutomation | INFO | フロントエンドnote自動取得を初期化しました
+2025-09-17 08:32:21 | TwitterAutomation.FrontendNoteAutomation | INFO | フロントエンドnote自動取得開始: acc２
+2025-09-17 08:32:21 | TwitterAutomation.FrontendNoteAutomation | INFO | 削除対象ファイルなし
+2025-09-17 08:32:21 | TwitterAutomation.FrontendNoteAutomation | INFO | 必要ファイル確認完了
+2025-09-17 08:32:21 | TwitterAutomation.FrontendNoteAutomation | INFO | ループ 1/10 開始
+2025-09-17 08:32:42 | TwitterAutomation.FrontendNoteAutomation | INFO | Step 1: Claude Sonnet4クリック
+2025-09-17 08:32:55 | TwitterAutomation.FrontendNoteAutomation | INFO | Step 2: Opus4切り替え完了
+2025-09-17 08:32:58 | TwitterAutomation.FrontendNoteAutomation | ERROR | テキストエリア クリックエラー: 
+2025-09-17 08:32:59 | TwitterAutomation.FrontendNoteAutomation | INFO | Chrome閉じるボタンクリック: (1257, 20)
+2025-09-17 08:33:02 | TwitterAutomation.FrontendNoteAutomation | ERROR | ループ 1 失敗
+2025-09-17 08:33:02 | TwitterAutomation.FrontendNoteAutomation | ERROR | Chrome終了エラー: Could not locate the image (highest confidence = 0.719)
+2025-09-17 08:36:19 | TwitterAutomation.VPNManager | INFO | VPN切断完了: 116.82.24.214
+2025-09-17 08:36:25 | TwitterAutomation.ConfigManager | INFO | 設定ファイル読み込み完了: config\config.json
+2025-09-17 08:36:25 | TwitterAutomation.ConfigManager | INFO | アカウントデータベース読み込み完了: 5件
+2025-09-17 08:36:25 | TwitterAutomation.ConfigManager | INFO | 設定管理を初期化しました
+2025-09-17 08:36:25 | TwitterAutomation.VPNManager | INFO | 元のIPアドレス記録: 116.82.24.214
+2025-09-17 08:36:25 | TwitterAutomation.VPNManager | INFO | VPN管理を初期化しました
+2025-09-17 08:36:25 | TwitterAutomation.ChromeManager | INFO | Chrome管理を初期化しました
+2025-09-17 08:36:25 | TwitterAutomation.CSVManager | INFO | CSV管理を初期化しました
+2025-09-17 08:36:25 | TwitterAutomation.GPTImageAutomation | INFO | GPT画像認識自動化を初期化しました
+2025-09-17 08:36:25 | TwitterAutomation.ThreadsRotationPoster | INFO | Threads循環投稿を初期化しました
+2025-09-17 08:36:25 | TwitterAutomation.FrontendNoteAutomation | INFO | フロントエンドnote自動取得を初期化しました
+2025-09-17 08:36:48 | TwitterAutomation.FrontendNoteAutomation | INFO | フロントエンドnote自動取得開始: acc２
+2025-09-17 08:36:48 | TwitterAutomation.FrontendNoteAutomation | INFO | 削除対象ファイルなし
+2025-09-17 08:36:48 | TwitterAutomation.FrontendNoteAutomation | INFO | 必要ファイル確認完了
+2025-09-17 08:36:48 | TwitterAutomation.FrontendNoteAutomation | INFO | ループ 1/10 開始
+2025-09-17 08:37:09 | TwitterAutomation.FrontendNoteAutomation | INFO | Step 1: Claude Sonnet4クリック
+2025-09-17 08:37:10 | TwitterAutomation.FrontendNoteAutomation | INFO | Step 1: Claude Sonnet4クリック
+2025-09-17 08:37:11 | TwitterAutomation.FrontendNoteAutomation | INFO | Step 1: Claude Sonnet4クリック
+2025-09-17 08:37:12 | TwitterAutomation.FrontendNoteAutomation | INFO | Step 1: Claude Sonnet4クリック
+2025-09-17 08:37:13 | TwitterAutomation.FrontendNoteAutomation | INFO | Step 1: Claude Sonnet4クリック
+2025-09-17 08:37:26 | TwitterAutomation.FrontendNoteAutomation | INFO | Step 2: Opus4切り替え完了
+2025-09-17 08:37:27 | TwitterAutomation.FrontendNoteAutomation | ERROR | Chrome終了エラー: Could not locate the image (highest confidence = 0.719)
+2025-09-17 08:37:43 | TwitterAutomation.VPNManager | INFO | VPN切断完了: 116.82.24.214
+2025-09-17 08:39:38 | TwitterAutomation.ConfigManager | INFO | 設定ファイル読み込み完了: config\config.json
+2025-09-17 08:39:38 | TwitterAutomation.ConfigManager | INFO | アカウントデータベース読み込み完了: 5件
+2025-09-17 08:39:38 | TwitterAutomation.ConfigManager | INFO | 設定管理を初期化しました
+2025-09-17 08:39:38 | TwitterAutomation.VPNManager | INFO | 元のIPアドレス記録: 116.82.24.214
+2025-09-17 08:39:38 | TwitterAutomation.VPNManager | INFO | VPN管理を初期化しました
+2025-09-17 08:39:38 | TwitterAutomation.ChromeManager | INFO | Chrome管理を初期化しました
+2025-09-17 08:39:38 | TwitterAutomation.CSVManager | INFO | CSV管理を初期化しました
+2025-09-17 08:39:38 | TwitterAutomation.GPTImageAutomation | INFO | GPT画像認識自動化を初期化しました
+2025-09-17 08:39:38 | TwitterAutomation.ThreadsRotationPoster | INFO | Threads循環投稿を初期化しました
+2025-09-17 08:39:38 | TwitterAutomation.FrontendNoteAutomation | INFO | フロントエンドnote自動取得を初期化しました
+2025-09-17 08:39:51 | TwitterAutomation.FrontendNoteAutomation | INFO | フロントエンドnote自動取得開始: acc２
+2025-09-17 08:39:51 | TwitterAutomation.FrontendNoteAutomation | INFO | 削除対象ファイルなし
+2025-09-17 08:39:51 | TwitterAutomation.FrontendNoteAutomation | INFO | 必要ファイル確認完了
+2025-09-17 08:39:51 | TwitterAutomation.FrontendNoteAutomation | INFO | ループ 1/10 開始
+2025-09-17 08:40:12 | TwitterAutomation.FrontendNoteAutomation | INFO | Step 1: Claude Sonnet4クリック
+2025-09-17 08:40:25 | TwitterAutomation.FrontendNoteAutomation | INFO | Step 2: Opus4切り替え完了
+2025-09-17 08:40:28 | TwitterAutomation.FrontendNoteAutomation | ERROR | テキストエリア クリックエラー: 
+2025-09-17 08:40:29 | TwitterAutomation.FrontendNoteAutomation | INFO | Chrome閉じるボタンクリック: (1257, 20)
+2025-09-17 08:40:32 | TwitterAutomation.FrontendNoteAutomation | ERROR | ループ 1 失敗
+2025-09-17 08:40:33 | TwitterAutomation.FrontendNoteAutomation | ERROR | Chrome終了エラー: Could not locate the image (highest confidence = 0.719)
+2025-09-17 08:40:45 | TwitterAutomation.VPNManager | INFO | VPN切断完了: 116.82.24.214
+2025-09-17 08:43:01 | TwitterAutomation.ConfigManager | INFO | 設定ファイル読み込み完了: config\config.json
+2025-09-17 08:43:01 | TwitterAutomation.ConfigManager | INFO | アカウントデータベース読み込み完了: 5件
+2025-09-17 08:43:01 | TwitterAutomation.ConfigManager | INFO | 設定管理を初期化しました
+2025-09-17 08:43:01 | TwitterAutomation.VPNManager | INFO | 元のIPアドレス記録: 116.82.24.214
+2025-09-17 08:43:01 | TwitterAutomation.VPNManager | INFO | VPN管理を初期化しました
+2025-09-17 08:43:01 | TwitterAutomation.ChromeManager | INFO | Chrome管理を初期化しました
+2025-09-17 08:43:01 | TwitterAutomation.CSVManager | INFO | CSV管理を初期化しました
+2025-09-17 08:43:01 | TwitterAutomation.GPTImageAutomation | INFO | GPT画像認識自動化を初期化しました
+2025-09-17 08:43:01 | TwitterAutomation.ThreadsRotationPoster | INFO | Threads循環投稿を初期化しました
+2025-09-17 08:43:01 | TwitterAutomation.FrontendNoteAutomation | INFO | フロントエンドnote自動取得を初期化しました
+2025-09-17 08:43:21 | TwitterAutomation.FrontendNoteAutomation | INFO | フロントエンドnote自動取得開始: acc２
+2025-09-17 08:43:21 | TwitterAutomation.FrontendNoteAutomation | INFO | 削除対象ファイルなし
+2025-09-17 08:43:21 | TwitterAutomation.FrontendNoteAutomation | INFO | 必要ファイル確認完了
+2025-09-17 08:43:21 | TwitterAutomation.FrontendNoteAutomation | INFO | ループ 1/10 開始
+2025-09-17 08:43:42 | TwitterAutomation.FrontendNoteAutomation | INFO | Step 1: Claude Sonnet4クリック
+2025-09-17 08:43:55 | TwitterAutomation.FrontendNoteAutomation | INFO | Step 2: Opus4切り替え完了
+2025-09-17 08:43:59 | TwitterAutomation.FrontendNoteAutomation | ERROR | Step 3: テキストエリアクリック_First
+2025-09-17 08:44:05 | TwitterAutomation.FrontendNoteAutomation | ERROR | スタートコピペ
+2025-09-17 08:44:39 | TwitterAutomation.FrontendNoteAutomation | INFO | ファイルアップロード: キャラクターコンセプト.txt
+2025-09-17 08:44:53 | TwitterAutomation.FrontendNoteAutomation | INFO | ファイルアップロード: ターゲット.txt
+2025-09-17 08:45:08 | TwitterAutomation.FrontendNoteAutomation | INFO | ファイルアップロード: 市場リサーチ.txt
+2025-09-17 08:52:58 | TwitterAutomation.FrontendNoteAutomation | INFO | ランダム入力完了: 14, 6, タイトル, 2
+2025-09-17 08:52:58 | TwitterAutomation.FrontendNoteAutomation | ERROR | コピーエラー: 
+2025-09-17 08:53:41 | TwitterAutomation.FrontendNoteAutomation | ERROR | Chrome終了エラー: Could not locate the image (highest confidence = 0.719)
+2025-09-17 08:53:56 | TwitterAutomation.VPNManager | INFO | VPN切断完了: 116.82.24.214
+2025-09-17 08:55:42 | TwitterAutomation.ConfigManager | INFO | 設定ファイル読み込み完了: config\config.json
+2025-09-17 08:55:42 | TwitterAutomation.ConfigManager | INFO | アカウントデータベース読み込み完了: 5件
+2025-09-17 08:55:42 | TwitterAutomation.ConfigManager | INFO | 設定管理を初期化しました
+2025-09-17 08:55:43 | TwitterAutomation.VPNManager | INFO | 元のIPアドレス記録: 116.82.24.214
+2025-09-17 08:55:43 | TwitterAutomation.VPNManager | INFO | VPN管理を初期化しました
+2025-09-17 08:55:43 | TwitterAutomation.ChromeManager | INFO | Chrome管理を初期化しました
+2025-09-17 08:55:43 | TwitterAutomation.CSVManager | INFO | CSV管理を初期化しました
+2025-09-17 08:55:43 | TwitterAutomation.GPTImageAutomation | INFO | GPT画像認識自動化を初期化しました
+2025-09-17 08:55:43 | TwitterAutomation.ThreadsRotationPoster | INFO | Threads循環投稿を初期化しました
+2025-09-17 08:55:43 | TwitterAutomation.FrontendNoteAutomation | INFO | フロントエンドnote自動取得を初期化しました
+2025-09-17 08:56:09 | TwitterAutomation.FrontendNoteAutomation | INFO | フロントエンドnote自動取得開始: acc２
+2025-09-17 08:56:09 | TwitterAutomation.FrontendNoteAutomation | INFO | 削除対象ファイルなし
+2025-09-17 08:56:09 | TwitterAutomation.FrontendNoteAutomation | INFO | 必要ファイル確認完了
+2025-09-17 08:56:09 | TwitterAutomation.FrontendNoteAutomation | INFO | ループ 1/10 開始
+2025-09-17 08:56:30 | TwitterAutomation.FrontendNoteAutomation | INFO | Step 1: Claude Sonnet4クリック
+2025-09-17 08:56:43 | TwitterAutomation.FrontendNoteAutomation | INFO | Step 2: Opus4切り替え完了
+2025-09-17 08:56:47 | TwitterAutomation.FrontendNoteAutomation | ERROR | Step 3: テキストエリアクリック_First
+2025-09-17 08:56:53 | TwitterAutomation.FrontendNoteAutomation | ERROR | スタートコピペ
+2025-09-17 08:57:28 | TwitterAutomation.FrontendNoteAutomation | INFO | ファイルアップロード: キャラクターコンセプト.txt
+2025-09-17 08:57:42 | TwitterAutomation.FrontendNoteAutomation | INFO | ファイルアップロード: ターゲット.txt
+2025-09-17 08:57:56 | TwitterAutomation.FrontendNoteAutomation | INFO | ファイルアップロード: 市場リサーチ.txt
+2025-09-17 08:58:54 | TwitterAutomation.FrontendNoteAutomation | ERROR | Chrome終了エラー: Could not locate the image (highest confidence = 0.719)
+2025-09-17 08:59:08 | TwitterAutomation.VPNManager | INFO | VPN切断完了: 116.82.24.214
+2025-09-17 09:02:42 | TwitterAutomation.ConfigManager | INFO | 設定ファイル読み込み完了: config\config.json
+2025-09-17 09:02:42 | TwitterAutomation.ConfigManager | INFO | アカウントデータベース読み込み完了: 5件
+2025-09-17 09:02:42 | TwitterAutomation.ConfigManager | INFO | 設定管理を初期化しました
+2025-09-17 09:02:42 | TwitterAutomation.VPNManager | INFO | 元のIPアドレス記録: 116.82.24.214
+2025-09-17 09:02:42 | TwitterAutomation.VPNManager | INFO | VPN管理を初期化しました
+2025-09-17 09:02:42 | TwitterAutomation.ChromeManager | INFO | Chrome管理を初期化しました
+2025-09-17 09:02:42 | TwitterAutomation.CSVManager | INFO | CSV管理を初期化しました
+2025-09-17 09:02:42 | TwitterAutomation.GPTImageAutomation | INFO | GPT画像認識自動化を初期化しました
+2025-09-17 09:02:42 | TwitterAutomation.ThreadsRotationPoster | INFO | Threads循環投稿を初期化しました
+2025-09-17 09:02:42 | TwitterAutomation.FrontendNoteAutomation | INFO | フロントエンドnote自動取得を初期化しました
+2025-09-17 09:02:54 | TwitterAutomation.FrontendNoteAutomation | INFO | フロントエンドnote自動取得開始: acc２
+2025-09-17 09:02:54 | TwitterAutomation.FrontendNoteAutomation | INFO | 削除対象ファイルなし
+2025-09-17 09:02:54 | TwitterAutomation.FrontendNoteAutomation | INFO | 必要ファイル確認完了
+2025-09-17 09:02:54 | TwitterAutomation.FrontendNoteAutomation | INFO | ループ 1/10 開始
+2025-09-17 09:03:15 | TwitterAutomation.FrontendNoteAutomation | INFO | Step 1: Claude Sonnet4クリック
+2025-09-17 09:03:28 | TwitterAutomation.FrontendNoteAutomation | INFO | Step 2: Opus4切り替え完了
+2025-09-17 09:03:32 | TwitterAutomation.FrontendNoteAutomation | ERROR | Step 3: テキストエリアクリック_First
+2025-09-17 09:03:38 | TwitterAutomation.FrontendNoteAutomation | ERROR | スタートコピペ
+2025-09-17 09:04:12 | TwitterAutomation.FrontendNoteAutomation | INFO | ファイルアップロード: キャラクターコンセプト.txt
+2025-09-17 09:04:26 | TwitterAutomation.FrontendNoteAutomation | INFO | ファイルアップロード: ターゲット.txt
+2025-09-17 09:04:40 | TwitterAutomation.FrontendNoteAutomation | INFO | ファイルアップロード: 市場リサーチ.txt
+2025-09-17 09:07:46 | TwitterAutomation.FrontendNoteAutomation | INFO | ランダム入力完了: 22, 3, タイトル, 2
+2025-09-17 09:07:49 | TwitterAutomation.FrontendNoteAutomation | INFO | タイトル全行数: 21
+2025-09-17 09:07:49 | TwitterAutomation.FrontendNoteAutomation | INFO | タイトル部分保存: 9行
+2025-09-17 09:09:45 | TwitterAutomation.FrontendNoteAutomation | INFO | 1章 収集完了
+2025-09-17 09:11:40 | TwitterAutomation.FrontendNoteAutomation | INFO | 2章 収集完了
+2025-09-17 09:13:36 | TwitterAutomation.FrontendNoteAutomation | INFO | 3章 収集完了
+2025-09-17 09:15:31 | TwitterAutomation.FrontendNoteAutomation | INFO | 4章 収集完了
+2025-09-17 09:17:27 | TwitterAutomation.FrontendNoteAutomation | INFO | 5章 収集完了
+2025-09-17 09:19:23 | TwitterAutomation.FrontendNoteAutomation | INFO | 6章 収集完了
+2025-09-17 09:21:18 | TwitterAutomation.FrontendNoteAutomation | INFO | 7章 収集完了
+2025-09-17 09:21:18 | TwitterAutomation.FrontendNoteAutomation | INFO | コンテンツ保存完了: 8部分
+2025-09-17 09:21:19 | TwitterAutomation.FrontendNoteAutomation | INFO | Chrome閉じるボタンクリック: (1257, 20)
+2025-09-17 09:21:22 | TwitterAutomation.FrontendNoteAutomation | INFO | ループ 1 完了: C:\Users\shiki\AutoTweet\data\acc２\フロントエンドnote1.txt
+2025-09-17 09:21:32 | TwitterAutomation.FrontendNoteAutomation | INFO | ループ 2/10 開始
+2025-09-17 09:21:53 | TwitterAutomation.FrontendNoteAutomation | INFO | Step 1: Claude Sonnet4クリック
+2025-09-17 09:22:06 | TwitterAutomation.FrontendNoteAutomation | INFO | Step 2: Opus4切り替え完了
+2025-09-17 09:22:11 | TwitterAutomation.FrontendNoteAutomation | ERROR | Step 3: テキストエリアクリック_First
+2025-09-17 09:22:17 | TwitterAutomation.FrontendNoteAutomation | ERROR | スタートコピペ
+2025-09-17 09:22:51 | TwitterAutomation.FrontendNoteAutomation | INFO | ファイルアップロード: キャラクターコンセプト.txt
+2025-09-17 09:23:05 | TwitterAutomation.FrontendNoteAutomation | INFO | ファイルアップロード: ターゲット.txt
+2025-09-17 09:23:19 | TwitterAutomation.FrontendNoteAutomation | INFO | ファイルアップロード: 市場リサーチ.txt
+2025-09-17 09:26:25 | TwitterAutomation.FrontendNoteAutomation | INFO | ランダム入力完了: 9, 9, タイトル, 9
+2025-09-17 09:26:28 | TwitterAutomation.FrontendNoteAutomation | INFO | タイトル全行数: 21
+2025-09-17 09:26:28 | TwitterAutomation.FrontendNoteAutomation | INFO | タイトル部分保存: 8行
+2025-09-17 09:28:23 | TwitterAutomation.FrontendNoteAutomation | INFO | 1章 収集完了
+2025-09-17 09:30:19 | TwitterAutomation.FrontendNoteAutomation | INFO | 2章 収集完了
+2025-09-17 09:32:14 | TwitterAutomation.FrontendNoteAutomation | INFO | 3章 収集完了
+2025-09-17 09:34:10 | TwitterAutomation.FrontendNoteAutomation | INFO | 4章 収集完了
+2025-09-17 09:36:06 | TwitterAutomation.FrontendNoteAutomation | INFO | 5章 収集完了
+2025-09-17 09:38:01 | TwitterAutomation.FrontendNoteAutomation | INFO | 6章 収集完了
+2025-09-17 09:39:57 | TwitterAutomation.FrontendNoteAutomation | INFO | 7章 収集完了
+2025-09-17 09:39:57 | TwitterAutomation.FrontendNoteAutomation | INFO | コンテンツ保存完了: 8部分
+2025-09-17 09:39:58 | TwitterAutomation.FrontendNoteAutomation | INFO | Chrome閉じるボタンクリック: (1257, 20)
+2025-09-17 09:40:01 | TwitterAutomation.FrontendNoteAutomation | INFO | ループ 2 完了: C:\Users\shiki\AutoTweet\data\acc２\フロントエンドnote2.txt
+2025-09-17 09:40:11 | TwitterAutomation.FrontendNoteAutomation | INFO | ループ 3/10 開始
+2025-09-17 09:40:32 | TwitterAutomation.FrontendNoteAutomation | INFO | Step 1: Claude Sonnet4クリック
+2025-09-17 09:40:45 | TwitterAutomation.FrontendNoteAutomation | INFO | Step 2: Opus4切り替え完了
+2025-09-17 09:40:49 | TwitterAutomation.FrontendNoteAutomation | ERROR | Step 3: テキストエリアクリック_First
+2025-09-17 09:40:55 | TwitterAutomation.FrontendNoteAutomation | ERROR | スタートコピペ
+2025-09-17 09:41:29 | TwitterAutomation.FrontendNoteAutomation | INFO | ファイルアップロード: キャラクターコンセプト.txt
+2025-09-17 09:41:44 | TwitterAutomation.FrontendNoteAutomation | INFO | ファイルアップロード: ターゲット.txt
+2025-09-17 09:41:58 | TwitterAutomation.FrontendNoteAutomation | INFO | ファイルアップロード: 市場リサーチ.txt
+2025-09-17 09:45:03 | TwitterAutomation.FrontendNoteAutomation | INFO | ランダム入力完了: 8, 6, タイトル, 9
+2025-09-17 09:45:06 | TwitterAutomation.FrontendNoteAutomation | INFO | タイトル全行数: 21
+2025-09-17 09:45:06 | TwitterAutomation.FrontendNoteAutomation | INFO | タイトル部分保存: 9行
+2025-09-17 09:47:02 | TwitterAutomation.FrontendNoteAutomation | INFO | 1章 収集完了
+2025-09-17 09:48:58 | TwitterAutomation.FrontendNoteAutomation | INFO | 2章 収集完了
+2025-09-17 09:50:53 | TwitterAutomation.FrontendNoteAutomation | INFO | 3章 収集完了
+2025-09-17 09:52:49 | TwitterAutomation.FrontendNoteAutomation | INFO | 4章 収集完了
+2025-09-17 09:54:44 | TwitterAutomation.FrontendNoteAutomation | INFO | 5章 収集完了
+2025-09-17 09:56:40 | TwitterAutomation.FrontendNoteAutomation | INFO | 6章 収集完了
+2025-09-17 09:58:35 | TwitterAutomation.FrontendNoteAutomation | INFO | 7章 収集完了
+2025-09-17 09:58:35 | TwitterAutomation.FrontendNoteAutomation | INFO | コンテンツ保存完了: 8部分
+2025-09-17 09:58:36 | TwitterAutomation.FrontendNoteAutomation | INFO | Chrome閉じるボタンクリック: (1257, 20)
+2025-09-17 09:58:39 | TwitterAutomation.FrontendNoteAutomation | INFO | ループ 3 完了: C:\Users\shiki\AutoTweet\data\acc２\フロントエンドnote3.txt
+2025-09-17 09:58:49 | TwitterAutomation.FrontendNoteAutomation | INFO | ループ 4/10 開始
+2025-09-17 09:59:10 | TwitterAutomation.FrontendNoteAutomation | INFO | Step 1: Claude Sonnet4クリック
+2025-09-17 09:59:24 | TwitterAutomation.FrontendNoteAutomation | INFO | Step 2: Opus4切り替え完了
+2025-09-17 09:59:28 | TwitterAutomation.FrontendNoteAutomation | ERROR | Step 3: テキストエリアクリック_First
+2025-09-17 09:59:34 | TwitterAutomation.FrontendNoteAutomation | ERROR | スタートコピペ
+2025-09-17 10:00:08 | TwitterAutomation.FrontendNoteAutomation | INFO | ファイルアップロード: キャラクターコンセプト.txt
+2025-09-17 10:00:22 | TwitterAutomation.FrontendNoteAutomation | INFO | ファイルアップロード: ターゲット.txt
+2025-09-17 10:00:36 | TwitterAutomation.FrontendNoteAutomation | INFO | ファイルアップロード: 市場リサーチ.txt
+2025-09-17 10:03:42 | TwitterAutomation.FrontendNoteAutomation | INFO | ランダム入力完了: 27, 3, タイトル, 5
+2025-09-17 10:03:45 | TwitterAutomation.FrontendNoteAutomation | INFO | タイトル全行数: 21
+2025-09-17 10:03:45 | TwitterAutomation.FrontendNoteAutomation | INFO | タイトル部分保存: 8行
+2025-09-17 10:05:40 | TwitterAutomation.FrontendNoteAutomation | INFO | 1章 収集完了
+2025-09-17 10:07:36 | TwitterAutomation.FrontendNoteAutomation | INFO | 2章 収集完了
+2025-09-17 10:09:32 | TwitterAutomation.FrontendNoteAutomation | INFO | 3章 収集完了
+2025-09-17 10:11:27 | TwitterAutomation.FrontendNoteAutomation | INFO | 4章 収集完了
+2025-09-17 10:13:23 | TwitterAutomation.FrontendNoteAutomation | INFO | 5章 収集完了
+2025-09-17 10:15:18 | TwitterAutomation.FrontendNoteAutomation | INFO | 6章 収集完了
+2025-09-17 10:17:14 | TwitterAutomation.FrontendNoteAutomation | INFO | 7章 収集完了
+2025-09-17 10:17:14 | TwitterAutomation.FrontendNoteAutomation | INFO | コンテンツ保存完了: 8部分
+2025-09-17 10:17:15 | TwitterAutomation.FrontendNoteAutomation | INFO | Chrome閉じるボタンクリック: (1257, 20)
+2025-09-17 10:17:18 | TwitterAutomation.FrontendNoteAutomation | INFO | ループ 4 完了: C:\Users\shiki\AutoTweet\data\acc２\フロントエンドnote4.txt
+2025-09-17 10:17:28 | TwitterAutomation.FrontendNoteAutomation | INFO | ループ 5/10 開始
+2025-09-17 10:17:49 | TwitterAutomation.FrontendNoteAutomation | INFO | Step 1: Claude Sonnet4クリック
+2025-09-17 10:18:02 | TwitterAutomation.FrontendNoteAutomation | INFO | Step 2: Opus4切り替え完了
+2025-09-17 10:18:06 | TwitterAutomation.FrontendNoteAutomation | ERROR | Step 3: テキストエリアクリック_First
+2025-09-17 10:18:12 | TwitterAutomation.FrontendNoteAutomation | ERROR | スタートコピペ
+2025-09-17 10:18:46 | TwitterAutomation.FrontendNoteAutomation | INFO | ファイルアップロード: キャラクターコンセプト.txt
+2025-09-17 10:19:00 | TwitterAutomation.FrontendNoteAutomation | INFO | ファイルアップロード: ターゲット.txt
+2025-09-17 10:19:15 | TwitterAutomation.FrontendNoteAutomation | INFO | ファイルアップロード: 市場リサーチ.txt
+2025-09-17 10:22:20 | TwitterAutomation.FrontendNoteAutomation | INFO | ランダム入力完了: 21, 6, タイトル, 2
+2025-09-17 10:22:23 | TwitterAutomation.FrontendNoteAutomation | INFO | タイトル全行数: 21
+2025-09-17 10:22:23 | TwitterAutomation.FrontendNoteAutomation | INFO | タイトル部分保存: 9行
+2025-09-17 10:24:19 | TwitterAutomation.FrontendNoteAutomation | INFO | 1章 収集完了
+2025-09-17 10:26:14 | TwitterAutomation.FrontendNoteAutomation | INFO | 2章 収集完了
+2025-09-17 10:28:10 | TwitterAutomation.FrontendNoteAutomation | INFO | 3章 収集完了
+2025-09-17 10:30:06 | TwitterAutomation.FrontendNoteAutomation | INFO | 4章 収集完了
+2025-09-17 10:32:01 | TwitterAutomation.FrontendNoteAutomation | INFO | 5章 収集完了
+2025-09-17 10:33:57 | TwitterAutomation.FrontendNoteAutomation | INFO | 6章 収集完了
+2025-09-17 10:35:52 | TwitterAutomation.FrontendNoteAutomation | INFO | 7章 収集完了
+2025-09-17 10:35:52 | TwitterAutomation.FrontendNoteAutomation | INFO | コンテンツ保存完了: 8部分
+2025-09-17 10:35:53 | TwitterAutomation.FrontendNoteAutomation | INFO | Chrome閉じるボタンクリック: (1257, 20)
+2025-09-17 10:35:56 | TwitterAutomation.FrontendNoteAutomation | INFO | ループ 5 完了: C:\Users\shiki\AutoTweet\data\acc２\フロントエンドnote5.txt
+2025-09-17 10:36:06 | TwitterAutomation.FrontendNoteAutomation | INFO | ループ 6/10 開始
+2025-09-17 10:36:28 | TwitterAutomation.FrontendNoteAutomation | INFO | Step 1: Claude Sonnet4クリック
+2025-09-17 10:36:41 | TwitterAutomation.FrontendNoteAutomation | INFO | Step 2: Opus4切り替え完了
+2025-09-17 10:36:45 | TwitterAutomation.FrontendNoteAutomation | ERROR | Step 3: テキストエリアクリック_First
+2025-09-17 10:36:51 | TwitterAutomation.FrontendNoteAutomation | ERROR | スタートコピペ
+2025-09-17 10:37:25 | TwitterAutomation.FrontendNoteAutomation | INFO | ファイルアップロード: キャラクターコンセプト.txt
+2025-09-17 10:37:39 | TwitterAutomation.FrontendNoteAutomation | INFO | ファイルアップロード: ターゲット.txt
+2025-09-17 10:37:53 | TwitterAutomation.FrontendNoteAutomation | INFO | ファイルアップロード: 市場リサーチ.txt
+2025-09-17 10:40:59 | TwitterAutomation.FrontendNoteAutomation | INFO | ランダム入力完了: 5, 10, タイトル, 7
+2025-09-17 10:41:02 | TwitterAutomation.FrontendNoteAutomation | INFO | タイトル全行数: 21
+2025-09-17 10:41:02 | TwitterAutomation.FrontendNoteAutomation | INFO | タイトル部分保存: 9行
+2025-09-17 10:42:57 | TwitterAutomation.FrontendNoteAutomation | INFO | 1章 収集完了
+2025-09-17 10:44:53 | TwitterAutomation.FrontendNoteAutomation | INFO | 2章 収集完了
+2025-09-17 10:46:49 | TwitterAutomation.FrontendNoteAutomation | INFO | 3章 収集完了
+2025-09-17 10:48:44 | TwitterAutomation.FrontendNoteAutomation | INFO | 4章 収集完了
+2025-09-17 10:50:40 | TwitterAutomation.FrontendNoteAutomation | INFO | 5章 収集完了
+2025-09-17 10:52:35 | TwitterAutomation.FrontendNoteAutomation | INFO | 6章 収集完了
+2025-09-17 10:54:31 | TwitterAutomation.FrontendNoteAutomation | INFO | 7章 収集完了
+2025-09-17 10:54:31 | TwitterAutomation.FrontendNoteAutomation | INFO | コンテンツ保存完了: 8部分
+2025-09-17 10:54:32 | TwitterAutomation.FrontendNoteAutomation | INFO | Chrome閉じるボタンクリック: (1257, 20)
+2025-09-17 10:54:35 | TwitterAutomation.FrontendNoteAutomation | INFO | ループ 6 完了: C:\Users\shiki\AutoTweet\data\acc２\フロントエンドnote6.txt
+2025-09-17 10:54:45 | TwitterAutomation.FrontendNoteAutomation | INFO | ループ 7/10 開始
+2025-09-17 10:55:06 | TwitterAutomation.FrontendNoteAutomation | INFO | Step 1: Claude Sonnet4クリック
+2025-09-17 10:55:19 | TwitterAutomation.FrontendNoteAutomation | INFO | Step 2: Opus4切り替え完了
+2025-09-17 10:55:23 | TwitterAutomation.FrontendNoteAutomation | ERROR | Step 3: テキストエリアクリック_First
+2025-09-17 10:55:29 | TwitterAutomation.FrontendNoteAutomation | ERROR | スタートコピペ
+2025-09-17 10:56:03 | TwitterAutomation.FrontendNoteAutomation | INFO | ファイルアップロード: キャラクターコンセプト.txt
+2025-09-17 10:56:18 | TwitterAutomation.FrontendNoteAutomation | INFO | ファイルアップロード: ターゲット.txt
+2025-09-17 10:56:32 | TwitterAutomation.FrontendNoteAutomation | INFO | ファイルアップロード: 市場リサーチ.txt
+2025-09-17 10:59:37 | TwitterAutomation.FrontendNoteAutomation | INFO | ランダム入力完了: 30, 3, タイトル, 8
+2025-09-17 10:59:40 | TwitterAutomation.FrontendNoteAutomation | INFO | タイトル全行数: 21
+2025-09-17 10:59:40 | TwitterAutomation.FrontendNoteAutomation | INFO | タイトル部分保存: 9行
+2025-09-17 11:01:36 | TwitterAutomation.FrontendNoteAutomation | INFO | 1章 収集完了
+2025-09-17 11:03:31 | TwitterAutomation.FrontendNoteAutomation | INFO | 2章 収集完了
+2025-09-17 11:05:27 | TwitterAutomation.FrontendNoteAutomation | INFO | 3章 収集完了
+2025-09-17 11:07:22 | TwitterAutomation.FrontendNoteAutomation | INFO | 4章 収集完了
+2025-09-17 11:09:18 | TwitterAutomation.FrontendNoteAutomation | INFO | 5章 収集完了
+2025-09-17 11:11:14 | TwitterAutomation.FrontendNoteAutomation | INFO | 6章 収集完了
+2025-09-17 11:13:09 | TwitterAutomation.FrontendNoteAutomation | INFO | 7章 収集完了
+2025-09-17 11:13:09 | TwitterAutomation.FrontendNoteAutomation | INFO | コンテンツ保存完了: 8部分
+2025-09-17 11:13:10 | TwitterAutomation.FrontendNoteAutomation | INFO | Chrome閉じるボタンクリック: (1257, 20)
+2025-09-17 11:13:13 | TwitterAutomation.FrontendNoteAutomation | INFO | ループ 7 完了: C:\Users\shiki\AutoTweet\data\acc２\フロントエンドnote7.txt
+2025-09-17 11:13:23 | TwitterAutomation.FrontendNoteAutomation | INFO | ループ 8/10 開始
+2025-09-17 11:13:44 | TwitterAutomation.FrontendNoteAutomation | INFO | Step 1: Claude Sonnet4クリック
+2025-09-17 11:13:57 | TwitterAutomation.FrontendNoteAutomation | INFO | Step 2: Opus4切り替え完了
+2025-09-17 11:14:02 | TwitterAutomation.FrontendNoteAutomation | ERROR | Step 3: テキストエリアクリック_First
+2025-09-17 11:14:08 | TwitterAutomation.FrontendNoteAutomation | ERROR | スタートコピペ
+2025-09-17 11:14:42 | TwitterAutomation.FrontendNoteAutomation | INFO | ファイルアップロード: キャラクターコンセプト.txt
+2025-09-17 11:14:56 | TwitterAutomation.FrontendNoteAutomation | INFO | ファイルアップロード: ターゲット.txt
+2025-09-17 11:15:10 | TwitterAutomation.FrontendNoteAutomation | INFO | ファイルアップロード: 市場リサーチ.txt
+2025-09-17 11:18:16 | TwitterAutomation.FrontendNoteAutomation | INFO | ランダム入力完了: 1, 4, タイトル, 7
+2025-09-17 11:18:19 | TwitterAutomation.FrontendNoteAutomation | INFO | タイトル全行数: 21
+2025-09-17 11:18:19 | TwitterAutomation.FrontendNoteAutomation | INFO | タイトル部分保存: 8行
+2025-09-17 11:20:14 | TwitterAutomation.FrontendNoteAutomation | INFO | 1章 収集完了
+2025-09-17 11:22:10 | TwitterAutomation.FrontendNoteAutomation | INFO | 2章 収集完了
+2025-09-17 11:24:05 | TwitterAutomation.FrontendNoteAutomation | INFO | 3章 収集完了
+2025-09-17 11:26:01 | TwitterAutomation.FrontendNoteAutomation | INFO | 4章 収集完了
+2025-09-17 11:27:56 | TwitterAutomation.FrontendNoteAutomation | INFO | 5章 収集完了
+2025-09-17 11:29:52 | TwitterAutomation.FrontendNoteAutomation | INFO | 6章 収集完了
+2025-09-17 11:31:47 | TwitterAutomation.FrontendNoteAutomation | INFO | 7章 収集完了
+2025-09-17 11:31:47 | TwitterAutomation.FrontendNoteAutomation | INFO | コンテンツ保存完了: 8部分
+2025-09-17 11:31:49 | TwitterAutomation.FrontendNoteAutomation | INFO | Chrome閉じるボタンクリック: (1257, 20)
+2025-09-17 11:31:52 | TwitterAutomation.FrontendNoteAutomation | INFO | ループ 8 完了: C:\Users\shiki\AutoTweet\data\acc２\フロントエンドnote8.txt
+2025-09-17 11:32:02 | TwitterAutomation.FrontendNoteAutomation | INFO | ループ 9/10 開始
+2025-09-17 11:32:23 | TwitterAutomation.FrontendNoteAutomation | INFO | Step 1: Claude Sonnet4クリック
+2025-09-17 11:32:36 | TwitterAutomation.FrontendNoteAutomation | INFO | Step 2: Opus4切り替え完了
+2025-09-17 11:32:40 | TwitterAutomation.FrontendNoteAutomation | ERROR | Step 3: テキストエリアクリック_First
+2025-09-17 11:32:46 | TwitterAutomation.FrontendNoteAutomation | ERROR | スタートコピペ
+2025-09-17 11:33:20 | TwitterAutomation.FrontendNoteAutomation | INFO | ファイルアップロード: キャラクターコンセプト.txt
+2025-09-17 11:33:34 | TwitterAutomation.FrontendNoteAutomation | INFO | ファイルアップロード: ターゲット.txt
+2025-09-17 11:33:48 | TwitterAutomation.FrontendNoteAutomation | INFO | ファイルアップロード: 市場リサーチ.txt
+2025-09-17 11:36:54 | TwitterAutomation.FrontendNoteAutomation | INFO | ランダム入力完了: 23, 3, タイトル, 3
+2025-09-17 11:36:57 | TwitterAutomation.FrontendNoteAutomation | INFO | タイトル全行数: 21
+2025-09-17 11:36:57 | TwitterAutomation.FrontendNoteAutomation | INFO | タイトル部分保存: 9行
+2025-09-17 11:38:53 | TwitterAutomation.FrontendNoteAutomation | INFO | 1章 収集完了
+2025-09-17 11:40:48 | TwitterAutomation.FrontendNoteAutomation | INFO | 2章 収集完了
+2025-09-17 11:42:44 | TwitterAutomation.FrontendNoteAutomation | INFO | 3章 収集完了
+2025-09-17 11:44:39 | TwitterAutomation.FrontendNoteAutomation | INFO | 4章 収集完了
+2025-09-17 11:46:35 | TwitterAutomation.FrontendNoteAutomation | INFO | 5章 収集完了
+2025-09-17 11:48:30 | TwitterAutomation.FrontendNoteAutomation | INFO | 6章 収集完了
+2025-09-17 11:50:26 | TwitterAutomation.FrontendNoteAutomation | INFO | 7章 収集完了
+2025-09-17 11:50:26 | TwitterAutomation.FrontendNoteAutomation | INFO | コンテンツ保存完了: 8部分
+2025-09-17 11:50:27 | TwitterAutomation.FrontendNoteAutomation | INFO | Chrome閉じるボタンクリック: (1257, 20)
+2025-09-17 11:50:30 | TwitterAutomation.FrontendNoteAutomation | INFO | ループ 9 完了: C:\Users\shiki\AutoTweet\data\acc２\フロントエンドnote9.txt
+2025-09-17 11:50:40 | TwitterAutomation.FrontendNoteAutomation | INFO | ループ 10/10 開始
+2025-09-17 11:51:01 | TwitterAutomation.FrontendNoteAutomation | INFO | Step 1: Claude Sonnet4クリック
+2025-09-17 11:51:14 | TwitterAutomation.FrontendNoteAutomation | INFO | Step 2: Opus4切り替え完了
+2025-09-17 11:51:18 | TwitterAutomation.FrontendNoteAutomation | ERROR | Step 3: テキストエリアクリック_First
+2025-09-17 11:51:24 | TwitterAutomation.FrontendNoteAutomation | ERROR | スタートコピペ
+2025-09-17 11:51:58 | TwitterAutomation.FrontendNoteAutomation | INFO | ファイルアップロード: キャラクターコンセプト.txt
+2025-09-17 11:52:13 | TwitterAutomation.FrontendNoteAutomation | INFO | ファイルアップロード: ターゲット.txt
+2025-09-17 11:52:27 | TwitterAutomation.FrontendNoteAutomation | INFO | ファイルアップロード: 市場リサーチ.txt
+2025-09-17 11:55:32 | TwitterAutomation.FrontendNoteAutomation | INFO | ランダム入力完了: 22, 9, タイトル, 1
+2025-09-17 11:55:35 | TwitterAutomation.FrontendNoteAutomation | INFO | タイトル全行数: 21
+2025-09-17 11:55:35 | TwitterAutomation.FrontendNoteAutomation | INFO | タイトル部分保存: 8行
+2025-09-17 11:57:31 | TwitterAutomation.FrontendNoteAutomation | INFO | 1章 収集完了
+2025-09-17 11:59:27 | TwitterAutomation.FrontendNoteAutomation | INFO | 2章 収集完了
+2025-09-17 12:01:22 | TwitterAutomation.FrontendNoteAutomation | INFO | 3章 収集完了
+2025-09-17 12:03:18 | TwitterAutomation.FrontendNoteAutomation | INFO | 4章 収集完了
+2025-09-17 12:05:13 | TwitterAutomation.FrontendNoteAutomation | INFO | 5章 収集完了
+2025-09-17 12:07:09 | TwitterAutomation.FrontendNoteAutomation | INFO | 6章 収集完了
+2025-09-17 12:09:04 | TwitterAutomation.FrontendNoteAutomation | INFO | 7章 収集完了
+2025-09-17 12:09:04 | TwitterAutomation.FrontendNoteAutomation | INFO | コンテンツ保存完了: 8部分
+2025-09-17 12:09:06 | TwitterAutomation.FrontendNoteAutomation | INFO | Chrome閉じるボタンクリック: (1257, 20)
+2025-09-17 12:09:09 | TwitterAutomation.FrontendNoteAutomation | INFO | ループ 10 完了: C:\Users\shiki\AutoTweet\data\acc２\フロントエンドnote10.txt
+2025-09-17 12:09:09 | TwitterAutomation.FrontendNoteAutomation | INFO | 全ループ完了: 10件
+2025-09-17 12:09:09 | TwitterAutomation.FrontendNoteAutomation | ERROR | Chrome終了エラー: Could not locate the image (highest confidence = 0.719)
+2025-09-17 12:16:03 | TwitterAutomation.VPNManager | INFO | VPN切断完了: 116.82.24.214
+2025-09-17 12:54:02 | INFO | 設定ファイル読み込み完了: config\config.json
+2025-09-17 12:54:02 | INFO | アカウントデータベース読み込み完了: 5件
+2025-09-17 12:54:02 | INFO | 設定管理を初期化しました
+2025-09-17 12:54:03 | INFO | 元のIPアドレス記録: 116.82.24.214
+2025-09-17 12:54:03 | INFO | VPN管理を初期化しました
+2025-09-17 12:54:03 | INFO | Chrome管理を初期化しました
+2025-09-17 12:54:03 | INFO | CSV管理を初期化しました
+2025-09-17 12:54:03 | INFO | GPT画像認識自動化を初期化しました
+2025-09-17 12:54:03 | INFO | Threads循環投稿を初期化しました
+2025-09-17 12:54:03 | INFO | フロントエンドnote自動取得を初期化しました
+2025-09-17 12:54:20 | INFO | フロントエンドnote自動取得開始: acc２
+2025-09-17 12:54:20 | INFO | データフォルダ: C:\Users\shiki\AutoTweet\data\acc２
+2025-09-17 12:54:20 | INFO | 削除対象ファイルなし
+2025-09-17 12:54:20 | INFO | 必要ファイル確認完了
+2025-09-17 12:54:20 | INFO | ループ 1/1 開始
+2025-09-17 12:54:20 | INFO | 🌐 Chrome起動開始: ループ1
+2025-09-17 12:54:41 | INFO | 📄 出力ファイル: C:\Users\shiki\AutoTweet\data\acc２\フロントエンドnote1.txt
+2025-09-17 12:54:42 | INFO | Step 1: Claude Sonnet4クリック
+2025-09-17 12:54:55 | INFO | Step 2: Opus4切り替え完了
+2025-09-17 12:54:59 | ERROR | Step 3: テキストエリアクリック_First
+2025-09-17 12:55:05 | ERROR | スタートコピペ
+2025-09-17 12:55:39 | INFO | ファイルアップロード: キャラクターコンセプト.txt
+2025-09-17 12:55:53 | INFO | ファイルアップロード: ターゲット.txt
+2025-09-17 12:56:07 | INFO | ファイルアップロード: 市場リサーチ.txt
+2025-09-17 12:59:13 | INFO | ランダム入力完了: 23, 10, タイトル, 9
+2025-09-17 12:59:13 | INFO | 📋 コンテンツ収集開始
+2025-09-17 12:59:13 | INFO | 📝 タイトル部分コピー
+2025-09-17 12:59:16 | INFO | タイトル全行数: 21
+2025-09-17 12:59:16 | INFO | タイトル部分保存: 18行
+2025-09-17 13:01:12 | INFO | 1章 収集完了
+2025-09-17 13:03:07 | INFO | 2章 収集完了
+2025-09-17 13:05:03 | INFO | 3章 収集完了
+2025-09-17 13:06:58 | INFO | 4章 収集完了
+2025-09-17 13:08:54 | INFO | 5章 収集完了
+2025-09-17 13:10:49 | INFO | 6章 収集完了
+2025-09-17 13:12:45 | INFO | 7章 収集完了
+2025-09-17 13:12:45 | INFO | コンテンツ保存完了: 8部分
+2025-09-17 13:12:45 | INFO | 🚪 Chrome終了
+2025-09-17 13:12:46 | INFO | Chrome閉じるボタンクリック: (1257, 20)
+2025-09-17 13:12:49 | INFO | ✅ ループ 1 完了: フロントエンドnote1.txt
+2025-09-17 13:12:49 | INFO | 全ループ完了: 1件
+2025-09-17 13:12:49 | ERROR | Chrome終了エラー: Could not locate the image (highest confidence = 0.719)
+2025-09-17 13:19:14 | INFO | OpenVPNプロセス終了: 2件
+2025-09-17 13:19:17 | INFO | VPN切断完了: 116.82.24.214
+2025-09-17 13:21:26 | INFO | 設定ファイル読み込み完了: config\config.json
+2025-09-17 13:21:26 | INFO | アカウントデータベース読み込み完了: 5件
+2025-09-17 13:21:26 | INFO | 設定管理を初期化しました
+2025-09-17 13:21:26 | INFO | 元のIPアドレス記録: 116.82.24.214
+2025-09-17 13:21:26 | INFO | VPN管理を初期化しました
+2025-09-17 13:21:26 | INFO | Chrome管理を初期化しました
+2025-09-17 13:21:26 | INFO | CSV管理を初期化しました
+2025-09-17 13:21:26 | INFO | GPT画像認識自動化を初期化しました
+2025-09-17 13:21:26 | INFO | Threads循環投稿を初期化しました
+2025-09-17 13:21:26 | INFO | フロントエンドnote自動取得を初期化しました
+2025-09-17 13:21:43 | INFO | フロントエンドnote自動取得開始: acc２
+2025-09-17 13:21:43 | INFO | データフォルダ: C:\Users\shiki\AutoTweet\data\acc２
+2025-09-17 13:21:43 | INFO | 削除対象ファイルなし
+2025-09-17 13:21:43 | INFO | 必要ファイル確認完了
+2025-09-17 13:21:43 | INFO | ループ 1/10 開始
+2025-09-17 13:21:43 | INFO | 🌐 Chrome起動開始: ループ1
+2025-09-17 13:22:03 | INFO | 📄 出力ファイル: C:\Users\shiki\AutoTweet\data\acc２\フロントエンドnote1.txt
+2025-09-17 13:22:04 | INFO | Step 1: Claude Sonnet4クリック
+2025-09-17 13:22:17 | INFO | Step 2: Opus4切り替え完了
+2025-09-17 13:22:21 | ERROR | Step 3: テキストエリアクリック_First
+2025-09-17 13:22:27 | ERROR | スタートコピペ
+2025-09-17 13:23:01 | INFO | ファイルアップロード: キャラクターコンセプト.txt
+2025-09-17 13:23:15 | INFO | ファイルアップロード: ターゲット.txt
+2025-09-17 13:23:29 | INFO | ファイルアップロード: 市場リサーチ.txt
+2025-09-17 13:26:35 | INFO | ランダム入力完了: 29, 3, タイトル, 1
+2025-09-17 13:26:35 | INFO | 📋 コンテンツ収集開始
+2025-09-17 13:26:35 | INFO | 📝 タイトル部分コピー
+2025-09-17 13:26:38 | INFO | タイトル全行数: 21
+2025-09-17 13:26:38 | INFO | タイトル部分保存: 17行
+2025-09-17 13:28:34 | INFO | 1章 収集完了
+2025-09-17 13:30:29 | INFO | 2章 収集完了
+2025-09-17 13:32:25 | INFO | 3章 収集完了
+2025-09-17 13:34:20 | INFO | 4章 収集完了
+2025-09-17 13:36:16 | INFO | 5章 収集完了
+2025-09-17 13:38:11 | INFO | 6章 収集完了
+2025-09-17 13:40:07 | INFO | 7章 収集完了
+2025-09-17 13:40:07 | INFO | コンテンツ保存完了: 8部分
+2025-09-17 13:40:07 | INFO | 🚪 Chrome終了
+2025-09-17 13:40:08 | INFO | Chrome閉じるボタンクリック: (1257, 20)
+2025-09-17 13:40:11 | INFO | ✅ ループ 1 完了: フロントエンドnote1.txt
+2025-09-17 13:40:11 | INFO | ⏳ 次ループまで10秒待機...
+2025-09-17 13:40:21 | INFO | ループ 2/10 開始
+2025-09-17 13:40:21 | INFO | 🌐 Chrome起動開始: ループ2
+2025-09-17 13:40:41 | INFO | 📄 出力ファイル: C:\Users\shiki\AutoTweet\data\acc２\フロントエンドnote2.txt
+2025-09-17 13:40:42 | INFO | Step 1: Claude Sonnet4クリック
+2025-09-17 13:40:55 | INFO | Step 2: Opus4切り替え完了
+2025-09-17 13:40:59 | ERROR | Step 3: テキストエリアクリック_First
+2025-09-17 13:41:05 | ERROR | スタートコピペ
+2025-09-17 13:41:40 | INFO | ファイルアップロード: キャラクターコンセプト.txt
+2025-09-17 13:41:54 | INFO | ファイルアップロード: ターゲット.txt
+2025-09-17 13:42:08 | INFO | ファイルアップロード: 市場リサーチ.txt
+2025-09-17 13:45:13 | INFO | ランダム入力完了: 8, 10, タイトル, 4
+2025-09-17 13:45:13 | INFO | 📋 コンテンツ収集開始
+2025-09-17 13:45:13 | INFO | 📝 タイトル部分コピー
+2025-09-17 13:45:17 | INFO | タイトル全行数: 21
+2025-09-17 13:45:17 | INFO | タイトル部分保存: 17行
+2025-09-17 13:47:12 | INFO | 1章 収集完了
+2025-09-17 13:49:08 | INFO | 2章 収集完了
+2025-09-17 13:51:03 | INFO | 3章 収集完了
+2025-09-17 13:52:59 | INFO | 4章 収集完了
+2025-09-17 13:54:54 | INFO | 5章 収集完了
+2025-09-17 13:56:50 | INFO | 6章 収集完了
+2025-09-17 13:58:45 | INFO | 7章 収集完了
+2025-09-17 13:58:45 | INFO | コンテンツ保存完了: 8部分
+2025-09-17 13:58:45 | INFO | 🚪 Chrome終了
+2025-09-17 13:58:46 | INFO | Chrome閉じるボタンクリック: (1257, 20)
+2025-09-17 13:58:49 | INFO | ✅ ループ 2 完了: フロントエンドnote2.txt
+2025-09-17 13:58:49 | INFO | ⏳ 次ループまで10秒待機...
+2025-09-17 13:58:59 | INFO | ループ 3/10 開始
+2025-09-17 13:58:59 | INFO | 🌐 Chrome起動開始: ループ3
+2025-09-17 13:59:19 | INFO | 📄 出力ファイル: C:\Users\shiki\AutoTweet\data\acc２\フロントエンドnote3.txt
+2025-09-17 13:59:21 | INFO | Step 1: Claude Sonnet4クリック
+2025-09-17 13:59:34 | INFO | Step 2: Opus4切り替え完了
+2025-09-17 13:59:38 | ERROR | Step 3: テキストエリアクリック_First
+2025-09-17 13:59:44 | ERROR | スタートコピペ
+2025-09-17 14:00:18 | INFO | ファイルアップロード: キャラクターコンセプト.txt
+2025-09-17 14:00:32 | INFO | ファイルアップロード: ターゲット.txt
+2025-09-17 14:00:46 | INFO | ファイルアップロード: 市場リサーチ.txt
+2025-09-17 14:03:52 | INFO | ランダム入力完了: 4, 5, タイトル, 8
+2025-09-17 14:03:52 | INFO | 📋 コンテンツ収集開始
+2025-09-17 14:03:52 | INFO | 📝 タイトル部分コピー
+2025-09-17 14:03:55 | INFO | タイトル全行数: 21
+2025-09-17 14:03:55 | INFO | タイトル部分保存: 17行
+2025-09-17 14:05:50 | INFO | 1章 収集完了
+2025-09-17 14:07:46 | INFO | 2章 収集完了
+2025-09-17 14:09:41 | INFO | 3章 収集完了
+2025-09-17 14:11:37 | INFO | 4章 収集完了
+2025-09-17 14:13:33 | INFO | 5章 収集完了
+2025-09-17 14:15:28 | INFO | 6章 収集完了
+2025-09-17 14:17:24 | INFO | 7章 収集完了
+2025-09-17 14:17:24 | INFO | コンテンツ保存完了: 8部分
+2025-09-17 14:17:24 | INFO | 🚪 Chrome終了
+2025-09-17 14:17:25 | INFO | Chrome閉じるボタンクリック: (1257, 20)
+2025-09-17 14:17:28 | INFO | ✅ ループ 3 完了: フロントエンドnote3.txt
+2025-09-17 14:17:28 | INFO | ⏳ 次ループまで10秒待機...
+2025-09-17 14:17:38 | INFO | ループ 4/10 開始
+2025-09-17 14:17:38 | INFO | 🌐 Chrome起動開始: ループ4
+2025-09-17 14:17:58 | INFO | 📄 出力ファイル: C:\Users\shiki\AutoTweet\data\acc２\フロントエンドnote4.txt
+2025-09-17 14:17:59 | INFO | Step 1: Claude Sonnet4クリック
+2025-09-17 14:18:12 | INFO | Step 2: Opus4切り替え完了
+2025-09-17 14:18:16 | ERROR | Step 3: テキストエリアクリック_First
+2025-09-17 14:18:22 | ERROR | スタートコピペ
+2025-09-17 14:18:56 | INFO | ファイルアップロード: キャラクターコンセプト.txt
+2025-09-17 14:19:10 | INFO | ファイルアップロード: ターゲット.txt
+2025-09-17 14:19:25 | INFO | ファイルアップロード: 市場リサーチ.txt
+2025-09-17 14:22:30 | INFO | ランダム入力完了: 1, 6, タイトル, 7
+2025-09-17 14:22:30 | INFO | 📋 コンテンツ収集開始
+2025-09-17 14:22:30 | INFO | 📝 タイトル部分コピー
+2025-09-17 14:22:33 | INFO | タイトル全行数: 21
+2025-09-17 14:22:33 | INFO | タイトル部分保存: 17行
+2025-09-17 14:24:29 | INFO | 1章 収集完了
+2025-09-17 14:26:24 | INFO | 2章 収集完了
+2025-09-17 14:28:20 | INFO | 3章 収集完了
+2025-09-17 14:30:15 | INFO | 4章 収集完了
+2025-09-17 14:32:11 | INFO | 5章 収集完了
+2025-09-17 14:34:06 | INFO | 6章 収集完了
+2025-09-17 14:36:02 | INFO | 7章 収集完了
+2025-09-17 14:36:02 | INFO | コンテンツ保存完了: 8部分
+2025-09-17 14:36:02 | INFO | 🚪 Chrome終了
+2025-09-17 14:36:03 | INFO | Chrome閉じるボタンクリック: (1257, 20)
+2025-09-17 14:36:06 | INFO | ✅ ループ 4 完了: フロントエンドnote4.txt
+2025-09-17 14:36:06 | INFO | ⏳ 次ループまで10秒待機...
+2025-09-17 14:36:16 | INFO | ループ 5/10 開始
+2025-09-17 14:36:16 | INFO | 🌐 Chrome起動開始: ループ5
+2025-09-17 14:36:36 | INFO | 📄 出力ファイル: C:\Users\shiki\AutoTweet\data\acc２\フロントエンドnote5.txt
+2025-09-17 14:36:37 | INFO | Step 1: Claude Sonnet4クリック
+2025-09-17 14:36:50 | INFO | Step 2: Opus4切り替え完了
+2025-09-17 14:36:54 | ERROR | Step 3: テキストエリアクリック_First
+2025-09-17 14:37:00 | ERROR | スタートコピペ
+2025-09-17 14:37:34 | INFO | ファイルアップロード: キャラクターコンセプト.txt
+2025-09-17 14:37:49 | INFO | ファイルアップロード: ターゲット.txt
+2025-09-17 14:38:03 | INFO | ファイルアップロード: 市場リサーチ.txt
+2025-09-17 14:41:08 | INFO | ランダム入力完了: 16, 5, タイトル, 1
+2025-09-17 14:41:08 | INFO | 📋 コンテンツ収集開始
+2025-09-17 14:41:08 | INFO | 📝 タイトル部分コピー
+2025-09-17 14:41:11 | INFO | タイトル全行数: 21
+2025-09-17 14:41:11 | INFO | タイトル部分保存: 17行
+2025-09-17 14:43:07 | INFO | 1章 収集完了
+2025-09-17 14:45:03 | INFO | 2章 収集完了
+2025-09-17 14:46:58 | INFO | 3章 収集完了
+2025-09-17 14:48:54 | INFO | 4章 収集完了
+2025-09-17 14:50:49 | INFO | 5章 収集完了
+2025-09-17 14:52:45 | INFO | 6章 収集完了
+2025-09-17 14:54:40 | INFO | 7章 収集完了
+2025-09-17 14:54:40 | INFO | コンテンツ保存完了: 8部分
+2025-09-17 14:54:40 | INFO | 🚪 Chrome終了
+2025-09-17 14:54:41 | INFO | Chrome閉じるボタンクリック: (1257, 20)
+2025-09-17 14:54:44 | INFO | ✅ ループ 5 完了: フロントエンドnote5.txt
+2025-09-17 14:54:44 | INFO | ⏳ 次ループまで10秒待機...
+2025-09-17 14:54:54 | INFO | ループ 6/10 開始
+2025-09-17 14:54:54 | INFO | 🌐 Chrome起動開始: ループ6
+2025-09-17 14:55:14 | INFO | 📄 出力ファイル: C:\Users\shiki\AutoTweet\data\acc２\フロントエンドnote6.txt
+2025-09-17 14:55:15 | INFO | Step 1: Claude Sonnet4クリック
+2025-09-17 14:55:29 | INFO | Step 2: Opus4切り替え完了
+2025-09-17 14:55:33 | ERROR | Step 3: テキストエリアクリック_First
+2025-09-17 14:55:39 | ERROR | スタートコピペ
+2025-09-17 14:56:13 | INFO | ファイルアップロード: キャラクターコンセプト.txt
+2025-09-17 14:56:27 | INFO | ファイルアップロード: ターゲット.txt
+2025-09-17 14:56:41 | INFO | ファイルアップロード: 市場リサーチ.txt
+2025-09-17 14:59:47 | INFO | ランダム入力完了: 14, 4, タイトル, 3
+2025-09-17 14:59:47 | INFO | 📋 コンテンツ収集開始
+2025-09-17 14:59:47 | INFO | 📝 タイトル部分コピー
+2025-09-17 14:59:50 | INFO | タイトル全行数: 21
+2025-09-17 14:59:50 | INFO | タイトル部分保存: 17行
+2025-09-17 15:01:45 | INFO | 1章 収集完了
+2025-09-17 15:03:41 | INFO | 2章 収集完了
+2025-09-17 15:05:37 | INFO | 3章 収集完了
+2025-09-17 15:07:32 | INFO | 4章 収集完了
+2025-09-17 15:09:28 | INFO | 5章 収集完了
+2025-09-17 15:11:23 | INFO | 6章 収集完了
+2025-09-17 15:13:19 | INFO | 7章 収集完了
+2025-09-17 15:13:19 | INFO | コンテンツ保存完了: 8部分
+2025-09-17 15:13:19 | INFO | 🚪 Chrome終了
+2025-09-17 15:13:20 | INFO | Chrome閉じるボタンクリック: (1257, 20)
+2025-09-17 15:13:23 | INFO | ✅ ループ 6 完了: フロントエンドnote6.txt
+2025-09-17 15:13:23 | INFO | ⏳ 次ループまで10秒待機...
+2025-09-17 15:13:33 | INFO | ループ 7/10 開始
+2025-09-17 15:13:33 | INFO | 🌐 Chrome起動開始: ループ7
+2025-09-17 15:13:53 | INFO | 📄 出力ファイル: C:\Users\shiki\AutoTweet\data\acc２\フロントエンドnote7.txt
+2025-09-17 15:13:54 | INFO | Step 1: Claude Sonnet4クリック
+2025-09-17 15:14:07 | INFO | Step 2: Opus4切り替え完了
+2025-09-17 15:14:11 | ERROR | Step 3: テキストエリアクリック_First
+2025-09-17 15:14:17 | ERROR | スタートコピペ
+2025-09-17 15:14:51 | INFO | ファイルアップロード: キャラクターコンセプト.txt
+2025-09-17 15:15:06 | INFO | ファイルアップロード: ターゲット.txt
+2025-09-17 15:15:20 | INFO | ファイルアップロード: 市場リサーチ.txt
+2025-09-17 15:18:25 | INFO | ランダム入力完了: 6, 6, タイトル, 2
+2025-09-17 15:18:25 | INFO | 📋 コンテンツ収集開始
+2025-09-17 15:18:25 | INFO | 📝 タイトル部分コピー
+2025-09-17 15:18:28 | INFO | タイトル全行数: 21
+2025-09-17 15:18:28 | INFO | タイトル部分保存: 17行
+2025-09-17 15:20:24 | INFO | 1章 収集完了
+2025-09-17 15:22:19 | INFO | 2章 収集完了
+2025-09-17 15:24:15 | INFO | 3章 収集完了
+2025-09-17 15:26:10 | INFO | 4章 収集完了
+2025-09-17 15:28:06 | INFO | 5章 収集完了
+2025-09-17 15:30:02 | INFO | 6章 収集完了
+2025-09-17 15:31:57 | INFO | 7章 収集完了
+2025-09-17 15:31:57 | INFO | コンテンツ保存完了: 8部分
+2025-09-17 15:31:57 | INFO | 🚪 Chrome終了
+2025-09-17 15:31:58 | INFO | Chrome閉じるボタンクリック: (1257, 20)
+2025-09-17 15:32:01 | INFO | ✅ ループ 7 完了: フロントエンドnote7.txt
+2025-09-17 15:32:01 | INFO | ⏳ 次ループまで10秒待機...
+2025-09-17 15:32:11 | INFO | ループ 8/10 開始
+2025-09-17 15:32:11 | INFO | 🌐 Chrome起動開始: ループ8
+2025-09-17 15:32:31 | INFO | 📄 出力ファイル: C:\Users\shiki\AutoTweet\data\acc２\フロントエンドnote8.txt
+2025-09-17 15:32:32 | INFO | Step 1: Claude Sonnet4クリック
+2025-09-17 15:32:45 | INFO | Step 2: Opus4切り替え完了
+2025-09-17 15:32:50 | ERROR | Step 3: テキストエリアクリック_First
+2025-09-17 15:32:56 | ERROR | スタートコピペ
+2025-09-17 15:33:30 | INFO | ファイルアップロード: キャラクターコンセプト.txt
+2025-09-17 15:33:44 | INFO | ファイルアップロード: ターゲット.txt
+2025-09-17 15:33:58 | INFO | ファイルアップロード: 市場リサーチ.txt
+2025-09-17 15:37:04 | INFO | ランダム入力完了: 10, 5, タイトル, 2
+2025-09-17 15:37:04 | INFO | 📋 コンテンツ収集開始
+2025-09-17 15:37:04 | INFO | 📝 タイトル部分コピー
+2025-09-17 15:37:07 | INFO | タイトル全行数: 21
+2025-09-17 15:37:07 | INFO | タイトル部分保存: 17行
+2025-09-17 15:39:02 | INFO | 1章 収集完了
+2025-09-17 15:40:58 | INFO | 2章 収集完了
+2025-09-17 15:42:53 | INFO | 3章 収集完了
+2025-09-17 15:44:49 | INFO | 4章 収集完了
+2025-09-17 15:46:44 | INFO | 5章 収集完了
+2025-09-17 15:48:40 | INFO | 6章 収集完了
+2025-09-17 15:50:35 | INFO | 7章 収集完了
+2025-09-17 15:50:35 | INFO | コンテンツ保存完了: 8部分
+2025-09-17 15:50:35 | INFO | 🚪 Chrome終了
+2025-09-17 15:50:37 | INFO | Chrome閉じるボタンクリック: (1257, 20)
+2025-09-17 15:50:40 | INFO | ✅ ループ 8 完了: フロントエンドnote8.txt
+2025-09-17 15:50:40 | INFO | ⏳ 次ループまで10秒待機...
+2025-09-17 15:50:50 | INFO | ループ 9/10 開始
+2025-09-17 15:50:50 | INFO | 🌐 Chrome起動開始: ループ9
+2025-09-17 15:51:10 | INFO | 📄 出力ファイル: C:\Users\shiki\AutoTweet\data\acc２\フロントエンドnote9.txt
+2025-09-17 15:51:11 | INFO | Step 1: Claude Sonnet4クリック
+2025-09-17 15:51:24 | INFO | Step 2: Opus4切り替え完了
+2025-09-17 15:51:28 | ERROR | Step 3: テキストエリアクリック_First
+2025-09-17 15:51:34 | ERROR | スタートコピペ
+2025-09-17 15:52:08 | INFO | ファイルアップロード: キャラクターコンセプト.txt
+2025-09-17 15:52:22 | INFO | ファイルアップロード: ターゲット.txt
+2025-09-17 15:52:36 | INFO | ファイルアップロード: 市場リサーチ.txt
+2025-09-17 15:55:42 | INFO | ランダム入力完了: 24, 7, タイトル, 4
+2025-09-17 15:55:42 | INFO | 📋 コンテンツ収集開始
+2025-09-17 15:55:42 | INFO | 📝 タイトル部分コピー
+2025-09-17 15:55:45 | INFO | タイトル全行数: 21
+2025-09-17 15:55:45 | INFO | タイトル部分保存: 17行
+2025-09-17 15:57:41 | INFO | 1章 収集完了
+2025-09-17 15:59:36 | INFO | 2章 収集完了
+2025-09-17 16:01:32 | INFO | 3章 収集完了
+2025-09-17 16:03:27 | INFO | 4章 収集完了
+2025-09-17 16:05:23 | INFO | 5章 収集完了
+2025-09-17 16:07:18 | INFO | 6章 収集完了
+2025-09-17 16:09:14 | INFO | 7章 収集完了
+2025-09-17 16:09:14 | INFO | コンテンツ保存完了: 8部分
+2025-09-17 16:09:14 | INFO | 🚪 Chrome終了
+2025-09-17 16:09:15 | INFO | Chrome閉じるボタンクリック: (1257, 20)
+2025-09-17 16:09:18 | INFO | ✅ ループ 9 完了: フロントエンドnote9.txt
+2025-09-17 16:09:18 | INFO | ⏳ 次ループまで10秒待機...
+2025-09-17 16:09:28 | INFO | ループ 10/10 開始
+2025-09-17 16:09:28 | INFO | 🌐 Chrome起動開始: ループ10
+2025-09-17 16:09:48 | INFO | 📄 出力ファイル: C:\Users\shiki\AutoTweet\data\acc２\フロントエンドnote10.txt
+2025-09-17 16:09:49 | INFO | Step 1: Claude Sonnet4クリック
+2025-09-17 16:10:02 | INFO | Step 2: Opus4切り替え完了
+2025-09-17 16:10:06 | ERROR | Step 3: テキストエリアクリック_First
+2025-09-17 16:10:12 | ERROR | スタートコピペ
+2025-09-17 16:10:46 | INFO | ファイルアップロード: キャラクターコンセプト.txt
+2025-09-17 16:11:01 | INFO | ファイルアップロード: ターゲット.txt
+2025-09-17 16:11:15 | INFO | ファイルアップロード: 市場リサーチ.txt
+2025-09-17 16:14:20 | INFO | ランダム入力完了: 26, 3, タイトル, 2
+2025-09-17 16:14:20 | INFO | 📋 コンテンツ収集開始
+2025-09-17 16:14:20 | INFO | 📝 タイトル部分コピー
+2025-09-17 16:14:23 | INFO | タイトル全行数: 21
+2025-09-17 16:14:23 | INFO | タイトル部分保存: 17行
+2025-09-17 16:16:19 | INFO | 1章 収集完了
+2025-09-17 16:18:14 | INFO | 2章 収集完了
+2025-09-17 16:20:10 | INFO | 3章 収集完了
+2025-09-17 16:22:05 | INFO | 4章 収集完了
+2025-09-17 16:24:01 | INFO | 5章 収集完了
+2025-09-17 16:25:57 | INFO | 6章 収集完了
+2025-09-17 16:27:52 | INFO | 7章 収集完了
+2025-09-17 16:27:52 | INFO | コンテンツ保存完了: 8部分
+2025-09-17 16:27:52 | INFO | 🚪 Chrome終了
+2025-09-17 16:27:53 | INFO | Chrome閉じるボタンクリック: (1257, 20)
+2025-09-17 16:27:56 | INFO | ✅ ループ 10 完了: フロントエンドnote10.txt
+2025-09-17 16:27:56 | INFO | 全ループ完了: 10件
+2025-09-17 16:27:56 | ERROR | Chrome終了エラー: Could not locate the image (highest confidence = 0.718)
+2025-09-17 17:06:23 | INFO | VPN切断完了: 116.82.24.214
+2025-09-17 22:27:07 | INFO | 設定ファイル読み込み完了: config\config.json
+2025-09-17 22:27:07 | INFO | アカウントデータベース読み込み完了: 5件
+2025-09-17 22:27:07 | INFO | 設定管理を初期化しました
+2025-09-17 22:27:07 | INFO | 元のIPアドレス記録: 116.82.24.214
+2025-09-17 22:27:07 | INFO | VPN管理を初期化しました
+2025-09-17 22:27:07 | INFO | Chrome管理を初期化しました
+2025-09-17 22:27:07 | INFO | CSV管理を初期化しました
+2025-09-17 22:27:07 | INFO | GPT画像認識自動化を初期化しました
+2025-09-17 22:27:07 | INFO | Threads循環投稿を初期化しました
+2025-09-17 22:27:07 | INFO | フロントエンドnote自動取得を初期化しました
+2025-09-17 22:27:08 | INFO | フロントエンドnoteセールスレター自動取得を初期化しました
+2025-09-17 22:27:46 | INFO | VPN切断完了: 116.82.24.214
+2025-09-17 22:28:29 | INFO | 設定ファイル読み込み完了: config\config.json
+2025-09-17 22:28:29 | INFO | アカウントデータベース読み込み完了: 5件
+2025-09-17 22:28:29 | INFO | 設定管理を初期化しました
+2025-09-17 22:28:30 | INFO | 元のIPアドレス記録: 116.82.24.214
+2025-09-17 22:28:30 | INFO | VPN管理を初期化しました
+2025-09-17 22:28:30 | INFO | Chrome管理を初期化しました
+2025-09-17 22:28:30 | INFO | CSV管理を初期化しました
+2025-09-17 22:28:30 | INFO | GPT画像認識自動化を初期化しました
+2025-09-17 22:28:30 | INFO | Threads循環投稿を初期化しました
+2025-09-17 22:28:30 | INFO | フロントエンドnote自動取得を初期化しました
+2025-09-17 22:28:30 | INFO | フロントエンドnoteセールスレター自動取得を初期化しました
+2025-09-17 22:30:45 | INFO | セールスレター自動取得開始: アカウント=acc２, 待機時間=30秒
+2025-09-17 22:30:45 | INFO | データフォルダ: C:\Users\shiki\AutoTweet\data\acc２
+2025-09-17 22:30:45 | INFO | 処理対象ファイル: 3件
+2025-09-17 22:30:45 | INFO | 必要ファイル確認完了
+2025-09-17 22:30:45 | INFO | 📝 ファイル 1/3 処理開始: フロントエンドnote1.txt
+2025-09-17 22:30:45 | INFO | === ファイル処理開始: フロントエンドnote1.txt ===
+2025-09-17 22:30:45 | INFO | 1-15行目読み込み: 332文字
+2025-09-17 22:30:45 | INFO | 🌐 Chrome起動
+2025-09-17 22:31:05 | INFO | 🤖 AI処理開始
+2025-09-17 22:31:06 | INFO | Step 1: Claude Sonnet4クリック完了
+2025-09-17 22:31:16 | INFO | Step 2: Opus4切り替え完了
+2025-09-17 22:31:17 | INFO | Step 3: テキストエリアクリック_First完了
+2025-09-17 22:31:41 | INFO | Step 3: スタート入力完了
+2025-09-17 22:31:55 | INFO | ファイルアップロード: キャラクターコンセプト.txt
+2025-09-17 22:32:09 | INFO | ファイルアップロード: ターゲット.txt
+2025-09-17 22:32:23 | INFO | ファイルアップロード: 市場リサーチ.txt
+2025-09-17 22:33:37 | INFO | 1-15行目ペースト完了
+2025-09-17 22:33:37 | INFO | 📖 第1章 収集開始
+2025-09-17 22:34:28 | INFO | ✅ 第1章 収集完了
+2025-09-17 22:34:28 | INFO | 📖 第2章 収集開始
+2025-09-17 22:35:18 | INFO | ✅ 第2章 収集完了
+2025-09-17 22:35:18 | INFO | 📖 第3章 収集開始
+2025-09-17 22:36:09 | INFO | ✅ 第3章 収集完了
+2025-09-17 22:36:09 | INFO | 📖 第4章 収集開始
+2025-09-17 22:36:59 | INFO | ✅ 第4章 収集完了
+2025-09-17 22:36:59 | INFO | 📖 第5章 収集開始
+2025-09-17 22:37:50 | INFO | ✅ 第5章 収集完了
+2025-09-17 22:37:50 | INFO | 📖 第6章 収集開始
+2025-09-17 22:38:40 | INFO | ✅ 第6章 収集完了
+2025-09-17 22:38:40 | INFO | 📖 第7章 収集開始
+2025-09-17 22:39:31 | INFO | ✅ 第7章 収集完了
+2025-09-17 22:39:31 | INFO | 🎉 セールスレター収集完了: 4394文字
+2025-09-17 22:39:32 | INFO | Chrome閉じるボタンクリック: (1257, 20)
+2025-09-17 22:39:35 | INFO | ✅ Chrome終了
+2025-09-17 22:39:35 | INFO | バックアップ作成: フロントエンドnote1.txt
+2025-09-17 22:39:35 | INFO | 新ファイル作成: セールスレター追記済みフロントエンドnote1.txt
+2025-09-17 22:39:35 | INFO | === ファイル処理完了: フロントエンドnote1.txt ===
+2025-09-17 22:39:35 | INFO | ✅ ファイル 1 完了: フロントエンドnote1.txt
+2025-09-17 22:39:35 | INFO | ⏳ 次ファイルまで10秒待機...
+2025-09-17 22:39:45 | INFO | 📝 ファイル 2/3 処理開始: フロントエンドnote2.txt
+2025-09-17 22:39:45 | INFO | === ファイル処理開始: フロントエンドnote2.txt ===
+2025-09-17 22:39:45 | INFO | 1-15行目読み込み: 244文字
+2025-09-17 22:39:45 | INFO | 🌐 Chrome起動
+2025-09-17 22:40:05 | INFO | 🤖 AI処理開始
+2025-09-17 22:40:06 | INFO | Step 1: Claude Sonnet4クリック完了
+2025-09-17 22:40:16 | INFO | Step 2: Opus4切り替え完了
+2025-09-17 22:40:17 | INFO | Step 3: テキストエリアクリック_First完了
+2025-09-17 22:40:40 | INFO | Step 3: スタート入力完了
+2025-09-17 22:40:54 | INFO | ファイルアップロード: キャラクターコンセプト.txt
+2025-09-17 22:41:08 | INFO | ファイルアップロード: ターゲット.txt
+2025-09-17 22:41:22 | INFO | ファイルアップロード: 市場リサーチ.txt
+2025-09-17 22:42:37 | INFO | 1-15行目ペースト完了
+2025-09-17 22:42:37 | INFO | 📖 第1章 収集開始
+2025-09-17 22:43:27 | INFO | ✅ 第1章 収集完了
+2025-09-17 22:43:27 | INFO | 📖 第2章 収集開始
+2025-09-17 22:44:18 | INFO | ✅ 第2章 収集完了
+2025-09-17 22:44:18 | INFO | 📖 第3章 収集開始
+2025-09-17 22:45:08 | INFO | ✅ 第3章 収集完了
+2025-09-17 22:45:08 | INFO | 📖 第4章 収集開始
+2025-09-17 22:45:59 | INFO | ✅ 第4章 収集完了
+2025-09-17 22:45:59 | INFO | 📖 第5章 収集開始
+2025-09-17 22:46:49 | INFO | ✅ 第5章 収集完了
+2025-09-17 22:46:49 | INFO | 📖 第6章 収集開始
+2025-09-17 22:47:39 | INFO | ✅ 第6章 収集完了
+2025-09-17 22:47:39 | INFO | 📖 第7章 収集開始
+2025-09-17 22:48:30 | INFO | ✅ 第7章 収集完了
+2025-09-17 22:48:30 | INFO | 🎉 セールスレター収集完了: 4150文字
+2025-09-17 22:48:31 | INFO | Chrome閉じるボタンクリック: (1257, 20)
+2025-09-17 22:48:34 | INFO | ✅ Chrome終了
+2025-09-17 22:48:34 | INFO | バックアップ作成: フロントエンドnote2.txt
+2025-09-17 22:48:34 | INFO | 新ファイル作成: セールスレター追記済みフロントエンドnote2.txt
+2025-09-17 22:48:34 | INFO | === ファイル処理完了: フロントエンドnote2.txt ===
+2025-09-17 22:48:34 | INFO | ✅ ファイル 2 完了: フロントエンドnote2.txt
+2025-09-17 22:48:34 | INFO | ⏳ 次ファイルまで10秒待機...
+2025-09-17 22:48:44 | INFO | 📝 ファイル 3/3 処理開始: フロントエンドnote3.txt
+2025-09-17 22:48:44 | INFO | === ファイル処理開始: フロントエンドnote3.txt ===
+2025-09-17 22:48:44 | INFO | 1-15行目読み込み: 316文字
+2025-09-17 22:48:44 | INFO | 🌐 Chrome起動
+2025-09-17 22:49:04 | INFO | 🤖 AI処理開始
+2025-09-17 22:49:05 | INFO | Step 1: Claude Sonnet4クリック完了
+2025-09-17 22:49:15 | INFO | Step 2: Opus4切り替え完了
+2025-09-17 22:49:16 | INFO | Step 3: テキストエリアクリック_First完了
+2025-09-17 22:49:39 | INFO | Step 3: スタート入力完了
+2025-09-17 22:49:53 | INFO | ファイルアップロード: キャラクターコンセプト.txt
+2025-09-17 22:50:08 | INFO | ファイルアップロード: ターゲット.txt
+2025-09-17 22:50:22 | INFO | ファイルアップロード: 市場リサーチ.txt
+2025-09-17 22:51:36 | INFO | 1-15行目ペースト完了
+2025-09-17 22:51:36 | INFO | 📖 第1章 収集開始
+2025-09-17 22:52:27 | INFO | ✅ 第1章 収集完了
+2025-09-17 22:52:27 | INFO | 📖 第2章 収集開始
+2025-09-17 22:53:17 | INFO | ✅ 第2章 収集完了
+2025-09-17 22:53:17 | INFO | 📖 第3章 収集開始
+2025-09-17 22:54:07 | INFO | ✅ 第3章 収集完了
+2025-09-17 22:54:07 | INFO | 📖 第4章 収集開始
+2025-09-17 22:54:58 | INFO | ✅ 第4章 収集完了
+2025-09-17 22:54:58 | INFO | 📖 第5章 収集開始
+2025-09-17 22:55:48 | INFO | ✅ 第5章 収集完了
+2025-09-17 22:55:48 | INFO | 📖 第6章 収集開始
+2025-09-17 22:56:39 | INFO | ✅ 第6章 収集完了
+2025-09-17 22:56:39 | INFO | 📖 第7章 収集開始
+2025-09-17 22:57:29 | INFO | ✅ 第7章 収集完了
+2025-09-17 22:57:29 | INFO | 🎉 セールスレター収集完了: 4112文字
+2025-09-17 22:57:30 | INFO | Chrome閉じるボタンクリック: (1257, 20)
+2025-09-17 22:57:33 | INFO | ✅ Chrome終了
+2025-09-17 22:57:33 | INFO | バックアップ作成: フロントエンドnote3.txt
+2025-09-17 22:57:33 | INFO | 新ファイル作成: セールスレター追記済みフロントエンドnote3.txt
+2025-09-17 22:57:33 | INFO | === ファイル処理完了: フロントエンドnote3.txt ===
+2025-09-17 22:57:33 | INFO | ✅ ファイル 3 完了: フロントエンドnote3.txt
+2025-09-17 22:57:33 | INFO | 🎉 全ファイル処理完了: 3件
+2025-09-17 22:57:33 | INFO | 🧹 最終クリーンアップ実行
+2025-09-17 22:57:33 | ERROR | Chrome終了エラー: Could not locate the image (highest confidence = 0.718)
+2025-09-17 23:05:31 | INFO | VPN切断完了: 116.82.24.214
+2025-09-17 23:07:18 | INFO | 設定ファイル読み込み完了: config\config.json
+2025-09-17 23:07:18 | INFO | アカウントデータベース読み込み完了: 5件
+2025-09-17 23:07:18 | INFO | 設定管理を初期化しました
+2025-09-17 23:07:18 | INFO | 元のIPアドレス記録: 116.82.24.214
+2025-09-17 23:07:18 | INFO | VPN管理を初期化しました
+2025-09-17 23:07:18 | INFO | Chrome管理を初期化しました
+2025-09-17 23:07:18 | INFO | CSV管理を初期化しました
+2025-09-17 23:07:18 | INFO | GPT画像認識自動化を初期化しました
+2025-09-17 23:07:18 | INFO | Threads循環投稿を初期化しました
+2025-09-17 23:07:18 | INFO | フロントエンドnote自動取得を初期化しました
+2025-09-17 23:07:18 | INFO | フロントエンドnoteセールスレター自動取得を初期化しました
+2025-09-17 23:07:35 | INFO | セールスレター自動取得開始: アカウント=acc２, 待機時間=30秒
+2025-09-17 23:07:35 | INFO | データフォルダ: C:\Users\shiki\AutoTweet\data\acc２
+2025-09-17 23:07:35 | INFO | 処理対象ファイル: 1件
+2025-09-17 23:07:35 | INFO | 必要ファイル確認完了
+2025-09-17 23:07:35 | INFO | 📝 ファイル 1/1 処理開始: フロントエンドnote2.txt
+2025-09-17 23:07:35 | INFO | === ファイル処理開始: フロントエンドnote2.txt ===
+2025-09-17 23:07:35 | INFO | 1-15行目読み込み: 429文字
+2025-09-17 23:07:35 | INFO | 🌐 Chrome起動
+2025-09-17 23:07:55 | INFO | 🤖 AI処理開始
+2025-09-17 23:07:56 | INFO | Step 1: Claude Sonnet4クリック完了
+2025-09-17 23:08:06 | INFO | Step 2: Opus4切り替え完了
+2025-09-17 23:08:07 | INFO | Step 3: テキストエリアクリック_First完了
+2025-09-17 23:08:30 | INFO | Step 3: スタート入力完了
+2025-09-17 23:08:44 | INFO | ファイルアップロード: キャラクターコンセプト.txt
+2025-09-17 23:08:59 | INFO | ファイルアップロード: ターゲット.txt
+2025-09-17 23:09:13 | INFO | ファイルアップロード: 市場リサーチ.txt
+2025-09-17 23:10:27 | INFO | 1-15行目ペースト完了
+2025-09-17 23:10:27 | INFO | 📖 第1章 収集開始
+2025-09-17 23:11:18 | INFO | ✅ 第1章 収集完了
+2025-09-17 23:11:18 | INFO | 📖 第2章 収集開始
+2025-09-17 23:12:08 | INFO | ✅ 第2章 収集完了
+2025-09-17 23:12:08 | INFO | 📖 第3章 収集開始
+2025-09-17 23:12:58 | INFO | ✅ 第3章 収集完了
+2025-09-17 23:12:58 | INFO | 📖 第4章 収集開始
+2025-09-17 23:13:49 | INFO | ✅ 第4章 収集完了
+2025-09-17 23:13:49 | INFO | 📖 第5章 収集開始
+2025-09-17 23:14:39 | INFO | ✅ 第5章 収集完了
+2025-09-17 23:14:39 | INFO | 📖 第6章 収集開始
+2025-09-17 23:15:30 | INFO | ✅ 第6章 収集完了
+2025-09-17 23:15:30 | INFO | 📖 第7章 収集開始
+2025-09-17 23:16:20 | INFO | ✅ 第7章 収集完了
+2025-09-17 23:16:20 | INFO | 🎉 セールスレター収集完了: 2956文字
+2025-09-17 23:16:21 | INFO | Chrome閉じるボタンクリック: (1257, 20)
+2025-09-17 23:16:24 | INFO | ✅ Chrome終了
+2025-09-17 23:16:24 | INFO | バックアップ作成: フロントエンドnote2.txt
+2025-09-17 23:16:24 | INFO | 新ファイル作成: セールスレター追記済みフロントエンドnote2.txt（1-15行目を置き換え、16行目以降保持）
+2025-09-17 23:16:24 | INFO | === ファイル処理完了: フロントエンドnote2.txt ===
+2025-09-17 23:16:24 | INFO | ✅ ファイル 1 完了: フロントエンドnote2.txt
+2025-09-17 23:16:24 | INFO | 🎉 全ファイル処理完了: 1件
+2025-09-17 23:16:24 | INFO | 🧹 最終クリーンアップ実行
+2025-09-17 23:16:24 | ERROR | Chrome終了エラー: Could not locate the image (highest confidence = 0.718)
+2025-09-17 23:21:26 | INFO | VPN切断完了: 116.82.24.214
+2025-09-17 23:22:08 | INFO | 設定ファイル読み込み完了: config\config.json
+2025-09-17 23:22:08 | INFO | アカウントデータベース読み込み完了: 5件
+2025-09-17 23:22:08 | INFO | 設定管理を初期化しました
+2025-09-17 23:22:09 | INFO | 元のIPアドレス記録: 116.82.24.214
+2025-09-17 23:22:09 | INFO | VPN管理を初期化しました
+2025-09-17 23:22:09 | INFO | Chrome管理を初期化しました
+2025-09-17 23:22:09 | INFO | CSV管理を初期化しました
+2025-09-17 23:22:09 | INFO | GPT画像認識自動化を初期化しました
+2025-09-17 23:22:09 | INFO | Threads循環投稿を初期化しました
+2025-09-17 23:22:09 | INFO | フロントエンドnote自動取得を初期化しました
+2025-09-17 23:22:09 | INFO | フロントエンドnoteセールスレター自動取得を初期化しました
+2025-09-17 23:22:22 | INFO | セールスレター自動取得開始: アカウント=acc２, 待機時間=45秒
+2025-09-17 23:22:22 | INFO | データフォルダ: C:\Users\shiki\AutoTweet\data\acc２
+2025-09-17 23:22:22 | INFO | 処理対象ファイル: 3件
+2025-09-17 23:22:22 | INFO | 必要ファイル確認完了
+2025-09-17 23:22:22 | INFO | 📝 ファイル 1/3 処理開始: フロントエンドnote4.txt
+2025-09-17 23:22:22 | INFO | === ファイル処理開始: フロントエンドnote4.txt ===
+2025-09-17 23:22:22 | INFO | 1-15行目読み込み: 202文字
+2025-09-17 23:22:22 | INFO | 🌐 Chrome起動
+2025-09-17 23:22:42 | INFO | 🤖 AI処理開始
+2025-09-17 23:22:43 | INFO | Step 1: Claude Sonnet4クリック完了
+2025-09-17 23:22:53 | INFO | Step 2: Opus4切り替え完了
+2025-09-17 23:22:54 | INFO | Step 3: テキストエリアクリック_First完了
+2025-09-17 23:23:17 | INFO | Step 3: スタート入力完了
+2025-09-17 23:23:31 | INFO | ファイルアップロード: キャラクターコンセプト.txt
+2025-09-17 23:23:46 | INFO | ファイルアップロード: ターゲット.txt
+2025-09-17 23:24:00 | INFO | ファイルアップロード: 市場リサーチ.txt
+2025-09-17 23:25:29 | INFO | 1-15行目ペースト完了
+2025-09-17 23:25:29 | INFO | 📖 第1章 収集開始
+2025-09-17 23:26:34 | INFO | ✅ 第1章 収集完了
+2025-09-17 23:26:34 | INFO | 📖 第2章 収集開始
+2025-09-17 23:27:40 | INFO | ✅ 第2章 収集完了
+2025-09-17 23:27:40 | INFO | 📖 第3章 収集開始
+2025-09-17 23:28:45 | INFO | ✅ 第3章 収集完了
+2025-09-17 23:28:45 | INFO | 📖 第4章 収集開始
+2025-09-17 23:29:51 | INFO | ✅ 第4章 収集完了
+2025-09-17 23:29:51 | INFO | 📖 第5章 収集開始
+2025-09-17 23:30:56 | INFO | ✅ 第5章 収集完了
+2025-09-17 23:30:56 | INFO | 📖 第6章 収集開始
+2025-09-17 23:32:02 | INFO | ✅ 第6章 収集完了
+2025-09-17 23:32:02 | INFO | 📖 第7章 収集開始
+2025-09-17 23:33:07 | INFO | ✅ 第7章 収集完了
+2025-09-17 23:33:07 | INFO | 🎉 セールスレター収集完了: 1101文字
+2025-09-17 23:33:08 | INFO | Chrome閉じるボタンクリック: (1257, 20)
+2025-09-17 23:33:11 | INFO | ✅ Chrome終了
+2025-09-17 23:33:11 | INFO | バックアップ作成: フロントエンドnote4.txt
+2025-09-17 23:33:11 | INFO | 新ファイル作成: セールスレター追記済みフロントエンドnote4.txt（1-15行目を置き換え、16行目以降保持）
+2025-09-17 23:33:11 | INFO | === ファイル処理完了: フロントエンドnote4.txt ===
+2025-09-17 23:33:11 | INFO | ✅ ファイル 1 完了: フロントエンドnote4.txt
+2025-09-17 23:33:11 | INFO | ⏳ 次ファイルまで10秒待機...
+2025-09-17 23:33:21 | INFO | 📝 ファイル 2/3 処理開始: フロントエンドnote7.txt
+2025-09-17 23:33:21 | INFO | === ファイル処理開始: フロントエンドnote7.txt ===
+2025-09-17 23:33:21 | INFO | 1-15行目読み込み: 282文字
+2025-09-17 23:33:21 | INFO | 🌐 Chrome起動
+2025-09-17 23:33:41 | INFO | 🤖 AI処理開始
+2025-09-17 23:33:42 | INFO | Step 1: Claude Sonnet4クリック完了
+2025-09-17 23:33:53 | INFO | Step 2: Opus4切り替え完了
+2025-09-17 23:33:54 | INFO | Step 3: テキストエリアクリック_First完了
+2025-09-17 23:34:17 | INFO | Step 3: スタート入力完了
+2025-09-17 23:34:31 | INFO | ファイルアップロード: キャラクターコンセプト.txt
+2025-09-17 23:34:45 | INFO | ファイルアップロード: ターゲット.txt
+2025-09-17 23:34:59 | INFO | ファイルアップロード: 市場リサーチ.txt
+2025-09-17 23:36:28 | INFO | 1-15行目ペースト完了
+2025-09-17 23:36:28 | INFO | 📖 第1章 収集開始
+2025-09-17 23:37:34 | INFO | ✅ 第1章 収集完了
+2025-09-17 23:37:34 | INFO | 📖 第2章 収集開始
+2025-09-17 23:38:39 | INFO | ✅ 第2章 収集完了
+2025-09-17 23:38:39 | INFO | 📖 第3章 収集開始
+2025-09-17 23:39:45 | INFO | ✅ 第3章 収集完了
+2025-09-17 23:39:45 | INFO | 📖 第4章 収集開始
+2025-09-17 23:40:50 | INFO | ✅ 第4章 収集完了
+2025-09-17 23:40:50 | INFO | 📖 第5章 収集開始
+2025-09-17 23:41:56 | INFO | ✅ 第5章 収集完了
+2025-09-17 23:41:56 | INFO | 📖 第6章 収集開始
+2025-09-17 23:43:01 | INFO | ✅ 第6章 収集完了
+2025-09-17 23:43:01 | INFO | 📖 第7章 収集開始
+2025-09-17 23:44:06 | INFO | ✅ 第7章 収集完了
+2025-09-17 23:44:06 | INFO | 🎉 セールスレター収集完了: 5026文字
+2025-09-17 23:44:08 | INFO | Chrome閉じるボタンクリック: (1257, 20)
+2025-09-17 23:44:11 | INFO | ✅ Chrome終了
+2025-09-17 23:44:11 | INFO | バックアップ作成: フロントエンドnote7.txt
+2025-09-17 23:44:11 | INFO | 新ファイル作成: セールスレター追記済みフロントエンドnote7.txt（1-15行目を置き換え、16行目以降保持）
+2025-09-17 23:44:11 | INFO | === ファイル処理完了: フロントエンドnote7.txt ===
+2025-09-17 23:44:11 | INFO | ✅ ファイル 2 完了: フロントエンドnote7.txt
+2025-09-17 23:44:11 | INFO | ⏳ 次ファイルまで10秒待機...
+2025-09-17 23:44:21 | INFO | 📝 ファイル 3/3 処理開始: フロントエンドnote8.txt
+2025-09-17 23:44:21 | INFO | === ファイル処理開始: フロントエンドnote8.txt ===
+2025-09-17 23:44:21 | INFO | 1-15行目読み込み: 274文字
+2025-09-17 23:44:21 | INFO | 🌐 Chrome起動
+2025-09-17 23:44:41 | INFO | 🤖 AI処理開始
+2025-09-17 23:44:42 | INFO | Step 1: Claude Sonnet4クリック完了
+2025-09-17 23:44:52 | INFO | Step 2: Opus4切り替え完了
+2025-09-17 23:44:53 | INFO | Step 3: テキストエリアクリック_First完了
+2025-09-17 23:45:16 | INFO | Step 3: スタート入力完了
+2025-09-17 23:45:30 | INFO | ファイルアップロード: キャラクターコンセプト.txt
+2025-09-17 23:45:44 | INFO | ファイルアップロード: ターゲット.txt
+2025-09-17 23:45:58 | INFO | ファイルアップロード: 市場リサーチ.txt
+2025-09-17 23:47:28 | INFO | 1-15行目ペースト完了
+2025-09-17 23:47:28 | INFO | 📖 第1章 収集開始
+2025-09-17 23:48:33 | INFO | ✅ 第1章 収集完了
+2025-09-17 23:48:33 | INFO | 📖 第2章 収集開始
+2025-09-17 23:49:38 | INFO | ✅ 第2章 収集完了
+2025-09-17 23:49:38 | INFO | 📖 第3章 収集開始
+2025-09-17 23:50:44 | INFO | ✅ 第3章 収集完了
+2025-09-17 23:50:44 | INFO | 📖 第4章 収集開始
+2025-09-17 23:51:49 | INFO | ✅ 第4章 収集完了
+2025-09-17 23:51:49 | INFO | 📖 第5章 収集開始
+2025-09-17 23:52:55 | INFO | ✅ 第5章 収集完了
+2025-09-17 23:52:55 | INFO | 📖 第6章 収集開始
+2025-09-17 23:54:00 | INFO | ✅ 第6章 収集完了
+2025-09-17 23:54:00 | INFO | 📖 第7章 収集開始
+2025-09-17 23:55:06 | INFO | ✅ 第7章 収集完了
+2025-09-17 23:55:06 | INFO | 🎉 セールスレター収集完了: 4714文字
+2025-09-17 23:55:07 | INFO | Chrome閉じるボタンクリック: (1257, 20)
+2025-09-17 23:55:10 | INFO | ✅ Chrome終了
+2025-09-17 23:55:10 | INFO | バックアップ作成: フロントエンドnote8.txt
+2025-09-17 23:55:10 | INFO | 新ファイル作成: セールスレター追記済みフロントエンドnote8.txt（1-15行目を置き換え、16行目以降保持）
+2025-09-17 23:55:10 | INFO | === ファイル処理完了: フロントエンドnote8.txt ===
+2025-09-17 23:55:10 | INFO | ✅ ファイル 3 完了: フロントエンドnote8.txt
+2025-09-17 23:55:10 | INFO | 🎉 全ファイル処理完了: 3件
+2025-09-17 23:55:10 | INFO | 🧹 最終クリーンアップ実行
+2025-09-17 23:55:10 | ERROR | Chrome終了エラー: Could not locate the image (highest confidence = 0.718)
+2025-09-17 23:58:00 | INFO | VPN切断完了: 116.82.24.214

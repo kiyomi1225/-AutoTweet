@@ -1,0 +1,4 @@
+﻿id,text,used,created_at,used_at,category,priority
+a52ba4f9-2a35-488d-8c96-761eaf794699,テストツイート1です #test,True,2025-07-11 08:47:30,2025-07-11 08:47:30,test,1
+d5b933e9-634b-4bc1-8446-1c969db07f49,テストツイート2です #test,False,2025-07-11 08:47:30,,test,1
+c7266b0b-3fd3-4950-b3cd-7437b3cd7b60,テストツイート3です #test,False,2025-07-11 08:47:30,,test,1

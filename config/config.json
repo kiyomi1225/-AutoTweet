@@ -1,0 +1,49 @@
+{
+  "vpn": {
+    "auth_file": "config/auth.txt",
+    "ovpn_dir": "config/ovpn",
+    "connection_timeout": 60,
+    "retry_count": 5
+  },
+  "chrome": {
+    "user_data_dir": "C:\\Users\\shiki\\AppData\\Local\\Google\\Chrome\\User Data",
+    "headless": false,
+    "window_size": [
+      1920,
+      1080
+    ],
+    "startup_timeout": 30,
+    "executable_path": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe"
+  },
+  "gpt": {
+    "prompt": "n",
+    "max_tweets_per_fetch": 20,
+    "fetch_timeout": 300,
+    "retry_count": 3,
+    "wait_between_requests": 2
+  },
+  "posting": {
+    "schedule": [
+      "09:00",
+      "15:00",
+      "21:00"
+    ],
+    "account_interval": 300,
+    "retry_count": 3,
+    "post_delay": 5
+  },
+  "csv": {
+    "data_dir": "data",
+    "min_unused_tweets": 10
+  },
+  "images": {
+    "image_dir": "images",
+    "confidence": 0.8,
+    "timeout": 10
+  },
+  "debug": {
+    "enabled": false,
+    "screenshot_on_error": true,
+    "log_level": "INFO"
+  }
+}

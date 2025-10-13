@@ -1,0 +1,305 @@
+2025-09-14 00:23:47 | TwitterAutomation.ThreadsRotationPoster | INFO | 🔄 acc2 投稿開始 (残り132件)
+2025-09-14 00:23:47 | TwitterAutomation.ThreadsRotationPoster | INFO | 🔄 VPN強制切り替え開始: acc2 (現在IP: 116.82.24.214)
+2025-09-14 00:23:47 | TwitterAutomation.VPNManager | INFO | OpenVPNプロセス終了: 2件
+2025-09-14 00:23:51 | TwitterAutomation.VPNManager | INFO | VPN切断完了: 116.82.24.214
+2025-09-14 00:24:01 | TwitterAutomation.VPNManager | INFO | 使用VPNファイル: us5055.nordvpn.com.udp.ovpn
+2025-09-14 00:24:01 | TwitterAutomation.VPNManager | INFO | VPN接続開始: acc2
+2025-09-14 00:24:25 | TwitterAutomation.ThreadsRotationPoster | INFO | ✅ VPN切り替え成功: acc2 → 116.82.24.214 → 145.14.135.131
+2025-09-14 00:24:25 | TwitterAutomation.ChromeManager | INFO | Chrome起動開始: acc2
+2025-09-14 00:24:25 | TwitterAutomation.ChromeManager | INFO | Chromeプロセス開始中...
+2025-09-14 00:24:26 | TwitterAutomation.ChromeManager | INFO | Chrome起動確認: 1個のプロセス発見
+2025-09-14 00:24:26 | TwitterAutomation.ChromeManager | INFO | Chrome起動成功: acc2
+2025-09-14 00:24:26 | TwitterAutomation.ThreadsRotationPoster | INFO | Threadsページ読み込み待機...
+2025-09-14 00:24:41 | TwitterAutomation.ThreadsRotationPoster | INFO | ウィンドウ最大化完了
+2025-09-14 00:24:41 | TwitterAutomation.CSVManager | INFO | ツイートを使用済みに更新: acc2 - ID:27
+2025-09-14 00:24:41 | TwitterAutomation.ThreadsRotationPoster | INFO | ツイート選択・使用済み化: 好きな人からの既読無視より辛いのは、未読のまま何日も放置され...
+2025-09-14 00:25:03 | TwitterAutomation.ThreadsRotationPoster | INFO | 投稿成功
+2025-09-14 00:25:03 | TwitterAutomation.ThreadsRotationPoster | INFO | 🧹 クリーンアップ開始: acc2
+2025-09-14 00:25:04 | TwitterAutomation.ChromeManager | INFO | Chrome閉じるボタンクリック: (1257, 20)
+2025-09-14 00:25:07 | TwitterAutomation.ChromeManager | INFO | Chrome画像認識終了成功: acc2
+2025-09-14 00:25:07 | TwitterAutomation.ThreadsRotationPoster | INFO | ✅ Chrome終了完了: acc2
+2025-09-14 00:25:07 | TwitterAutomation.VPNManager | INFO | VPN切断開始: acc2
+2025-09-14 00:25:07 | TwitterAutomation.VPNManager | INFO | OpenVPNプロセス終了: 1件
+2025-09-14 00:25:10 | TwitterAutomation.VPNManager | INFO | VPN切断完了: 116.82.24.214
+2025-09-14 00:25:10 | TwitterAutomation.ThreadsRotationPoster | INFO | ✅ VPN切断完了: acc2
+2025-09-14 00:25:10 | TwitterAutomation.ThreadsRotationPoster | INFO | ✅ acc2 投稿成功
+2025-09-14 00:25:10 | TwitterAutomation.ThreadsRotationPoster | INFO | ⏳ 次のアカウントまで45分待機...
+2025-09-14 01:10:10 | TwitterAutomation.ThreadsRotationPoster | INFO | 🔄 acc5 投稿開始 (残り131件)
+2025-09-14 01:10:10 | TwitterAutomation.ThreadsRotationPoster | INFO | 🔄 VPN強制切り替え開始: acc5 (現在IP: 116.82.24.214)
+2025-09-14 01:10:14 | TwitterAutomation.VPNManager | INFO | VPN切断完了: 116.82.24.214
+2025-09-14 01:10:24 | TwitterAutomation.VPNManager | INFO | 使用VPNファイル: us5066.nordvpn.com.udp.ovpn
+2025-09-14 01:10:24 | TwitterAutomation.VPNManager | INFO | VPN接続開始: acc5
+2025-09-14 01:10:48 | TwitterAutomation.ThreadsRotationPoster | INFO | ✅ VPN切り替え成功: acc5 → 116.82.24.214 → 185.207.249.6
+2025-09-14 01:10:48 | TwitterAutomation.ChromeManager | INFO | Chrome起動開始: acc5
+2025-09-14 01:10:48 | TwitterAutomation.ChromeManager | INFO | Chromeプロセス開始中...
+2025-09-14 01:10:49 | TwitterAutomation.ChromeManager | INFO | Chrome起動確認: 1個のプロセス発見
+2025-09-14 01:10:49 | TwitterAutomation.ChromeManager | INFO | Chrome起動成功: acc5
+2025-09-14 01:10:49 | TwitterAutomation.ThreadsRotationPoster | INFO | Threadsページ読み込み待機...
+2025-09-14 01:11:04 | TwitterAutomation.ThreadsRotationPoster | INFO | ウィンドウ最大化完了
+2025-09-14 01:11:04 | TwitterAutomation.CSVManager | INFO | ツイートを使用済みに更新: acc5 - ID:36
+2025-09-14 01:11:04 | TwitterAutomation.ThreadsRotationPoster | INFO | ツイート選択・使用済み化: 好きな人がいる時の三大欲求って「声が聞きたい」「会いたい」「...
+2025-09-14 01:11:26 | TwitterAutomation.ThreadsRotationPoster | INFO | 投稿成功
+2025-09-14 01:11:26 | TwitterAutomation.ThreadsRotationPoster | INFO | 🧹 クリーンアップ開始: acc5
+2025-09-14 01:11:27 | TwitterAutomation.ChromeManager | INFO | Chrome閉じるボタンクリック: (1257, 20)
+2025-09-14 01:11:30 | TwitterAutomation.ChromeManager | INFO | Chrome画像認識終了成功: acc5
+2025-09-14 01:11:30 | TwitterAutomation.ThreadsRotationPoster | INFO | ✅ Chrome終了完了: acc5
+2025-09-14 01:11:30 | TwitterAutomation.VPNManager | INFO | VPN切断開始: acc5
+2025-09-14 01:11:30 | TwitterAutomation.VPNManager | INFO | OpenVPNプロセス終了: 1件
+2025-09-14 01:11:33 | TwitterAutomation.VPNManager | INFO | VPN切断完了: 116.82.24.214
+2025-09-14 01:11:33 | TwitterAutomation.ThreadsRotationPoster | INFO | ✅ VPN切断完了: acc5
+2025-09-14 01:11:33 | TwitterAutomation.ThreadsRotationPoster | INFO | ✅ acc5 投稿成功
+2025-09-14 01:11:33 | TwitterAutomation.ThreadsRotationPoster | INFO | ⏳ 次のアカウントまで51分待機...
+2025-09-14 02:02:33 | TwitterAutomation.ThreadsRotationPoster | INFO | 🔄 acc2 投稿開始 (残り130件)
+2025-09-14 02:02:33 | TwitterAutomation.ThreadsRotationPoster | INFO | 🔄 VPN強制切り替え開始: acc2 (現在IP: 116.82.24.214)
+2025-09-14 02:02:37 | TwitterAutomation.VPNManager | INFO | VPN切断完了: 116.82.24.214
+2025-09-14 02:02:47 | TwitterAutomation.VPNManager | INFO | 使用VPNファイル: us5055.nordvpn.com.udp.ovpn
+2025-09-14 02:02:47 | TwitterAutomation.VPNManager | INFO | VPN接続開始: acc2
+2025-09-14 02:03:11 | TwitterAutomation.ThreadsRotationPoster | INFO | ✅ VPN切り替え成功: acc2 → 116.82.24.214 → 145.14.135.139
+2025-09-14 02:03:11 | TwitterAutomation.ChromeManager | INFO | Chrome起動開始: acc2
+2025-09-14 02:03:11 | TwitterAutomation.ChromeManager | INFO | Chromeプロセス開始中...
+2025-09-14 02:03:12 | TwitterAutomation.ChromeManager | INFO | Chrome起動確認: 1個のプロセス発見
+2025-09-14 02:03:12 | TwitterAutomation.ChromeManager | INFO | Chrome起動成功: acc2
+2025-09-14 02:03:12 | TwitterAutomation.ThreadsRotationPoster | INFO | Threadsページ読み込み待機...
+2025-09-14 02:03:27 | TwitterAutomation.ThreadsRotationPoster | INFO | ウィンドウ最大化完了
+2025-09-14 02:03:27 | TwitterAutomation.CSVManager | INFO | ツイートを使用済みに更新: acc2 - ID:133
+2025-09-14 02:03:27 | TwitterAutomation.ThreadsRotationPoster | INFO | ツイート選択・使用済み化: 恋をするたびに思い出すのは「信用はしていいけど期待はしない」...
+2025-09-14 02:03:48 | TwitterAutomation.ThreadsRotationPoster | INFO | 投稿成功
+2025-09-14 02:03:48 | TwitterAutomation.ThreadsRotationPoster | INFO | 🧹 クリーンアップ開始: acc2
+2025-09-14 02:03:49 | TwitterAutomation.ChromeManager | INFO | Chrome閉じるボタンクリック: (1257, 20)
+2025-09-14 02:03:52 | TwitterAutomation.ChromeManager | INFO | Chrome画像認識終了成功: acc2
+2025-09-14 02:03:52 | TwitterAutomation.ThreadsRotationPoster | INFO | ✅ Chrome終了完了: acc2
+2025-09-14 02:03:52 | TwitterAutomation.VPNManager | INFO | VPN切断開始: acc2
+2025-09-14 02:03:52 | TwitterAutomation.VPNManager | INFO | OpenVPNプロセス終了: 1件
+2025-09-14 02:03:56 | TwitterAutomation.VPNManager | INFO | VPN切断完了: 116.82.24.214
+2025-09-14 02:03:56 | TwitterAutomation.ThreadsRotationPoster | INFO | ✅ VPN切断完了: acc2
+2025-09-14 02:03:56 | TwitterAutomation.ThreadsRotationPoster | INFO | ✅ acc2 投稿成功
+2025-09-14 02:03:56 | TwitterAutomation.ThreadsRotationPoster | INFO | ⏳ 次のアカウントまで48分待機...
+2025-09-14 02:51:56 | TwitterAutomation.ThreadsRotationPoster | INFO | 🔄 acc5 投稿開始 (残り129件)
+2025-09-14 02:51:56 | TwitterAutomation.ThreadsRotationPoster | INFO | 🔄 VPN強制切り替え開始: acc5 (現在IP: 116.82.24.214)
+2025-09-14 02:51:59 | TwitterAutomation.VPNManager | INFO | VPN切断完了: 116.82.24.214
+2025-09-14 02:52:09 | TwitterAutomation.VPNManager | INFO | 使用VPNファイル: us5066.nordvpn.com.udp.ovpn
+2025-09-14 02:52:09 | TwitterAutomation.VPNManager | INFO | VPN接続開始: acc5
+2025-09-14 02:52:34 | TwitterAutomation.ThreadsRotationPoster | INFO | ✅ VPN切り替え成功: acc5 → 116.82.24.214 → 91.229.244.2
+2025-09-14 02:52:34 | TwitterAutomation.ChromeManager | INFO | Chrome起動開始: acc5
+2025-09-14 02:52:34 | TwitterAutomation.ChromeManager | INFO | Chromeプロセス開始中...
+2025-09-14 02:52:35 | TwitterAutomation.ChromeManager | INFO | Chrome起動確認: 1個のプロセス発見
+2025-09-14 02:52:35 | TwitterAutomation.ChromeManager | INFO | Chrome起動成功: acc5
+2025-09-14 02:52:35 | TwitterAutomation.ThreadsRotationPoster | INFO | Threadsページ読み込み待機...
+2025-09-14 02:52:50 | TwitterAutomation.ThreadsRotationPoster | INFO | ウィンドウ最大化完了
+2025-09-14 02:52:50 | TwitterAutomation.CSVManager | INFO | ツイートを使用済みに更新: acc5 - ID:114
+2025-09-14 02:52:50 | TwitterAutomation.ThreadsRotationPoster | INFO | ツイート選択・使用済み化: 結局一番幸せなのは「私のこと大好きなんだな」って全身で伝わっ...
+2025-09-14 02:53:11 | TwitterAutomation.ThreadsRotationPoster | INFO | 投稿成功
+2025-09-14 02:53:11 | TwitterAutomation.ThreadsRotationPoster | INFO | 🧹 クリーンアップ開始: acc5
+2025-09-14 02:53:12 | TwitterAutomation.ChromeManager | INFO | Chrome閉じるボタンクリック: (1257, 20)
+2025-09-14 02:53:15 | TwitterAutomation.ChromeManager | INFO | Chrome画像認識終了成功: acc5
+2025-09-14 02:53:15 | TwitterAutomation.ThreadsRotationPoster | INFO | ✅ Chrome終了完了: acc5
+2025-09-14 02:53:15 | TwitterAutomation.VPNManager | INFO | VPN切断開始: acc5
+2025-09-14 02:53:15 | TwitterAutomation.VPNManager | INFO | OpenVPNプロセス終了: 1件
+2025-09-14 02:53:19 | TwitterAutomation.VPNManager | INFO | VPN切断完了: 116.82.24.214
+2025-09-14 02:53:19 | TwitterAutomation.ThreadsRotationPoster | INFO | ✅ VPN切断完了: acc5
+2025-09-14 02:53:19 | TwitterAutomation.ThreadsRotationPoster | INFO | ✅ acc5 投稿成功
+2025-09-14 02:53:19 | TwitterAutomation.ThreadsRotationPoster | INFO | ⏳ 次のアカウントまで36分待機...
+2025-09-14 03:29:19 | TwitterAutomation.ThreadsRotationPoster | INFO | 🔄 acc2 投稿開始 (残り128件)
+2025-09-14 03:29:19 | TwitterAutomation.ThreadsRotationPoster | INFO | 🔄 VPN強制切り替え開始: acc2 (現在IP: 116.82.24.214)
+2025-09-14 03:29:22 | TwitterAutomation.VPNManager | INFO | VPN切断完了: 116.82.24.214
+2025-09-14 03:29:32 | TwitterAutomation.VPNManager | INFO | 使用VPNファイル: us5055.nordvpn.com.udp.ovpn
+2025-09-14 03:29:32 | TwitterAutomation.VPNManager | INFO | VPN接続開始: acc2
+2025-09-14 03:29:57 | TwitterAutomation.ThreadsRotationPoster | INFO | ✅ VPN切り替え成功: acc2 → 116.82.24.214 → 145.14.135.137
+2025-09-14 03:29:57 | TwitterAutomation.ChromeManager | INFO | Chrome起動開始: acc2
+2025-09-14 03:29:57 | TwitterAutomation.ChromeManager | INFO | Chromeプロセス開始中...
+2025-09-14 03:29:58 | TwitterAutomation.ChromeManager | INFO | Chrome起動確認: 1個のプロセス発見
+2025-09-14 03:29:58 | TwitterAutomation.ChromeManager | INFO | Chrome起動成功: acc2
+2025-09-14 03:29:58 | TwitterAutomation.ThreadsRotationPoster | INFO | Threadsページ読み込み待機...
+2025-09-14 03:30:13 | TwitterAutomation.ThreadsRotationPoster | INFO | ウィンドウ最大化完了
+2025-09-14 03:30:13 | TwitterAutomation.CSVManager | INFO | ツイートを使用済みに更新: acc2 - ID:152
+2025-09-14 03:30:13 | TwitterAutomation.ThreadsRotationPoster | INFO | ツイート選択・使用済み化: キスしてる時に後頭部を支えてくれるだけで「大事にされてる」っ...
+2025-09-14 03:30:34 | TwitterAutomation.ThreadsRotationPoster | INFO | 投稿成功
+2025-09-14 03:30:34 | TwitterAutomation.ThreadsRotationPoster | INFO | 🧹 クリーンアップ開始: acc2
+2025-09-14 03:30:35 | TwitterAutomation.ChromeManager | INFO | Chrome閉じるボタンクリック: (1257, 20)
+2025-09-14 03:30:38 | TwitterAutomation.ChromeManager | INFO | Chrome画像認識終了成功: acc2
+2025-09-14 03:30:38 | TwitterAutomation.ThreadsRotationPoster | INFO | ✅ Chrome終了完了: acc2
+2025-09-14 03:30:38 | TwitterAutomation.VPNManager | INFO | VPN切断開始: acc2
+2025-09-14 03:30:38 | TwitterAutomation.VPNManager | INFO | OpenVPNプロセス終了: 1件
+2025-09-14 03:30:41 | TwitterAutomation.VPNManager | INFO | VPN切断完了: 116.82.24.214
+2025-09-14 03:30:41 | TwitterAutomation.ThreadsRotationPoster | INFO | ✅ VPN切断完了: acc2
+2025-09-14 03:30:41 | TwitterAutomation.ThreadsRotationPoster | INFO | ✅ acc2 投稿成功
+2025-09-14 03:30:41 | TwitterAutomation.ThreadsRotationPoster | INFO | ⏳ 次のアカウントまで34分待機...
+2025-09-14 04:04:41 | TwitterAutomation.ThreadsRotationPoster | INFO | 🔄 acc5 投稿開始 (残り127件)
+2025-09-14 04:04:42 | TwitterAutomation.ThreadsRotationPoster | INFO | 🔄 VPN強制切り替え開始: acc5 (現在IP: 116.82.24.214)
+2025-09-14 04:04:45 | TwitterAutomation.VPNManager | INFO | VPN切断完了: 116.82.24.214
+2025-09-14 04:04:55 | TwitterAutomation.VPNManager | INFO | 使用VPNファイル: us5066.nordvpn.com.udp.ovpn
+2025-09-14 04:04:55 | TwitterAutomation.VPNManager | INFO | VPN接続開始: acc5
+2025-09-14 04:05:19 | TwitterAutomation.ThreadsRotationPoster | INFO | ✅ VPN切り替え成功: acc5 → 116.82.24.214 → 185.207.249.1
+2025-09-14 04:05:19 | TwitterAutomation.ChromeManager | INFO | Chrome起動開始: acc5
+2025-09-14 04:05:19 | TwitterAutomation.ChromeManager | INFO | Chromeプロセス開始中...
+2025-09-14 04:05:20 | TwitterAutomation.ChromeManager | INFO | Chrome起動確認: 1個のプロセス発見
+2025-09-14 04:05:20 | TwitterAutomation.ChromeManager | INFO | Chrome起動成功: acc5
+2025-09-14 04:05:20 | TwitterAutomation.ThreadsRotationPoster | INFO | Threadsページ読み込み待機...
+2025-09-14 04:05:35 | TwitterAutomation.ThreadsRotationPoster | INFO | ウィンドウ最大化完了
+2025-09-14 04:05:35 | TwitterAutomation.CSVManager | INFO | ツイートを使用済みに更新: acc5 - ID:146
+2025-09-14 04:05:35 | TwitterAutomation.ThreadsRotationPoster | INFO | ツイート選択・使用済み化: あざといとか小悪魔って言われる子は実際、素直で賢いだけ。愛さ...
+2025-09-14 04:05:57 | TwitterAutomation.ThreadsRotationPoster | INFO | 投稿成功
+2025-09-14 04:05:57 | TwitterAutomation.ThreadsRotationPoster | INFO | 🧹 クリーンアップ開始: acc5
+2025-09-14 04:05:58 | TwitterAutomation.ChromeManager | INFO | Chrome閉じるボタンクリック: (1257, 20)
+2025-09-14 04:06:01 | TwitterAutomation.ChromeManager | INFO | Chrome画像認識終了成功: acc5
+2025-09-14 04:06:01 | TwitterAutomation.ThreadsRotationPoster | INFO | ✅ Chrome終了完了: acc5
+2025-09-14 04:06:01 | TwitterAutomation.VPNManager | INFO | VPN切断開始: acc5
+2025-09-14 04:06:01 | TwitterAutomation.VPNManager | INFO | OpenVPNプロセス終了: 1件
+2025-09-14 04:06:04 | TwitterAutomation.VPNManager | INFO | VPN切断完了: 116.82.24.214
+2025-09-14 04:06:04 | TwitterAutomation.ThreadsRotationPoster | INFO | ✅ VPN切断完了: acc5
+2025-09-14 04:06:04 | TwitterAutomation.ThreadsRotationPoster | INFO | ✅ acc5 投稿成功
+2025-09-14 04:06:04 | TwitterAutomation.ThreadsRotationPoster | INFO | ⏳ 次のアカウントまで38分待機...
+2025-09-14 04:44:04 | TwitterAutomation.ThreadsRotationPoster | INFO | 🔄 acc2 投稿開始 (残り126件)
+2025-09-14 04:44:04 | TwitterAutomation.ThreadsRotationPoster | INFO | 🔄 VPN強制切り替え開始: acc2 (現在IP: 116.82.24.214)
+2025-09-14 04:44:08 | TwitterAutomation.VPNManager | INFO | VPN切断完了: 116.82.24.214
+2025-09-14 04:44:18 | TwitterAutomation.VPNManager | INFO | 使用VPNファイル: us5055.nordvpn.com.udp.ovpn
+2025-09-14 04:44:18 | TwitterAutomation.VPNManager | INFO | VPN接続開始: acc2
+2025-09-14 04:44:42 | TwitterAutomation.ThreadsRotationPoster | INFO | ✅ VPN切り替え成功: acc2 → 116.82.24.214 → 89.187.175.4
+2025-09-14 04:44:42 | TwitterAutomation.ChromeManager | INFO | Chrome起動開始: acc2
+2025-09-14 04:44:42 | TwitterAutomation.ChromeManager | INFO | Chromeプロセス開始中...
+2025-09-14 04:44:43 | TwitterAutomation.ChromeManager | INFO | Chrome起動確認: 1個のプロセス発見
+2025-09-14 04:44:43 | TwitterAutomation.ChromeManager | INFO | Chrome起動成功: acc2
+2025-09-14 04:44:43 | TwitterAutomation.ThreadsRotationPoster | INFO | Threadsページ読み込み待機...
+2025-09-14 04:44:58 | TwitterAutomation.ThreadsRotationPoster | INFO | ウィンドウ最大化完了
+2025-09-14 04:44:58 | TwitterAutomation.CSVManager | INFO | ツイートを使用済みに更新: acc2 - ID:87
+2025-09-14 04:44:58 | TwitterAutomation.ThreadsRotationPoster | INFO | ツイート選択・使用済み化: 女性は彼氏に「可愛い」って言われれば言われるほど本当に可愛く...
+2025-09-14 04:45:03 | TwitterAutomation.ThreadsRotationPoster | WARNING | 投稿失敗（ツイートは既に使用済み）
+2025-09-14 04:45:03 | TwitterAutomation.ThreadsRotationPoster | INFO | 🧹 クリーンアップ開始: acc2
+2025-09-14 04:45:04 | TwitterAutomation.ChromeManager | INFO | Chrome閉じるボタンクリック: (1257, 20)
+2025-09-14 04:45:07 | TwitterAutomation.ChromeManager | INFO | Chrome画像認識終了成功: acc2
+2025-09-14 04:45:07 | TwitterAutomation.ThreadsRotationPoster | INFO | ✅ Chrome終了完了: acc2
+2025-09-14 04:45:07 | TwitterAutomation.VPNManager | INFO | VPN切断開始: acc2
+2025-09-14 04:45:07 | TwitterAutomation.VPNManager | INFO | OpenVPNプロセス終了: 1件
+2025-09-14 04:45:10 | TwitterAutomation.VPNManager | INFO | VPN切断完了: 116.82.24.214
+2025-09-14 04:45:10 | TwitterAutomation.ThreadsRotationPoster | INFO | ✅ VPN切断完了: acc2
+2025-09-14 04:45:10 | TwitterAutomation.ThreadsRotationPoster | INFO | ✅ acc2 投稿成功
+2025-09-14 04:45:10 | TwitterAutomation.ThreadsRotationPoster | INFO | ⏳ 次のアカウントまで37分待機...
+2025-09-14 05:22:10 | TwitterAutomation.ThreadsRotationPoster | INFO | 🔄 acc5 投稿開始 (残り125件)
+2025-09-14 05:22:10 | TwitterAutomation.ThreadsRotationPoster | INFO | 🔄 VPN強制切り替え開始: acc5 (現在IP: 116.82.24.214)
+2025-09-14 05:22:14 | TwitterAutomation.VPNManager | INFO | VPN切断完了: 116.82.24.214
+2025-09-14 05:22:24 | TwitterAutomation.VPNManager | INFO | 使用VPNファイル: us5066.nordvpn.com.udp.ovpn
+2025-09-14 05:22:24 | TwitterAutomation.VPNManager | INFO | VPN接続開始: acc5
+2025-09-14 05:22:48 | TwitterAutomation.ThreadsRotationPoster | INFO | ✅ VPN切り替え成功: acc5 → 116.82.24.214 → 91.229.244.2
+2025-09-14 05:22:48 | TwitterAutomation.ChromeManager | INFO | Chrome起動開始: acc5
+2025-09-14 05:22:48 | TwitterAutomation.ChromeManager | INFO | Chromeプロセス開始中...
+2025-09-14 05:22:49 | TwitterAutomation.ChromeManager | INFO | Chrome起動確認: 1個のプロセス発見
+2025-09-14 05:22:49 | TwitterAutomation.ChromeManager | INFO | Chrome起動成功: acc5
+2025-09-14 05:22:49 | TwitterAutomation.ThreadsRotationPoster | INFO | Threadsページ読み込み待機...
+2025-09-14 05:23:04 | TwitterAutomation.ThreadsRotationPoster | INFO | ウィンドウ最大化完了
+2025-09-14 05:23:04 | TwitterAutomation.CSVManager | INFO | ツイートを使用済みに更新: acc5 - ID:155
+2025-09-14 05:23:04 | TwitterAutomation.ThreadsRotationPoster | INFO | ツイート選択・使用済み化: 「試着室で思い出したら本気の恋」って言葉、心底共感したことあ...
+2025-09-14 05:23:19 | TwitterAutomation.ThreadsRotationPoster | WARNING | 投稿失敗（ツイートは既に使用済み）
+2025-09-14 05:23:19 | TwitterAutomation.ThreadsRotationPoster | INFO | 🧹 クリーンアップ開始: acc5
+2025-09-14 05:23:20 | TwitterAutomation.ChromeManager | INFO | Chrome閉じるボタンクリック: (1257, 20)
+2025-09-14 05:23:23 | TwitterAutomation.ChromeManager | INFO | Chrome画像認識終了成功: acc5
+2025-09-14 05:23:23 | TwitterAutomation.ThreadsRotationPoster | INFO | ✅ Chrome終了完了: acc5
+2025-09-14 05:23:23 | TwitterAutomation.VPNManager | INFO | VPN切断開始: acc5
+2025-09-14 05:23:23 | TwitterAutomation.VPNManager | INFO | OpenVPNプロセス終了: 1件
+2025-09-14 05:23:26 | TwitterAutomation.VPNManager | INFO | VPN切断完了: 116.82.24.214
+2025-09-14 05:23:26 | TwitterAutomation.ThreadsRotationPoster | INFO | ✅ VPN切断完了: acc5
+2025-09-14 05:23:26 | TwitterAutomation.ThreadsRotationPoster | INFO | ✅ acc5 投稿成功
+2025-09-14 05:23:26 | TwitterAutomation.ThreadsRotationPoster | INFO | ⏳ 次のアカウントまで40分待機...
+2025-09-14 06:03:26 | TwitterAutomation.ThreadsRotationPoster | INFO | 🔄 acc2 投稿開始 (残り124件)
+2025-09-14 06:03:26 | TwitterAutomation.ThreadsRotationPoster | INFO | 🔄 VPN強制切り替え開始: acc2 (現在IP: 116.82.24.214)
+2025-09-14 06:03:30 | TwitterAutomation.VPNManager | INFO | VPN切断完了: 116.82.24.214
+2025-09-14 06:03:40 | TwitterAutomation.VPNManager | INFO | 使用VPNファイル: us5055.nordvpn.com.udp.ovpn
+2025-09-14 06:03:40 | TwitterAutomation.VPNManager | INFO | VPN接続開始: acc2
+2025-09-14 06:04:04 | TwitterAutomation.ThreadsRotationPoster | INFO | ✅ VPN切り替え成功: acc2 → 116.82.24.214 → 145.14.135.138
+2025-09-14 06:04:04 | TwitterAutomation.ChromeManager | INFO | Chrome起動開始: acc2
+2025-09-14 06:04:04 | TwitterAutomation.ChromeManager | INFO | Chromeプロセス開始中...
+2025-09-14 06:04:05 | TwitterAutomation.ChromeManager | INFO | Chrome起動確認: 1個のプロセス発見
+2025-09-14 06:04:05 | TwitterAutomation.ChromeManager | INFO | Chrome起動成功: acc2
+2025-09-14 06:04:05 | TwitterAutomation.ThreadsRotationPoster | INFO | Threadsページ読み込み待機...
+2025-09-14 06:04:20 | TwitterAutomation.ThreadsRotationPoster | INFO | ウィンドウ最大化完了
+2025-09-14 06:04:20 | TwitterAutomation.CSVManager | INFO | ツイートを使用済みに更新: acc2 - ID:13
+2025-09-14 06:04:20 | TwitterAutomation.ThreadsRotationPoster | INFO | ツイート選択・使用済み化: 女の子が本気で怒ってる時のサインは「無言」。本当に頭にきた時...
+2025-09-14 06:04:25 | TwitterAutomation.ThreadsRotationPoster | WARNING | 投稿失敗（ツイートは既に使用済み）
+2025-09-14 06:04:25 | TwitterAutomation.ThreadsRotationPoster | INFO | 🧹 クリーンアップ開始: acc2
+2025-09-14 06:04:26 | TwitterAutomation.ChromeManager | INFO | Chrome閉じるボタンクリック: (1257, 20)
+2025-09-14 06:04:29 | TwitterAutomation.ChromeManager | INFO | Chrome画像認識終了成功: acc2
+2025-09-14 06:04:29 | TwitterAutomation.ThreadsRotationPoster | INFO | ✅ Chrome終了完了: acc2
+2025-09-14 06:04:29 | TwitterAutomation.VPNManager | INFO | VPN切断開始: acc2
+2025-09-14 06:04:29 | TwitterAutomation.VPNManager | INFO | OpenVPNプロセス終了: 1件
+2025-09-14 06:04:32 | TwitterAutomation.VPNManager | INFO | VPN切断完了: 116.82.24.214
+2025-09-14 06:04:32 | TwitterAutomation.ThreadsRotationPoster | INFO | ✅ VPN切断完了: acc2
+2025-09-14 06:04:32 | TwitterAutomation.ThreadsRotationPoster | INFO | ✅ acc2 投稿成功
+2025-09-14 06:04:32 | TwitterAutomation.ThreadsRotationPoster | INFO | ⏳ 次のアカウントまで47分待機...
+2025-09-14 06:51:32 | TwitterAutomation.ThreadsRotationPoster | INFO | 🔄 acc5 投稿開始 (残り124件)
+2025-09-14 06:51:32 | TwitterAutomation.ThreadsRotationPoster | INFO | 🔄 VPN強制切り替え開始: acc5 (現在IP: 116.82.24.214)
+2025-09-14 06:51:35 | TwitterAutomation.VPNManager | INFO | VPN切断完了: 116.82.24.214
+2025-09-14 06:51:45 | TwitterAutomation.VPNManager | INFO | 使用VPNファイル: us5066.nordvpn.com.udp.ovpn
+2025-09-14 06:51:45 | TwitterAutomation.VPNManager | INFO | VPN接続開始: acc5
+2025-09-14 06:52:10 | TwitterAutomation.ThreadsRotationPoster | INFO | ✅ VPN切り替え成功: acc5 → 116.82.24.214 → 185.207.249.6
+2025-09-14 06:52:10 | TwitterAutomation.ChromeManager | INFO | Chrome起動開始: acc5
+2025-09-14 06:52:10 | TwitterAutomation.ChromeManager | INFO | Chromeプロセス開始中...
+2025-09-14 06:52:11 | TwitterAutomation.ChromeManager | INFO | Chrome起動確認: 1個のプロセス発見
+2025-09-14 06:52:11 | TwitterAutomation.ChromeManager | INFO | Chrome起動成功: acc5
+2025-09-14 06:52:11 | TwitterAutomation.ThreadsRotationPoster | INFO | Threadsページ読み込み待機...
+2025-09-14 06:52:26 | TwitterAutomation.ThreadsRotationPoster | INFO | ウィンドウ最大化完了
+2025-09-14 06:52:26 | TwitterAutomation.CSVManager | INFO | ツイートを使用済みに更新: acc5 - ID:3
+2025-09-14 06:52:26 | TwitterAutomation.ThreadsRotationPoster | INFO | ツイート選択・使用済み化: 男性が本気で愛してる女性にだけする行動があって、それは「無意...
+2025-09-14 06:52:40 | TwitterAutomation.ThreadsRotationPoster | WARNING | 投稿失敗（ツイートは既に使用済み）
+2025-09-14 06:52:40 | TwitterAutomation.ThreadsRotationPoster | INFO | 🧹 クリーンアップ開始: acc5
+2025-09-14 06:52:42 | TwitterAutomation.ChromeManager | INFO | Chrome閉じるボタンクリック: (1257, 20)
+2025-09-14 06:52:45 | TwitterAutomation.ChromeManager | INFO | Chrome画像認識終了成功: acc5
+2025-09-14 06:52:45 | TwitterAutomation.ThreadsRotationPoster | INFO | ✅ Chrome終了完了: acc5
+2025-09-14 06:52:45 | TwitterAutomation.VPNManager | INFO | VPN切断開始: acc5
+2025-09-14 06:52:45 | TwitterAutomation.VPNManager | INFO | OpenVPNプロセス終了: 1件
+2025-09-14 06:52:48 | TwitterAutomation.VPNManager | INFO | VPN切断完了: 116.82.24.214
+2025-09-14 06:52:48 | TwitterAutomation.ThreadsRotationPoster | INFO | ✅ VPN切断完了: acc5
+2025-09-14 06:52:48 | TwitterAutomation.ThreadsRotationPoster | INFO | ✅ acc5 投稿成功
+2025-09-14 06:52:48 | TwitterAutomation.ThreadsRotationPoster | INFO | ⏳ 次のアカウントまで42分待機...
+2025-09-14 07:34:48 | TwitterAutomation.ThreadsRotationPoster | INFO | 🔄 acc2 投稿開始 (残り123件)
+2025-09-14 07:34:48 | TwitterAutomation.ThreadsRotationPoster | INFO | 🔄 VPN強制切り替え開始: acc2 (現在IP: 116.82.24.214)
+2025-09-14 07:34:51 | TwitterAutomation.VPNManager | INFO | VPN切断完了: 116.82.24.214
+2025-09-14 07:35:01 | TwitterAutomation.VPNManager | INFO | 使用VPNファイル: us5055.nordvpn.com.udp.ovpn
+2025-09-14 07:35:01 | TwitterAutomation.VPNManager | INFO | VPN接続開始: acc2
+2025-09-14 07:35:26 | TwitterAutomation.ThreadsRotationPoster | INFO | ✅ VPN切り替え成功: acc2 → 116.82.24.214 → 145.14.135.139
+2025-09-14 07:35:26 | TwitterAutomation.ChromeManager | INFO | Chrome起動開始: acc2
+2025-09-14 07:35:26 | TwitterAutomation.ChromeManager | INFO | Chromeプロセス開始中...
+2025-09-14 07:35:27 | TwitterAutomation.ChromeManager | INFO | Chrome起動確認: 1個のプロセス発見
+2025-09-14 07:35:27 | TwitterAutomation.ChromeManager | INFO | Chrome起動成功: acc2
+2025-09-14 07:35:27 | TwitterAutomation.ThreadsRotationPoster | INFO | Threadsページ読み込み待機...
+2025-09-14 07:35:42 | TwitterAutomation.ThreadsRotationPoster | INFO | ウィンドウ最大化完了
+2025-09-14 07:35:42 | TwitterAutomation.CSVManager | INFO | ツイートを使用済みに更新: acc2 - ID:4
+2025-09-14 07:35:42 | TwitterAutomation.ThreadsRotationPoster | INFO | ツイート選択・使用済み化: 生理中に優しくできない男と結婚したら地獄を見る。妊娠中のつわ...
+2025-09-14 07:35:46 | TwitterAutomation.ThreadsRotationPoster | WARNING | 投稿失敗（ツイートは既に使用済み）
+2025-09-14 07:35:46 | TwitterAutomation.ThreadsRotationPoster | INFO | 🧹 クリーンアップ開始: acc2
+2025-09-14 07:35:47 | TwitterAutomation.ChromeManager | INFO | Chrome閉じるボタンクリック: (1257, 20)
+2025-09-14 07:35:50 | TwitterAutomation.ChromeManager | INFO | Chrome画像認識終了成功: acc2
+2025-09-14 07:35:50 | TwitterAutomation.ThreadsRotationPoster | INFO | ✅ Chrome終了完了: acc2
+2025-09-14 07:35:50 | TwitterAutomation.VPNManager | INFO | VPN切断開始: acc2
+2025-09-14 07:35:50 | TwitterAutomation.VPNManager | INFO | OpenVPNプロセス終了: 1件
+2025-09-14 07:35:54 | TwitterAutomation.VPNManager | INFO | VPN切断完了: 116.82.24.214
+2025-09-14 07:35:54 | TwitterAutomation.ThreadsRotationPoster | INFO | ✅ VPN切断完了: acc2
+2025-09-14 07:35:54 | TwitterAutomation.ThreadsRotationPoster | INFO | ✅ acc2 投稿成功
+2025-09-14 07:35:54 | TwitterAutomation.ThreadsRotationPoster | INFO | ⏳ 次のアカウントまで43分待機...
+2025-09-14 08:18:54 | TwitterAutomation.ThreadsRotationPoster | INFO | 🔄 acc5 投稿開始 (残り122件)
+2025-09-14 08:18:54 | TwitterAutomation.ThreadsRotationPoster | INFO | 🔄 VPN強制切り替え開始: acc5 (現在IP: 116.82.24.214)
+2025-09-14 08:18:57 | TwitterAutomation.VPNManager | INFO | VPN切断完了: 116.82.24.214
+2025-09-14 08:19:07 | TwitterAutomation.VPNManager | INFO | 使用VPNファイル: us5066.nordvpn.com.udp.ovpn
+2025-09-14 08:19:07 | TwitterAutomation.VPNManager | INFO | VPN接続開始: acc5
+2025-09-14 08:19:32 | TwitterAutomation.ThreadsRotationPoster | INFO | ✅ VPN切り替え成功: acc5 → 116.82.24.214 → 91.229.244.2
+2025-09-14 08:19:32 | TwitterAutomation.ChromeManager | INFO | Chrome起動開始: acc5
+2025-09-14 08:19:32 | TwitterAutomation.ChromeManager | INFO | Chromeプロセス開始中...
+2025-09-14 08:19:33 | TwitterAutomation.ChromeManager | INFO | Chrome起動確認: 1個のプロセス発見
+2025-09-14 08:19:33 | TwitterAutomation.ChromeManager | INFO | Chrome起動成功: acc5
+2025-09-14 08:19:33 | TwitterAutomation.ThreadsRotationPoster | INFO | Threadsページ読み込み待機...
+2025-09-14 08:19:48 | TwitterAutomation.ThreadsRotationPoster | INFO | ウィンドウ最大化完了
+2025-09-14 08:19:48 | TwitterAutomation.CSVManager | INFO | ツイートを使用済みに更新: acc5 - ID:142
+2025-09-14 08:19:48 | TwitterAutomation.ThreadsRotationPoster | INFO | ツイート選択・使用済み化: イチャイチャしてる時に耳元で「好き」って囁かれるだけで心臓爆...
+2025-09-14 08:20:02 | TwitterAutomation.ThreadsRotationPoster | WARNING | 投稿失敗（ツイートは既に使用済み）
+2025-09-14 08:20:02 | TwitterAutomation.ThreadsRotationPoster | INFO | 🧹 クリーンアップ開始: acc5
+2025-09-14 08:20:03 | TwitterAutomation.ChromeManager | INFO | Chrome閉じるボタンクリック: (1257, 20)
+2025-09-14 08:20:06 | TwitterAutomation.ChromeManager | INFO | Chrome画像認識終了成功: acc5
+2025-09-14 08:20:06 | TwitterAutomation.ThreadsRotationPoster | INFO | ✅ Chrome終了完了: acc5
+2025-09-14 08:20:06 | TwitterAutomation.VPNManager | INFO | VPN切断開始: acc5
+2025-09-14 08:20:06 | TwitterAutomation.VPNManager | INFO | OpenVPNプロセス終了: 1件
+2025-09-14 08:20:10 | TwitterAutomation.VPNManager | INFO | VPN切断完了: 116.82.24.214
+2025-09-14 08:20:10 | TwitterAutomation.ThreadsRotationPoster | INFO | ✅ VPN切断完了: acc5
+2025-09-14 08:20:10 | TwitterAutomation.ThreadsRotationPoster | INFO | ✅ acc5 投稿成功
+2025-09-14 08:20:10 | TwitterAutomation.ThreadsRotationPoster | INFO | ⏳ 次のアカウントまで34分待機...
+2025-09-14 08:37:12 | TwitterAutomation.ThreadsRotationPoster | INFO | ⚠️ ユーザーによる中断
+2025-09-14 08:37:16 | TwitterAutomation.VPNManager | INFO | VPN切断完了: 116.82.24.214
+2025-09-14 08:37:16 | TwitterAutomation.ThreadsRotationPoster | INFO | 最終VPN切断完了
+2025-09-14 08:37:22 | TwitterAutomation.VPNManager | INFO | VPN切断完了: 116.82.24.214

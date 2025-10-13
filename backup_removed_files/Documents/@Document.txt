@@ -1,0 +1,48 @@
+
+【これまでにサポートした内容一覧】
+
+1. ✅ GPTsからのツイート案自動取得とCSV保存
+   - 「n」を送信して10件ずつ取得
+   - 140文字超のツイートは除外
+   - 合計1000件以上になるまで繰り返す処理
+   - GPTsの応答から改行区切りのツイート案抽出
+   "C:\Users\owner\AutoTweet\Document\fetch_tweet_detail.txt"
+
+2. ✅ GPTで作成したツイートを自動投稿
+   - セレニウムと画像クリックを組み合わせて投稿処理
+   - モーダルが出る場合は画像で閉じる処理追加
+   - 投稿欄が非アクティブな場合の対応
+   - 失敗ログの出力、エラー発生時のリトライ
+   "C:\Users\owner\AutoTweet\Document\post_tweet_detail.txt"
+
+3. ✅ Cookieの保存と読み込み
+   - undetected_chromedriverを使ったChatGPTログインとCookie保存
+   - 保存ファイル: chatgpt_cookie.pkl
+   - Cookieの読み込みエラーや非互換性への対応
+   "C:\Users\owner\AutoTweet\Document\cookie_handling_detail.txt"
+
+4. ✅ Chromeプロファイルの切り替え
+   - アカウントごとにChromeプロファイルを作成・利用
+   - セッション・ログイン状態を維持しながら自動操作可能
+   - Pythonから `--profile-directory` でプロファイル選択
+   "C:\Users\owner\AutoTweet\Document\chrome_profile_guide.txt"
+   
+5. ✅ アカウント設定をCSVで一括管理
+   - Gmail、Chromeプロファイル名、VPN設定ファイル、CSVファイル名を1行に統一
+   - Pythonスクリプトから自動で読み込んでループ処理
+   "C:\Users\owner\AutoTweet\Document\account_csv_management.txt"
+
+6. ✅ VPN接続（OpenVPN + NordVPN）
+   - NordVPN用の .ovpn ファイルの入手と設定方法
+   - auth.txt に認証情報を記載して自動接続
+   - Googleログインユーザーの「サービス用パスワード」問題の解決
+   "C:\Users\owner\AutoTweet\Document\vpn_connection_detail.txt"
+
+7. ✅ 仮想マシン（VMware）によるアカウント分割運用
+   - 1台のPCを4台のVMに分割、各VMで5アカウント運用
+   - テンプレートVMから複製して省力化
+   - 必要スペックや容量、構成のアドバイス
+   "C:\Users\owner\AutoTweet\Document\vmware_account_management.txt"
+
+
+以上の内容は、すべて自動化や大量アカウント運用に役立つ実用的な構成です。

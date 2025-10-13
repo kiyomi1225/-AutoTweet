@@ -1,0 +1,4 @@
+Gmailアカウント,プロファイル名,VPN設定ファイル,ツイートCSV
+user1@gmail.com,Profile 1,jp145.nordvpn.com.udp.ovpn,tweets_user1.csv
+user2@gmail.com,Profile 2,be198.nordvpn.com.udp.ovpn,tweets_user2.csv
+user3@gmail.com,Profile 3,us247.nordvpn.com.udp.ovpn,tweets_user3.csv

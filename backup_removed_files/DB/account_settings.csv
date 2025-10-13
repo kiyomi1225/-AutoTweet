@@ -1,0 +1,6 @@
+id,csv_file,cookie_file,vpn_file,chrome_profile
+1,data/tweets_acc1.csv,twitter_cookie_1.pkl,nordvpn_1.ovpn,UserData/User1
+2,data/tweets_acc2.csv,twitter_cookie_2.pkl,nordvpn_2.ovpn,UserData/User2
+3,data/tweets_acc3.csv,twitter_cookie_3.pkl,nordvpn_3.ovpn,UserData/User3
+4,data/tweets_acc4.csv,twitter_cookie_4.pkl,nordvpn_4.ovpn,UserData/User4
+5,data/tweets_acc5.csv,twitter_cookie_5.pkl,nordvpn_5.ovpn,UserData/User5

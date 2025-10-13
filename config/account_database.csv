@@ -1,0 +1,6 @@
+アカウント名,VPNサーバー,Chromeプロファイル,GPTs URL,ツイートCSV
+acc1,us4735.nordvpn.com.udp.ovpn,acc1,https://chatgpt.com/g/g-684b62556a5c81919bb8b3d071f41228-ji-ke-tuitozuo-cheng-ai-saasazi?model=gpt-5,data/acc1.csv
+acc2,us5055.nordvpn.com.udp.ovpn,acc2,https://claude.ai/project/0198db95-e3ae-715c-8b4f-70a0001e8a26,data/acc1.csv
+acc3,us5079.nordvpn.com.udp.ovpn,acc3,https://claude.ai/project/0199312c-acf0-719b-b6cc-e3b80a6f9968,data/acc1.csv
+acc4,us5063.nordvpn.com.udp.ovpn,acc4,https://claude.ai/project/01980140-5ea4-74f2-91be-8000f384e66a,data/acc1.csv
+acc5,us5066.nordvpn.com.udp.ovpn,acc5,https://claude.ai/project/01980140-5ea4-74f2-91be-8000f384e66a,data/acc1.csv

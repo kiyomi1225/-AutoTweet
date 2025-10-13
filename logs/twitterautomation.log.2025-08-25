@@ -1,0 +1,113 @@
+2025-08-25 07:34:39 | TwitterAutomation.ConfigManager | INFO | 設定ファイル読み込み完了: config\config.json
+2025-08-25 07:34:39 | TwitterAutomation.ConfigManager | INFO | アカウントデータベース読み込み完了: 5件
+2025-08-25 07:34:39 | TwitterAutomation.ConfigManager | INFO | 設定管理を初期化しました
+2025-08-25 07:34:40 | TwitterAutomation.VPNManager | INFO | 元のIPアドレス記録: 116.82.24.214
+2025-08-25 07:34:40 | TwitterAutomation.VPNManager | INFO | VPN管理を初期化しました
+2025-08-25 07:34:40 | TwitterAutomation.ChromeManager | INFO | Chrome管理を初期化しました
+2025-08-25 07:34:40 | TwitterAutomation.CSVManager | INFO | CSV管理を初期化しました
+2025-08-25 07:34:40 | TwitterAutomation.GPTImageAutomation | INFO | GPT画像認識自動化を初期化しました
+2025-08-25 07:34:40 | TwitterAutomation.ThreadsRotationPoster | INFO | Threads循環投稿を初期化しました
+2025-08-25 07:35:13 | TwitterAutomation.GPTImageAutomation | INFO | ツイート取得自動化開始: 1件
+2025-08-25 07:35:13 | TwitterAutomation.GPTImageAutomation | INFO | 開始時IP: 116.82.24.214
+2025-08-25 07:35:13 | TwitterAutomation.VPNManager | INFO | 使用VPNファイル: us4735.nordvpn.com.udp.ovpn
+2025-08-25 07:35:13 | TwitterAutomation.VPNManager | INFO | VPN接続開始: acc1
+2025-08-25 07:35:30 | TwitterAutomation.GPTImageAutomation | INFO | VPN接続成功: 185.199.103.99
+2025-08-25 07:35:30 | TwitterAutomation.GPTImageAutomation | INFO | [1/1] アカウント処理開始: acc1
+2025-08-25 07:35:30 | TwitterAutomation.ChromeManager | INFO | Chrome起動開始: acc1
+2025-08-25 07:35:30 | TwitterAutomation.ChromeManager | INFO | Chromeプロセス開始中...
+2025-08-25 07:35:31 | TwitterAutomation.ChromeManager | INFO | Chrome起動確認: 1個のプロセス発見
+2025-08-25 07:35:31 | TwitterAutomation.ChromeManager | INFO | Chrome起動成功: acc1
+2025-08-25 07:35:46 | TwitterAutomation.GPTImageAutomation | INFO | 第1回実行 (acc1: 0/100件)
+2025-08-25 07:35:50 | TwitterAutomation.GPTImageAutomation | INFO | GPT応答待機中... (70秒)
+2025-08-25 07:37:08 | TwitterAutomation.ChromeManager | ERROR | Chrome画像認識終了エラー: Could not locate the image (highest confidence = 0.718)
+2025-08-25 07:37:08 | TwitterAutomation.ChromeManager | WARNING | 画像認識終了失敗、プロセス終了でフォールバック
+2025-08-25 07:37:08 | TwitterAutomation.VPNManager | INFO | VPN切断開始: acc1
+2025-08-25 07:37:08 | TwitterAutomation.VPNManager | INFO | OpenVPNプロセス終了: 3件
+2025-08-25 07:37:11 | TwitterAutomation.VPNManager | INFO | VPN切断完了: 116.82.24.214
+2025-08-25 18:33:42 | TwitterAutomation.ConfigManager | INFO | 設定ファイル読み込み完了: config\config.json
+2025-08-25 18:33:43 | TwitterAutomation.ConfigManager | INFO | アカウントデータベース読み込み完了: 5件
+2025-08-25 18:33:43 | TwitterAutomation.ConfigManager | INFO | 設定管理を初期化しました
+2025-08-25 18:33:43 | TwitterAutomation.VPNManager | INFO | 元のIPアドレス記録: 116.82.24.214
+2025-08-25 18:33:43 | TwitterAutomation.VPNManager | INFO | VPN管理を初期化しました
+2025-08-25 18:33:43 | TwitterAutomation.ChromeManager | INFO | Chrome管理を初期化しました
+2025-08-25 18:33:43 | TwitterAutomation.CSVManager | INFO | CSV管理を初期化しました
+2025-08-25 18:33:43 | TwitterAutomation.GPTImageAutomation | INFO | GPT画像認識自動化を初期化しました
+2025-08-25 18:33:43 | TwitterAutomation.ThreadsRotationPoster | INFO | Threads循環投稿を初期化しました
+2025-08-25 18:34:04 | TwitterAutomation.GPTImageAutomation | INFO | ツイート取得自動化開始: 1件
+2025-08-25 18:34:05 | TwitterAutomation.GPTImageAutomation | INFO | 開始時IP: 116.82.24.214
+2025-08-25 18:34:05 | TwitterAutomation.VPNManager | INFO | 使用VPNファイル: us4735.nordvpn.com.udp.ovpn
+2025-08-25 18:34:05 | TwitterAutomation.VPNManager | INFO | VPN接続開始: acc1
+2025-08-25 18:34:21 | TwitterAutomation.GPTImageAutomation | INFO | VPN接続成功: 116.82.24.214
+2025-08-25 18:34:21 | TwitterAutomation.GPTImageAutomation | INFO | [1/1] アカウント処理開始: acc1
+2025-08-25 18:34:21 | TwitterAutomation.ChromeManager | INFO | Chrome起動開始: acc1
+2025-08-25 18:34:21 | TwitterAutomation.ChromeManager | INFO | Chromeプロセス開始中...
+2025-08-25 18:34:22 | TwitterAutomation.ChromeManager | INFO | Chrome起動確認: 1個のプロセス発見
+2025-08-25 18:34:22 | TwitterAutomation.ChromeManager | INFO | Chrome起動成功: acc1
+2025-08-25 18:34:37 | TwitterAutomation.GPTImageAutomation | INFO | 第1回実行 (acc1: 0/100件)
+2025-08-25 18:34:41 | TwitterAutomation.GPTImageAutomation | INFO | GPT応答待機中... (70秒)
+2025-08-25 18:36:09 | TwitterAutomation.GPTImageAutomation | INFO | 11件保存 → 合計: 11件
+2025-08-25 18:36:19 | TwitterAutomation.GPTImageAutomation | INFO | 第2回実行 (acc1: 11/100件)
+2025-08-25 18:36:23 | TwitterAutomation.GPTImageAutomation | INFO | GPT応答待機中... (70秒)
+2025-08-25 18:36:46 | TwitterAutomation.ChromeManager | ERROR | Chrome画像認識終了エラー: Could not locate the image (highest confidence = 0.718)
+2025-08-25 18:36:46 | TwitterAutomation.ChromeManager | WARNING | 画像認識終了失敗、プロセス終了でフォールバック
+2025-08-25 18:36:46 | TwitterAutomation.VPNManager | INFO | VPN切断開始: acc1
+2025-08-25 18:36:46 | TwitterAutomation.VPNManager | INFO | OpenVPNプロセス終了: 1件
+2025-08-25 18:36:50 | TwitterAutomation.VPNManager | INFO | VPN切断完了: 116.82.24.214
+2025-08-25 23:30:31 | TwitterAutomation.ConfigManager | INFO | 設定ファイル読み込み完了: config\config.json
+2025-08-25 23:30:32 | TwitterAutomation.ConfigManager | INFO | アカウントデータベース読み込み完了: 5件
+2025-08-25 23:30:32 | TwitterAutomation.ConfigManager | INFO | 設定管理を初期化しました
+2025-08-25 23:30:33 | TwitterAutomation.VPNManager | INFO | 元のIPアドレス記録: 116.82.24.214
+2025-08-25 23:30:33 | TwitterAutomation.VPNManager | INFO | VPN管理を初期化しました
+2025-08-25 23:30:33 | TwitterAutomation.ChromeManager | INFO | Chrome管理を初期化しました
+2025-08-25 23:30:33 | TwitterAutomation.CSVManager | INFO | CSV管理を初期化しました
+2025-08-25 23:30:33 | TwitterAutomation.GPTImageAutomation | INFO | GPT画像認識自動化を初期化しました
+2025-08-25 23:30:33 | TwitterAutomation.ThreadsRotationPoster | INFO | Threads循環投稿を初期化しました
+2025-08-25 23:30:51 | TwitterAutomation.GPTImageAutomation | INFO | ツイート取得自動化開始: 1件
+2025-08-25 23:30:53 | TwitterAutomation.GPTImageAutomation | INFO | 開始時IP: 116.82.24.214
+2025-08-25 23:30:54 | TwitterAutomation.VPNManager | INFO | 使用VPNファイル: us4735.nordvpn.com.udp.ovpn
+2025-08-25 23:30:54 | TwitterAutomation.VPNManager | INFO | VPN接続開始: acc1
+2025-08-25 23:31:11 | TwitterAutomation.GPTImageAutomation | INFO | VPN接続成功: 185.199.103.101
+2025-08-25 23:31:11 | TwitterAutomation.GPTImageAutomation | INFO | [1/1] アカウント処理開始: acc1
+2025-08-25 23:31:11 | TwitterAutomation.ChromeManager | INFO | Chrome起動開始: acc1
+2025-08-25 23:31:11 | TwitterAutomation.ChromeManager | INFO | Chromeプロセス開始中...
+2025-08-25 23:31:12 | TwitterAutomation.ChromeManager | INFO | Chrome起動確認: 1個のプロセス発見
+2025-08-25 23:31:12 | TwitterAutomation.ChromeManager | INFO | Chrome起動成功: acc1
+2025-08-25 23:31:27 | TwitterAutomation.GPTImageAutomation | INFO | 第1回実行 (acc1: 0/100件)
+2025-08-25 23:31:31 | TwitterAutomation.GPTImageAutomation | INFO | GPT応答待機中... (70秒)
+2025-08-25 23:32:59 | TwitterAutomation.GPTImageAutomation | INFO | 9件保存 → 合計: 9件
+2025-08-25 23:33:09 | TwitterAutomation.GPTImageAutomation | INFO | 第2回実行 (acc1: 9/100件)
+2025-08-25 23:33:14 | TwitterAutomation.GPTImageAutomation | INFO | GPT応答待機中... (70秒)
+2025-08-25 23:34:42 | TwitterAutomation.GPTImageAutomation | INFO | 10件保存 → 合計: 19件
+2025-08-25 23:34:52 | TwitterAutomation.GPTImageAutomation | INFO | 第3回実行 (acc1: 19/100件)
+2025-08-25 23:34:56 | TwitterAutomation.GPTImageAutomation | INFO | GPT応答待機中... (70秒)
+2025-08-25 23:36:24 | TwitterAutomation.GPTImageAutomation | INFO | 10件保存 → 合計: 29件
+2025-08-25 23:36:34 | TwitterAutomation.GPTImageAutomation | INFO | 第4回実行 (acc1: 29/100件)
+2025-08-25 23:36:38 | TwitterAutomation.GPTImageAutomation | INFO | GPT応答待機中... (70秒)
+2025-08-25 23:38:07 | TwitterAutomation.GPTImageAutomation | INFO | 10件保存 → 合計: 39件
+2025-08-25 23:38:17 | TwitterAutomation.GPTImageAutomation | INFO | 第5回実行 (acc1: 39/100件)
+2025-08-25 23:38:21 | TwitterAutomation.GPTImageAutomation | INFO | GPT応答待機中... (70秒)
+2025-08-25 23:39:49 | TwitterAutomation.GPTImageAutomation | INFO | 10件保存 → 合計: 49件
+2025-08-25 23:39:59 | TwitterAutomation.GPTImageAutomation | INFO | 第6回実行 (acc1: 49/100件)
+2025-08-25 23:40:03 | TwitterAutomation.GPTImageAutomation | INFO | GPT応答待機中... (70秒)
+2025-08-25 23:41:31 | TwitterAutomation.GPTImageAutomation | INFO | 10件保存 → 合計: 59件
+2025-08-25 23:41:41 | TwitterAutomation.GPTImageAutomation | INFO | 第7回実行 (acc1: 59/100件)
+2025-08-25 23:41:45 | TwitterAutomation.GPTImageAutomation | INFO | GPT応答待機中... (70秒)
+2025-08-25 23:43:14 | TwitterAutomation.GPTImageAutomation | INFO | 10件保存 → 合計: 69件
+2025-08-25 23:43:24 | TwitterAutomation.GPTImageAutomation | INFO | 第8回実行 (acc1: 69/100件)
+2025-08-25 23:43:28 | TwitterAutomation.GPTImageAutomation | INFO | GPT応答待機中... (70秒)
+2025-08-25 23:44:56 | TwitterAutomation.GPTImageAutomation | INFO | 10件保存 → 合計: 79件
+2025-08-25 23:45:06 | TwitterAutomation.GPTImageAutomation | INFO | 第9回実行 (acc1: 79/100件)
+2025-08-25 23:45:10 | TwitterAutomation.GPTImageAutomation | INFO | GPT応答待機中... (70秒)
+2025-08-25 23:46:38 | TwitterAutomation.GPTImageAutomation | INFO | 10件保存 → 合計: 89件
+2025-08-25 23:46:48 | TwitterAutomation.GPTImageAutomation | INFO | 第10回実行 (acc1: 89/100件)
+2025-08-25 23:46:52 | TwitterAutomation.GPTImageAutomation | INFO | GPT応答待機中... (70秒)
+2025-08-25 23:48:21 | TwitterAutomation.GPTImageAutomation | INFO | 11件保存 → 合計: 100件
+2025-08-25 23:48:25 | TwitterAutomation.VPNManager | INFO | VPN切断開始: acc1
+2025-08-25 23:48:25 | TwitterAutomation.VPNManager | INFO | OpenVPNプロセス終了: 3件
+2025-08-25 23:48:29 | TwitterAutomation.VPNManager | INFO | VPN切断完了: 116.82.24.214
+2025-08-25 23:48:29 | TwitterAutomation.GPTImageAutomation | INFO | 自動化完了: 成功 1/1件
+2025-08-25 23:48:29 | TwitterAutomation.GPTImageAutomation | INFO | 成功アカウント: ['acc1']
+2025-08-25 23:48:29 | TwitterAutomation.GPTImageAutomation | INFO | 失敗アカウント: []
+2025-08-25 23:48:53 | TwitterAutomation.ChromeManager | ERROR | Chrome画像認識終了エラー: Could not locate the image (highest confidence = 0.718)
+2025-08-25 23:48:53 | TwitterAutomation.ChromeManager | WARNING | 画像認識終了失敗、プロセス終了でフォールバック
+2025-08-25 23:48:57 | TwitterAutomation.VPNManager | INFO | VPN切断完了: 116.82.24.214
