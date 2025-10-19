@@ -118,20 +118,21 @@ class ThreadsRotationPoster:
                             self.logger.info(f"✅ {account_id} 投稿成功")
                             # 🆕 Discord通知: 投稿成功
                             if self.discord_notifier:
-                                self.discord_notifier.notify_account_complete(account_id, 1, "投稿：成功")
+                                self.discord_notifier.notify_account_complete(account_id, 1, "投稿成功：")
                         elif success is None:
                             self.logger.info(f"⏰ {account_id} 時間外")
                             if self.discord_notifier:
-                                self.discord_notifier.notify_account_complete(account_id, 1, "投稿：時間外")                            
+                                self.discord_notifier.notify_account_complete(account_id, 1, "投稿時間外：")                            
                         else:  # success is False
                             self.logger.warning(f"❌ {account_id} 投稿失敗")
                             if self.discord_notifier:
-                                self.discord_notifier.notify_account_complete(account_id, 1, "投稿：失敗")
+                                self.discord_notifier.notify_account_complete(account_id, 1, "投稿失敗：")
 
-                        # 次のアカウントまで待機（○○分）
-                        if len(active_accounts) > 1:  # 最後のアカウント以外
+                        # 次の投稿まで待機（○○分）
+                        # 未使用ツイートが残っている場合は待機
+                        if unused_count > 1:  # ← 残りツイートが2件以上なら待機
                             wait_minutes = random.randint(min_wait, max_wait)
-                            self.logger.info(f"⏳ 次のアカウントまで{wait_minutes}分待機...")
+                            self.logger.info(f"⏳ 次の投稿まで{wait_minutes}分待機...")
                             time.sleep(wait_minutes * 60)
                 
                 self.logger.info("🎉 全アカウント枯渇により循環投稿終了")
