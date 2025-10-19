@@ -15,10 +15,12 @@ except ImportError:
     from modules.logger_setup import setup_module_logger
 
 class ThreadsRotationPoster:
-    def __init__(self, config_manager, vpn_manager):
+    def __init__(self, config_manager, vpn_manager, chrome_manager, discord_notifier=None):
         """Threads循環投稿クラス"""
+        self.discord_notifier = discord_notifier
         self.config_manager = config_manager
         self.vpn_manager = vpn_manager
+        self.chrome_manager = chrome_manager
         self.logger = setup_module_logger("ThreadsRotationPoster")
         # 基本データパス追加
         self.base_data_path = Path("C:/Users/shiki/AutoTweet/data")
@@ -114,10 +116,17 @@ class ThreadsRotationPoster:
                         
                         if success is True:
                             self.logger.info(f"✅ {account_id} 投稿成功")
+                            # 🆕 Discord通知: 投稿成功
+                            if self.discord_notifier:
+                                self.discord_notifier.notify_account_complete(account_id, 1, "投稿：成功")
                         elif success is None:
                             self.logger.info(f"⏰ {account_id} 時間外")
+                            if self.discord_notifier:
+                                self.discord_notifier.notify_account_complete(account_id, 1, "投稿：時間外")                            
                         else:  # success is False
                             self.logger.warning(f"❌ {account_id} 投稿失敗")
+                            if self.discord_notifier:
+                                self.discord_notifier.notify_account_complete(account_id, 1, "投稿：失敗")
 
                         # 次のアカウントまで待機（○○分）
                         if len(active_accounts) > 1:  # 最後のアカウント以外
