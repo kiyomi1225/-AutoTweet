@@ -1,7 +1,8 @@
-# main.py - Twitter自動化システム メインエントリーポイント（クリーン版）
+# main.py - Twitter自動化システム メインエントリーポイント（Discord通知完全統合版）
 """
 Twitter自動化システム
 VPN + Chrome + GPT + Twitter投稿の統合システム
+Discord通知完全統合版 - 全セッションに通知機能追加
 """
 
 import sys
@@ -25,6 +26,8 @@ try:
     from modules.daily_mail_automation import DailyMailAutomation 
     from modules.myasp_mail_automation import MyASPMailAutomation
     from modules.optin_page_automation import OptinPageAutomation
+    from modules.content_pipeline import ContentPipeline
+    from modules.discord_notifier import DiscordNotifier
 
 except ImportError as e:
     print(f"❌ モジュールインポートエラー: {e}")
@@ -33,7 +36,7 @@ except ImportError as e:
     sys.exit(1)
 
 class TwitterAutomationSystem:
-    """Twitter自動化システム メインクラス"""
+    """Twitter自動化システム メインクラス（Discord通知完全統合版）"""
     
     def __init__(self):
         """初期化"""
@@ -42,6 +45,16 @@ class TwitterAutomationSystem:
         print("=" * 60)
         
         try:
+
+            # Discord通知初期化
+            print("📢 Discord通知初期化中...")
+            self.discord = DiscordNotifier()
+            if self.discord.enabled:
+                print("✅ Discord通知初期化完了")
+                self.discord.notify_system_start()  # システム開始通知
+            else:
+                print("⚠️ Discord通知は無効です")
+
             # 設定管理
             print("📋 設定管理初期化中...")
             self.config = ConfigManager()
@@ -97,10 +110,21 @@ class TwitterAutomationSystem:
             self.optin_automation = OptinPageAutomation(self.chrome_manager)
             print("✅ オプトインページ自動作成初期化中...")
 
+            # コンテンツ作成パイプライン
+            print("📦 コンテンツ作成パイプライン初期化中...")
+            self.content_pipeline = ContentPipeline(self.chrome_manager)
+            print("✅ コンテンツ作成パイプライン初期化完了")
+
             print("\n🎉 全モジュール初期化完了!")
             
         except Exception as e:
-            print(f"❌ 初期化エラー: {str(e)}")
+            error_msg = f"初期化エラー: {str(e)}"
+            print(f"❌ {error_msg}")
+            
+            # エラー通知
+            if hasattr(self, 'discord') and self.discord.enabled:
+                self.discord.notify_critical_error("初期化失敗", error_msg)
+            
             sys.exit(1)
     
     def run_system_check(self):
@@ -162,10 +186,20 @@ class TwitterAutomationSystem:
                     return True
                 else:
                     print(f"❌ Chrome起動失敗")
+
+                    # エラー通知
+                    if self.discord.enabled:
+                        self.discord.notify_critical_error("Chrome起動失敗", f"アカウント: {test_account}")
+
                     self.vpn_manager.disconnect()
                     return False
             else:
                 print(f"❌ VPN接続失敗")
+
+                # エラー通知
+                if self.discord.enabled:
+                    self.discord.notify_critical_error("VPN接続失敗", f"アカウント: {test_account}")
+
                 return False
                 
         except Exception as e:
@@ -302,8 +336,8 @@ class TwitterAutomationSystem:
             # 目標取得数入力
             while True:
                 try:
-                    target_input = input("\n各アカウントの目標取得数を入力してください (デフォルト:100): ").strip()
-                    target_count = int(target_input) if target_input else 100
+                    target_input = input("\n各アカウントの目標取得数を入力してください (デフォルト:300): ").strip()
+                    target_count = int(target_input) if target_input else 300
                     if target_count > 0:
                         break
                     else:
@@ -314,8 +348,8 @@ class TwitterAutomationSystem:
             # 待機時間入力
             while True:
                 try:
-                    wait_input = input("\nGPT/Claude応答待機時間を入力してください (デフォルト:60秒): ").strip()
-                    wait_time = int(wait_input) if wait_input else 60
+                    wait_input = input("\nGPT/Claude応答待機時間を入力してください (デフォルト:75秒): ").strip()
+                    wait_time = int(wait_input) if wait_input else 75
                     if wait_time > 0:
                         break
                     else:
@@ -326,13 +360,9 @@ class TwitterAutomationSystem:
             print(f"   ⏱️ 応答待機時間: {wait_time}秒")
 
             # 設定確認
-            print(f"\n📋 実行設定確認:")
-            print(f"   🎯 対象アカウント: {len(selected_accounts)}件")
             for account_id in selected_accounts:
                 account_config = self.config.get_account_config(account_id)
                 gpt_url = account_config.get('gpt_url', '未設定') if account_config else '未設定'
-                print(f"     - {account_id}: {gpt_url}")
-            print(f"   📊 各アカウント目標: {target_count}件")
             
             confirm = input(f"\n自動化を実行しますか？ (y/n): ")
             if confirm.lower() != 'y':
@@ -354,6 +384,14 @@ class TwitterAutomationSystem:
             
             if success:
                 print(f"\n🎉 GPT画像認識自動化完了！")
+                
+                # ✅ Discord通知
+                if self.discord.enabled:
+                    for account_id in selected_accounts:
+                        self.discord.notify_account_complete(account_id, target_count, "ツイート収集")
+                    summary = f"{len(selected_accounts)}アカウント処理完了"
+                    self.discord.notify_system_end(summary)
+                
                 print(f"   📁 結果ファイル:")
                 
             # 各アカウントの結果確認
@@ -643,7 +681,7 @@ class TwitterAutomationSystem:
             # 待機時間入力
             while True:
                 try:
-                    wait_input = input(f"待機時間を入力してください (デフォルト:90秒): ").strip()
+                    wait_input = input(f"待機時間を入力してください (デフォルト:110秒): ").strip()
                     wait_time = int(wait_input) if wait_input else 90
                     if wait_time > 0:
                         break
@@ -690,10 +728,19 @@ class TwitterAutomationSystem:
             
             if success:
                 print(f"\n🎉 フロントエンドnote自動取得完了！")
-                
+
                 # 生成ファイル一覧表示
                 output_dir = Path(f"C:\\Users\\shiki\\AutoTweet\\data\\{account_id}")
                 note_files = list(output_dir.glob("フロントエンドnote*.txt"))
+                
+                # ✅ Discord通知
+                if self.discord.enabled:
+                    self.discord.notify_account_complete(
+                        account_id, 
+                        len(note_files), 
+                        "note収集"
+                    )
+                
                 if note_files:
                     print(f"📄 生成ファイル: {len(note_files)}件")
                     for note_file in sorted(note_files):
@@ -761,8 +808,8 @@ class TwitterAutomationSystem:
             # 待機時間入力
             while True:
                 try:
-                    wait_input = input(f"待機時間を入力してください (デフォルト:45秒): ").strip()
-                    wait_time = int(wait_input) if wait_input else 45
+                    wait_input = input(f"待機時間を入力してください (デフォルト:60秒): ").strip()
+                    wait_time = int(wait_input) if wait_input else 60
                     if wait_time > 0:
                         break
                     else:
@@ -801,6 +848,15 @@ class TwitterAutomationSystem:
                 # 生成ファイル一覧表示
                 output_dir = Path(f"C:\\Users\\shiki\\AutoTweet\\data\\{account_id}\\フロントエンドnote")
                 sales_files = list(output_dir.glob("セールスレター追記済み*.txt"))
+                
+                # ✅ Discord通知
+                if self.discord.enabled:
+                    self.discord.notify_account_complete(
+                        account_id, 
+                        len(sales_files), 
+                        "セールスレター作成"
+                    )
+                
                 if sales_files:
                     print(f"📄 生成ファイル: {len(sales_files)}件")
                     for sales_file in sorted(sales_files):
@@ -918,6 +974,14 @@ class TwitterAutomationSystem:
             
             if success:
                 print(f"\n🎉 デイリーメルマガ自動取得完了！")
+                
+                # ✅ Discord通知
+                if self.discord.enabled:
+                    self.discord.notify_account_complete(
+                        selected_account, 
+                        7, 
+                        "デイリーメルマガ作成"
+                    )
             else:
                 print(f"\n❌ デイリーメルマガ自動取得に失敗しました")
         
@@ -1023,6 +1087,15 @@ class TwitterAutomationSystem:
             if results["success"] > 0:
                 print(f"\n🎉 MyASPメルマガ登録完了！")
                 print(f"成功: {results['success']}/{results['total']}アカウント")
+                
+                # ✅ Discord通知
+                if self.discord.enabled:
+                    for account_id in selected_accounts:
+                        self.discord.notify_account_complete(
+                            account_id, 
+                            7, 
+                            "MyASP登録"
+                        )
             else:
                 print(f"\n❌ MyASPメルマガ登録失敗")
                     
@@ -1045,6 +1118,10 @@ class TwitterAutomationSystem:
             
             if success:
                 print("\n✅ オプトインページ作成が完了しました")
+                
+                # ✅ Discord通知（オプトインページは特定アカウント不明なので汎用通知）
+                if self.discord.enabled:
+                    self.discord.notify_system_end("オプトインページ作成完了")
             else:
                 print("\n⚠️ オプトインページ作成に失敗しました")
                 
@@ -1052,7 +1129,81 @@ class TwitterAutomationSystem:
             print("\n⚠️ オプトインページ作成を中断しました")
         except Exception as e:
             print(f"\n❌ エラー: {str(e)}")
-            self.logger.error(f"オプトインページ作成エラー: {str(e)}")
+
+    def content_pipeline_session(self):
+        """コンテンツ作成連続実行セッション"""
+        print("\n" + "=" * 60)
+        print("📦 コンテンツ作成連続実行セッション開始")
+        print("=" * 60)
+        
+        try:
+            # アカウント選択
+            base_data_path = Path("C:\\Users\\shiki\\AutoTweet\\data")
+            if not base_data_path.exists():
+                print("❌ データフォルダが存在しません")
+                return
+            
+            acc_folders = [folder.name for folder in base_data_path.iterdir() 
+                        if folder.is_dir() and folder.name.startswith('acc')]
+            
+            if not acc_folders:
+                print("❌ 利用可能なアカウントがありません")
+                return
+            
+            acc_folders.sort()
+            
+            print(f"\n📋 利用可能なアカウント:")
+            for i, account_id in enumerate(acc_folders, 1):
+                print(f"  {i}. {account_id}")
+            
+            # アカウント選択
+            while True:
+                try:
+                    choice = input(f"\nアカウントを選択してください (1-{len(acc_folders)}): ").strip()
+                    choice_num = int(choice)
+                    if 1 <= choice_num <= len(acc_folders):
+                        account_id = acc_folders[choice_num - 1]
+                        break
+                    else:
+                        print(f"⚠️ 1-{len(acc_folders)}の数値を入力してください")
+                except ValueError:
+                    print("⚠️ 数値を入力してください")
+                except KeyboardInterrupt:
+                    return
+            
+            print(f"\n✅ 選択されたアカウント: {account_id}")
+            
+            # タスク選択
+            selected_tasks = self.content_pipeline.show_task_menu()
+            
+            if not selected_tasks:
+                print("\n❌ タスクが選択されていません")
+                return
+            
+            # パイプライン実行
+            success = self.content_pipeline.run_pipeline(account_id, selected_tasks)
+            
+            if success:
+                print("\n🎉 パイプライン実行完了！")
+                
+                # ✅ Discord通知
+                if self.discord.enabled:
+                    task_count = len(selected_tasks)
+                    self.discord.notify_account_complete(
+                        account_id, 
+                        task_count, 
+                        "パイプライン実行"
+                    )
+            else:
+                print("\n❌ パイプライン実行失敗")
+        
+        except KeyboardInterrupt:
+            print("\n\n⚠️ ユーザーによる中断")
+        except Exception as e:
+            print(f"\n❌ エラー発生: {str(e)}")
+            import traceback
+            traceback.print_exc()
+
 
     # 以下既存のコード（待機時間設定、実行など）
     def emergency_cleanup(self):
@@ -1093,16 +1244,17 @@ class TwitterAutomationSystem:
         print("9. 📧 デイリーメルマガ自動取得")
         print("10.📧 MyASPメルマガ登録")
         print("11.🎯 オプトインページ自動作成")
+        print("12.📦 コンテンツ作成連続実行")  
         print("0. 🚪 終了")
         print("-" * 60)
         
         while True:
             try:
-                choice = input("選択してください (0-11): ").strip() 
-                if choice in ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11']:
+                choice = input("選択してください (0-12): ").strip() 
+                if choice in ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12']:
                     return choice
                 else:
-                    print("❌ 0-11 の数値を入力してください")
+                    print("⚠️ 0-12 の数値を入力してください")
             except KeyboardInterrupt:
                 return '0'
     
@@ -1136,6 +1288,8 @@ class TwitterAutomationSystem:
                     self.myasp_mail_registration_session()
                 elif choice == "11":
                     self.optin_page_session()
+                elif choice == "12":
+                    self.content_pipeline_session() 
 
                 elif choice == "0":
                     print("\n👋 システム終了")
@@ -1169,6 +1323,15 @@ def main():
         print(f"\n⚠️ システム中断")
     except Exception as e:
         print(f"❌ システムエラー: {str(e)}")
+
+        # 予期しない停止通知
+        try:
+            discord = DiscordNotifier()
+            if discord.enabled:
+                discord.notify_unexpected_stop(str(e))
+        except:
+            pass
+
         import traceback
         traceback.print_exc()
     finally:
