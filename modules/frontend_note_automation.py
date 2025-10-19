@@ -38,7 +38,7 @@ class FrontendNoteAutomation(BaseAutomation):
                 "note_ai_url": "https://claude.ai/project/019952bf-5cc7-755b-b674-cd06bb0b76de",
                 "chrome_profile": "コンテンツ作成用プロファイル",
                 "automation": {
-                    "default_wait_time": 90,
+                    "default_wait_time": 110,
                     "default_loop_count": 10,
                     "random_ranges": {
                         "first": [1, 30],
@@ -74,7 +74,7 @@ class FrontendNoteAutomation(BaseAutomation):
             self.logger.warning(f"ファイルカウントエラー: {str(e)}")
             return 0
     
-    def run_automation(self, account_id: str, wait_time: int = 90, loop_count: int = 10) -> bool:
+    def run_automation(self, account_id: str, wait_time: int = 110, loop_count: int = 10) -> bool:
         """メイン自動化実行（既存ファイル保持版）"""
         try:
             self.logger.info(f"フロントエンドnote自動取得開始: {account_id}")
@@ -232,7 +232,7 @@ class FrontendNoteAutomation(BaseAutomation):
             if not self._click_textarea(ai_type):
                 return False
             pyautogui.press('enter')
-            time.sleep(30)
+            time.sleep(120)
             
             # ランダム入力シーケンス
             self._random_input_sequence(wait_time, ai_type)
@@ -254,7 +254,7 @@ class FrontendNoteAutomation(BaseAutomation):
             pyautogui.typewrite(str(num1))
             pyautogui.press('enter')
             pyautogui.press('enter')
-            time.sleep(120)
+            time.sleep(90)
             
             # 1～10のランダム数値
             num2 = random.randint(*ranges['second'])

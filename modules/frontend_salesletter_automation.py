@@ -36,7 +36,7 @@ class FrontendSalesletterAutomation(BaseAutomation):
             self.logger.error("content_creation_config.json が見つかりません")
             return {}
     
-    def run_automation(self, account_id: str, wait_time: int = 45) -> bool:
+    def run_automation(self, account_id: str, wait_time: int = 60) -> bool:
         """メイン自動化実行"""
         try:
             self.logger.info(f"セールスレター自動取得開始: アカウント={account_id}, 待機時間={wait_time}秒")
@@ -69,16 +69,15 @@ class FrontendSalesletterAutomation(BaseAutomation):
             
             # 各ファイルを処理
             for i, note_file in enumerate(note_files, 1):
-                self.logger.info(f"📝 ファイル {i}/{len(note_files)} 処理開始: {note_file.name}")
-                
+
                 success = self._process_single_file(account_id, note_file, backup_folder, wait_time, ai_type)
                 
                 if not success:
                     self.logger.error(f"❌ ファイル処理失敗: {note_file.name}")
                     return False
                 
-                self.logger.info(f"✅ ファイル {i} 完了: {note_file.name}")
-                
+                self._close_chrome()
+                                
                 # 次ファイルまで待機
                 if i < len(note_files):
                     self.logger.info(f"⏳ 次ファイルまで10秒待機...")
@@ -134,7 +133,6 @@ class FrontendSalesletterAutomation(BaseAutomation):
             self.logger.error(f"必要ファイルが見つかりません: {missing_files}")
             return False
         
-        self.logger.info("必要ファイル確認完了")
         return True
     
     def _process_single_file(self, account_id: str, note_file: Path, backup_folder: Path, 
@@ -157,11 +155,7 @@ class FrontendSalesletterAutomation(BaseAutomation):
             
             # AI処理実行
             collected_content = self._execute_ai_processing(account_id, target_lines, wait_time, ai_type)
-            
-            # Chrome終了
-            self._close_chrome()
-            self.logger.info(f"✅ Chrome終了")
-            
+                        
             if not collected_content:
                 self.logger.error("セールスレター収集失敗")
                 return False
@@ -169,7 +163,6 @@ class FrontendSalesletterAutomation(BaseAutomation):
             # ファイル更新処理
             success = self._update_and_backup_file(note_file, backup_folder, collected_content)
             
-            self.logger.info(f"=== ファイル処理完了: {note_file.name} ===")
             return success
             
         except Exception as e:
@@ -249,7 +242,7 @@ class FrontendSalesletterAutomation(BaseAutomation):
             pyperclip.copy("スタート")
             pyautogui.hotkey('ctrl', 'v')
             pyautogui.press('enter')
-            time.sleep(20)
+            time.sleep(30)
             self.logger.info("Step 3: スタート入力完了")
             
             # ファイルアップロード（3回）
@@ -269,7 +262,7 @@ class FrontendSalesletterAutomation(BaseAutomation):
             if not self._click_textarea(ai_type):
                 return ""
             pyautogui.press('enter')
-            time.sleep(30)
+            time.sleep(45)
             
             # 1-15行目をペースト
             if not self._click_textarea(ai_type):
@@ -277,13 +270,14 @@ class FrontendSalesletterAutomation(BaseAutomation):
             pyperclip.copy(target_lines)
             pyautogui.hotkey('ctrl', 'v')
             pyautogui.press('enter')
-            time.sleep(wait_time)
             self.logger.info("1-15行目ペースト完了")
+            time.sleep(120)
+            # スクロール
+            self._scroll_down()
             
             # 7章分のコンテンツ収集
             content_parts = []
             for chapter in range(1, 8):
-                self.logger.info(f"📖 第{chapter}章 収集開始")
                 
                 pyautogui.typewrite("n")
                 pyautogui.press('enter')
@@ -366,7 +360,6 @@ class FrontendSalesletterAutomation(BaseAutomation):
             # 元ファイルをバックアップフォルダに移動
             backup_file = backup_folder / note_file.name
             shutil.move(str(note_file), str(backup_file))
-            self.logger.info(f"バックアップ作成: {backup_file.name}")
             
             # 新しいファイル名
             new_filename = f"セールスレター追記済み{note_file.name}"

@@ -19,6 +19,7 @@ class ConfigManager:
         
         try:
             self.config_data = self._load_config()
+            self.config = self.config_data
             self.logger.info("設定管理を初期化しました（フォルダベース）")
         except Exception as e:
             self.logger.error(f"設定管理の初期化に失敗: {str(e)}")

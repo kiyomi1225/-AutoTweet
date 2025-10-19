@@ -1,4 +1,4 @@
-# modules/gpt_image_automation.py - GPT画像認識自動化（ローカル版）
+# modules/gpt_image_automation.py - GPT画像認識自動化（ローカル版・リファクタリング済）
 import time
 import pyautogui
 import pyperclip
@@ -12,15 +12,17 @@ from datetime import datetime
 
 try:
     from .logger_setup import setup_module_logger
+    from .base_automation import BaseAutomation
 except ImportError:
     import sys
     sys.path.append('.')
     from modules.logger_setup import setup_module_logger
+    from modules.base_automation import BaseAutomation
 
-class GPTImageAutomation:
+class GPTImageAutomation(BaseAutomation):
     def __init__(self):
         """GPT画像認識自動化クラス（ローカル版）"""
-        self.logger = setup_module_logger("GPTImageAutomation")
+        super().__init__("GPTImageAutomation")
         
         # 設定読み込み
         self.config = self._load_config()
@@ -35,13 +37,6 @@ class GPTImageAutomation:
         self.default_target_count = self.gpt_config.get("default_target_count", 100)
         self.confidence = self.gpt_config.get("confidence", 0.95)
         
-        # 画像認識設定
-        self.image_dir = Path("images")
-        
-        # PyAutoGUI設定
-        pyautogui.FAILSAFE = True
-        pyautogui.PAUSE = 1
-        
         self.logger.info("GPT画像認識自動化（ローカル版）を初期化しました")
     
     def _load_config(self):
@@ -54,9 +49,10 @@ class GPTImageAutomation:
             # デフォルト設定作成
             default_config = {
                 "chrome_profile": "コンテンツ作成用プロファイル",
+                "gpt_image_automation_url": "https://chatgpt.com/g/g-xxxxx",
                 "gpt_automation": {
-                    "default_wait_time": 70,
-                    "default_target_count": 100,
+                    "default_wait_time": 90,
+                    "default_target_count": 300,
                     "confidence": 0.95
                 }
             }
@@ -75,42 +71,22 @@ class GPTImageAutomation:
         
         for folder in self.base_data_path.iterdir():
             if folder.is_dir() and folder.name.startswith("acc"):
-                # URL_Config.txtの存在確認
-                url_config = folder / "url_config.txt"
-                if url_config.exists():
-                    accounts.append(folder.name)
-                    self.logger.debug(f"アカウント検出: {folder.name}")
-                else:
-                    self.logger.debug(f"url_config.txt未設定: {folder.name}")
+                accounts.append(folder.name)
+                self.logger.debug(f"アカウント検出: {folder.name}")
         
         return sorted(accounts)
     
     def _get_account_url(self, account_id: str) -> Optional[str]:
-        """アカウントのGPT URLを取得（1行目のみ）"""
-        url_config_path = self.base_data_path / account_id / "URL_Config.txt"
+        """アカウントのGPT URLを取得（共通URL版）"""
+        # content_creation_config.jsonから共通URLを取得
+        url = self.config.get("gpt_image_automation_url")
         
-        if not url_config_path.exists():
-            self.logger.error(f"URL_Config.txtが見つかりません: {account_id}")
-            return None
+        if url:
+            self.logger.info(f"{account_id}: 共通URL使用 - {url}")
+            return url
         
-        try:
-            with open(url_config_path, 'r', encoding='utf-8') as f:
-                lines = f.readlines()
-                if lines and len(lines) >= 1:
-                    # 1行目を使用（GPT用URL）
-                    url = lines[0].strip()
-                    if url:
-                        self.logger.info(f"{account_id}: URL設定確認OK（1行目）")
-                        return url
-                    else:
-                        self.logger.error(f"URL_Config.txtの1行目が空です: {account_id}")
-                        return None
-                else:
-                    self.logger.error(f"URL_Config.txtが空です: {account_id}")
-                    return None
-        except Exception as e:
-            self.logger.error(f"URL読み込みエラー: {str(e)}")
-            return None
+        self.logger.error(f"gpt_image_automation_url が設定されていません")
+        return None    
     
     def _backup_existing_csv(self, account_id: str):
         """既存のtweets.csvをバックアップ"""
@@ -148,7 +124,7 @@ class GPTImageAutomation:
                         failed_accounts.append(account_id)
                         continue
                     
-                    # AI種別判定
+                    # AI種別判定（BaseAutomationのメソッド使用）
                     ai_type = self._detect_ai_type(gpt_url)
                     
                     # 既存CSVバックアップ
@@ -244,7 +220,7 @@ class GPTImageAutomation:
         """ツイート収集ループ"""
         try:
             # ========== 初期設定処理（GPT/Claude共通） ==========
-            # 1. 初回テキストエリアクリック
+            # 1. 初回テキストエリアクリック（BaseAutomationのメソッド使用）
             if not self._click_textarea_first(ai_type):
                 self.logger.error("初回テキストエリアクリック失敗")
                 return 0
@@ -254,18 +230,14 @@ class GPTImageAutomation:
             pyautogui.hotkey('ctrl', 'v')
             pyautogui.press('enter')
             self.logger.info("スタート入力完了")
-            time.sleep(10)
+            time.sleep(20)
             
-            # 3. ツイートログ.txtをアップロード
-            tweet_log_path = self.base_data_path / account_id / "ツイートログ.txt"
-            if tweet_log_path.exists():
-                if not self._upload_file(account_id, "ツイートログ.txt", ai_type):
-                    self.logger.warning("ツイートログ.txtアップロード失敗")
-                else:
-                    self.logger.info("ツイートログ.txtアップロード完了")
-            else:
-                self.logger.warning(f"ツイートログ.txt未検出: {tweet_log_path}")
+            # 3. ツイートログ.txtをアップロード（BaseAutomationのメソッド使用）
+            if not self._upload_file(account_id, "ツイートログ.txt", ai_type):
+                return 0
+            time.sleep(3)
             
+            # 4. テキストエリアクリック→Enter（BaseAutomationのメソッド使用）
             self._click_textarea(ai_type)
             pyautogui.press('enter')
             time.sleep(30)
@@ -279,7 +251,7 @@ class GPTImageAutomation:
                 
                 self.logger.info(f"\n第{loop_count}回実行 (現在: {current_count}/{target_count}件, 残り: {remaining}件)")
                 
-                # textareaクリック
+                # textareaクリック（BaseAutomationのメソッド使用）
                 if not self._click_textarea(ai_type):
                     self.logger.warning("textareaクリック失敗、リトライ...")
                     time.sleep(5)
@@ -290,7 +262,6 @@ class GPTImageAutomation:
                 pyautogui.press('enter')
                 
                 # 応答待機
-                self.logger.info(f"⏳ AI応答待機中... ({wait_time}秒)")
                 time.sleep(wait_time)
                 
                 # スクロール
@@ -322,56 +293,6 @@ class GPTImageAutomation:
         except Exception as e:
             self.logger.error(f"収集ループエラー: {str(e)}")
             return self._get_tweet_count(csv_path)
-    
-    def _detect_ai_type(self, url: str) -> str:
-        """AI種別判定"""
-        if 'chatgpt.com' in url.lower():
-            return 'GPT'
-        elif 'claude.ai' in url.lower():
-            return 'Claude'
-        return 'GPT'  # デフォルト
-    
-    def _click_textarea(self, ai_type: str) -> bool:
-        """textareaクリック"""
-        try:
-            textarea_image = self.image_dir / f"{ai_type}_textarea.png"
-            if not textarea_image.exists():
-                self.logger.error(f"{ai_type}_textarea.png が見つかりません")
-                return False
-            
-            for attempt in range(3):
-                try:
-                    if ai_type == "Claude":
-                        screen_w, screen_h = pyautogui.size()
-                        region = (0, int(screen_h * 0.2), screen_w, int(screen_h * 0.8))
-                        location = pyautogui.locateOnScreen(
-                            str(textarea_image), confidence=self.confidence, region=region
-                        )
-                    else:
-                        location = pyautogui.locateOnScreen(
-                            str(textarea_image), confidence=self.confidence
-                        )
-                    
-                    if location:
-                        center = pyautogui.center(location)
-                        if ai_type == "Claude":
-                            pyautogui.click(center.x, center.y - 30)
-                        else:
-                            pyautogui.click(center.x, center.y)
-                        time.sleep(1)
-                        return True
-                        
-                except pyautogui.ImageNotFoundException:
-                    pass
-                
-                if attempt < 2:
-                    time.sleep(2)
-            
-            return False
-            
-        except Exception as e:
-            self.logger.error(f"textareaクリックエラー: {str(e)}")
-            return False
     
     def _scroll_down(self):
         """スクロール実行"""
@@ -523,126 +444,6 @@ class GPTImageAutomation:
                 
         except Exception:
             return 0
-        
-    def _click_textarea_first(self, ai_type: str) -> bool:
-        """初回テキストエリアクリック（スタート入力用）"""
-        try:
-            # AI種別に応じた画像選択
-            if ai_type == "Claude":
-                # Claude_textarea_First.pngがあればそれを使用
-                textarea_image = self.image_dir / "Claude_textarea_First.png"
-                if not textarea_image.exists():
-                    textarea_image = self.image_dir / "Claude_textarea.png"
-            else:  # GPT
-                # GPT_textarea_First.pngがあればそれを使用
-                textarea_image = self.image_dir / "GPT_textarea_First.png"
-                if not textarea_image.exists():
-                    textarea_image = self.image_dir / "GPT_textarea.png"
-            
-            if not textarea_image.exists():
-                self.logger.error(f"{ai_type}_textarea画像が見つかりません")
-                return False
-            
-            # AI種別に応じた検索範囲とクリック位置
-            if ai_type == "Claude":
-                # Claudeは画面下部80%を検索
-                screen_w, screen_h = pyautogui.size()
-                region = (0, int(screen_h * 0.2), screen_w, int(screen_h * 0.8))
-                location = pyautogui.locateOnScreen(
-                    str(textarea_image), confidence=self.confidence, region=region
-                )
-                click_offset_y = 0  # 初回は中心クリック
-            else:  # GPT
-                # GPTは全画面検索
-                location = pyautogui.locateOnScreen(
-                    str(textarea_image), confidence=self.confidence
-                )
-                click_offset_y = 0  # 初回は中心クリック
-            
-            if location:
-                center = pyautogui.center(location)
-                pyautogui.click(center.x, center.y + click_offset_y)
-                time.sleep(1)
-                return True
-            
-            return False
-            
-        except Exception as e:
-            self.logger.error(f"初回textareaクリックエラー: {str(e)}")
-            return False
-
-    def _upload_file(self, account_id: str, filename: str, ai_type: str) -> bool:
-        """ファイルアップロード（GPT/Claude対応）"""
-        try:
-            # AI種別に応じたtextarea画像選択
-            textarea_image = self.image_dir / f"{ai_type}_textarea.png"
-            
-            if not textarea_image.exists():
-                self.logger.error(f"{ai_type}_textarea.png が見つかりません")
-                return False
-            
-            # テキストエリアクリック
-            if ai_type == "Claude":
-                screen_w, screen_h = pyautogui.size()
-                region = (0, int(screen_h * 0.2), screen_w, int(screen_h * 0.8))
-                location = pyautogui.locateOnScreen(
-                    str(textarea_image), confidence=self.confidence, region=region
-                )
-            else:  # GPT
-                location = pyautogui.locateOnScreen(
-                    str(textarea_image), confidence=self.confidence
-                )
-            
-            if location:
-                center = pyautogui.center(location)
-                pyautogui.click(center.x, center.y)
-                time.sleep(1)
-            else:
-                self.logger.warning("textareaが見つかりません")
-            
-            # ファイルアップロードメニューを開く
-            if ai_type == "Claude":
-                # Claude: Down→Enter
-                pyautogui.press('down')
-                time.sleep(1)
-                pyautogui.press('enter')
-
-            else:  # GPT
-                # GPT: クリップアイコンをクリックする場合
-                clip_image = self.image_dir / "GPT_clip_icon.png"
-                if clip_image.exists():
-                    clip_location = pyautogui.locateOnScreen(
-                        str(clip_image), confidence=self.confidence
-                    )
-                    if clip_location:
-                        clip_center = pyautogui.center(clip_location)
-                        pyautogui.click(clip_center.x, clip_center.y)
-
-                    else:
-                        # クリップアイコンが見つからない場合もDown→Enter試行
-                        pyautogui.press('down')
-                        time.sleep(1)
-                        pyautogui.press('enter')
-                else:
-                    # クリップアイコン画像がない場合はDown→Enter
-                    pyautogui.press('down')
-                    time.sleep(1)
-                    pyautogui.press('enter')
-            
-            time.sleep(3)
-            
-            # ファイルパス入力
-            file_path = f"C:\\Users\\shiki\\AutoTweet\\data\\{account_id}\\{filename}"
-            pyperclip.copy(file_path)
-            pyautogui.hotkey('ctrl', 'v')
-            pyautogui.press('enter')
-            time.sleep(3)
-            
-            return True
-            
-        except Exception as e:
-            self.logger.error(f"ファイルアップロードエラー: {str(e)}")
-            return False
     
     def _close_chrome(self) -> bool:
         """Chrome終了"""
@@ -676,129 +477,12 @@ class GPTImageAutomation:
         except Exception as e:
             self.logger.error(f"Chrome終了エラー: {str(e)}")
             return False
-        
-    def _click_textarea_first(self, ai_type: str) -> bool:
-        """初回テキストエリアクリック（スタート入力用）"""
-        try:
-            # AI種別に応じた画像選択
-            if ai_type == "Claude":
-                # Claude_textarea_First.pngがあればそれを使用
-                textarea_image = self.image_dir / "Claude_textarea_First.png"
-                if not textarea_image.exists():
-                    textarea_image = self.image_dir / "Claude_textarea.png"
-            else:  # GPT
-                # GPT_textarea_First.pngがあればそれを使用
-                textarea_image = self.image_dir / "GPT_textarea_First.png"
-                if not textarea_image.exists():
-                    textarea_image = self.image_dir / "GPT_textarea.png"
-            
-            if not textarea_image.exists():
-                self.logger.error(f"{ai_type}_textarea画像が見つかりません")
-                return False
-            
-            # AI種別に応じた検索範囲とクリック位置
-            if ai_type == "Claude":
-                # Claudeは画面下部80%を検索
-                screen_w, screen_h = pyautogui.size()
-                region = (0, int(screen_h * 0.2), screen_w, int(screen_h * 0.8))
-                location = pyautogui.locateOnScreen(
-                    str(textarea_image), confidence=self.confidence, region=region
-                )
-                click_offset_y = 0  # 初回は中心クリック
-            else:  # GPT
-                # GPTは全画面検索
-                location = pyautogui.locateOnScreen(
-                    str(textarea_image), confidence=self.confidence
-                )
-                click_offset_y = 0  # 初回は中心クリック
-            
-            if location:
-                center = pyautogui.center(location)
-                pyautogui.click(center.x, center.y + click_offset_y)
-                time.sleep(1)
-                return True
-            
-            return False
-            
-        except Exception as e:
-            self.logger.error(f"初回textareaクリックエラー: {str(e)}")
-            return False
 
-    def _upload_file(self, account_id: str, filename: str, ai_type: str) -> bool:
-        """ファイルアップロード（GPT/Claude対応）"""
-        try:
-            # AI種別に応じたtextarea画像選択
-            textarea_image = self.image_dir / f"{ai_type}_textarea.png"
-            
-            if not textarea_image.exists():
-                self.logger.error(f"{ai_type}_textarea.png が見つかりません")
-                return False
-            
-            # テキストエリアクリック
-            if ai_type == "Claude":
-                screen_w, screen_h = pyautogui.size()
-                region = (0, int(screen_h * 0.2), screen_w, int(screen_h * 0.8))
-                location = pyautogui.locateOnScreen(
-                    str(textarea_image), confidence=self.confidence, region=region
-                )
-            else:  # GPT
-                location = pyautogui.locateOnScreen(
-                    str(textarea_image), confidence=self.confidence
-                )
-            
-            if location:
-                center = pyautogui.center(location)
-                pyautogui.click(center.x, center.y)
-                time.sleep(1)
-            else:
-                self.logger.warning("textareaが見つかりません")
-            
-            # ファイルアップロードメニューを開く
-            if ai_type == "Claude":
-                # Claude: Down→Enter
-                pyautogui.press('down')
-                time.sleep(1)
-                pyautogui.press('enter')
-            else:  # GPT
-                # GPT: クリップアイコンをクリックする場合
-                clip_image = self.image_dir / "GPT_clip_icon.png"
-                if clip_image.exists():
-                    clip_location = pyautogui.locateOnScreen(
-                        str(clip_image), confidence=self.confidence
-                    )
-                    if clip_location:
-                        clip_center = pyautogui.center(clip_location)
-                        pyautogui.click(clip_center.x, clip_center.y)
-                    else:
-                        # クリップアイコンが見つからない場合もDown→Enter試行
-                        pyautogui.press('down')
-                        time.sleep(1)
-                        pyautogui.press('enter')
-                else:
-                    # クリップアイコン画像がない場合はDown→Enter
-                    pyautogui.press('down')
-                    time.sleep(1)
-                    pyautogui.press('enter')
-            
-            time.sleep(3)
-            
-            # ファイルパス入力
-            file_path = f"C:\\Users\\shiki\\AutoTweet\\data\\{account_id}\\{filename}"
-            pyperclip.copy(file_path)
-            pyautogui.hotkey('ctrl', 'v')
-            pyautogui.press('enter')
-            time.sleep(3)
-            
-            return True
-            
-        except Exception as e:
-            self.logger.error(f"ファイルアップロードエラー: {str(e)}")
-            return False
 
 # テスト関数
 def test_gpt_automation():
     """GPT自動化のテスト"""
-    print("=== GPT Image Automation (ローカル版) テスト開始 ===")
+    print("=== GPT Image Automation (ローカル版・リファクタリング済) テスト開始 ===")
     
     try:
         automation = GPTImageAutomation()

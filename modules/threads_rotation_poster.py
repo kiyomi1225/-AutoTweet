@@ -5,6 +5,7 @@ import pyautogui
 import csv  
 from pathlib import Path
 from typing import List, Dict, Optional
+from datetime import datetime
 
 try:
     from .logger_setup import setup_module_logger
@@ -111,11 +112,13 @@ class ThreadsRotationPoster:
                         # アカウント投稿実行（VPN切り替え含む）
                         success = self._post_for_account_with_vpn_switch(account_id)
                         
-                        if success:
+                        if success is True:
                             self.logger.info(f"✅ {account_id} 投稿成功")
-                        else:
+                        elif success is None:
+                            self.logger.info(f"⏰ {account_id} 時間外")
+                        else:  # success is False
                             self.logger.warning(f"❌ {account_id} 投稿失敗")
-                        
+
                         # 次のアカウントまで待機（○○分）
                         if len(active_accounts) > 1:  # 最後のアカウント以外
                             wait_minutes = random.randint(min_wait, max_wait)
@@ -142,6 +145,15 @@ class ThreadsRotationPoster:
     def _post_for_account_with_vpn_switch(self, account_id: str) -> bool:
         """VPN切り替え付きアカウント投稿処理（スマート切り替え版）"""
         tweet_data = None
+
+        # ⏰ 時間帯チェック（ここに追加）
+        current_hour = datetime.now().hour
+        allowed_start = self.config_manager.config.get('posting_hours', {}).get('start', 6)
+        allowed_end = self.config_manager.config.get('posting_hours', {}).get('end', 24)
+        
+        if not (allowed_start <= current_hour < allowed_end):
+            self.logger.info(f"⏰ 投稿時間外: {current_hour}時 (許可: {allowed_start}-{allowed_end}時)")
+            return None
         
         try:
             # 1. 現在のIPを記録
@@ -202,34 +214,27 @@ class ThreadsRotationPoster:
             except:
                 pass  # なければスキップ            
 
-            # 7. ツイート取得 → 即座に使用済み化
+            # 7. ツイート取得（まだ使用済みにしない）
             tweet_data = self.get_random_unused_tweet(account_id)
             if not tweet_data:
                 raise Exception("投稿可能ツイートなし")
             
-            self.mark_tweet_as_used(account_id, tweet_data['id'])
-            self.logger.info(f"ツイート選択・使用済み化: {tweet_data['text'][:30]}...")
+            self.logger.info(f"ツイート選択: {tweet_data['text'][:30]}...")
             
             # 8. Threads投稿実行
             post_success = self._execute_threads_post(tweet_data['text'])
             
+            # 9. 投稿成功した場合のみ使用済みマーク
             if post_success:
-                self.logger.info("投稿成功")
+                self.mark_tweet_as_used(account_id, tweet_data['id'])
+                self.logger.info("✅ 投稿成功・使用済み化完了")
+                return True
             else:
-                self.logger.warning("投稿失敗（ツイートは既に使用済み）")
-            
-            return True
+                self.logger.warning("⚠️ 投稿失敗（ツイートは未使用のまま保持）")
+                return False
             
         except Exception as e:
             self.logger.error(f"投稿処理エラー: {account_id} - {str(e)}")
-            
-            # ツイート取得前エラーの場合は代替ツイート消化
-            if tweet_data is None:
-                fallback_tweet = self.get_random_unused_tweet(account_id)
-                if fallback_tweet:
-                    self.mark_tweet_as_used(account_id, tweet_data['id']) 
-                    self.logger.info("代替ツイート使用済み化")
-            
             return False
             
         finally:
@@ -247,7 +252,6 @@ class ThreadsRotationPoster:
                         time.sleep(2)
                 except:
                     pass
-                self.logger.info(f"✅ Threads_PWA Close : {account_id}")
                 
                 # VPN切断
                 self.vpn_manager.disconnect()
@@ -256,38 +260,47 @@ class ThreadsRotationPoster:
                 self.logger.warning(f"⚠ クリーンアップエラー: {account_id} - {str(cleanup_error)}")
 
     def _execute_threads_post(self, content: str) -> bool:
-        """Threads投稿実行"""
+        """Threads投稿実行（デバッグ強化版）"""
         try:
+            self.logger.info("📝 Threads投稿プロセス開始")
+            
             # テキストエリア認識・クリック
             if not self._click_threads_textarea():
+                self.logger.error("❌ テキストエリアが見つかりませんでした")
                 return False
+            self.logger.info("✅ テキストエリアクリック成功")
             
             # 投稿内容入力
             import pyperclip
-            pyperclip.copy(content)                # クリップボードにコピー
-            time.sleep(2)                       # 安定性のため少し待機
-            pyautogui.hotkey('ctrl', 'v')         # Ctrl+Vでペースト
-            time.sleep(5)                         # 入力完了待機
+            pyperclip.copy(content)
+            time.sleep(2)
+            
+            pyautogui.hotkey('ctrl', 'v')
+            time.sleep(5)
             
             # 投稿ボタンクリック
             if not self._click_threads_post_button():
+                self.logger.error("❌ 投稿ボタンが見つかりませんでした")
                 return False
+            self.logger.info("✅ 投稿ボタンクリック成功")
             
-            time.sleep(5)  # 投稿完了待機
+            time.sleep(5)
             return True
             
         except Exception as e:
-            self.logger.error(f"Threads投稿エラー: {str(e)}")
+            self.logger.error(f"❌ Threads投稿エラー: {str(e)}")
+            import traceback
+            self.logger.error(f"詳細: {traceback.format_exc()}")
             return False
-    
+        
     def _click_threads_textarea(self) -> bool:
-        """Threadsテキストエリアクリック"""
+        """Threadsテキストエリアクリック（デバッグ強化版）"""
         try:
             textarea_image = self.image_dir / "threads_textarea.png"
             if not textarea_image.exists():
-                self.logger.error("threads_textarea.png が見つかりません")
+                self.logger.error(f"❌ 画像ファイルが存在しません: {textarea_image}")
                 return False
-            
+                        
             for attempt in range(3):
                 try:
                     location = pyautogui.locateOnScreen(str(textarea_image), confidence=self.confidence)
@@ -296,26 +309,32 @@ class ThreadsRotationPoster:
                         pyautogui.click(center.x, center.y)
                         time.sleep(1)
                         return True
+                    else:
+                        self.logger.warning(f"⚠️ 試行{attempt + 1}: テキストエリアが見つかりません")
                 except pyautogui.ImageNotFoundException:
-                    pass
+                    self.logger.warning(f"⚠️ 試行{attempt + 1}: ImageNotFoundException")
                 
                 if attempt < 2:
+                    self.logger.info("⏳ 2秒待機して再試行...")
                     time.sleep(2)
             
+            self.logger.error("❌ 3回の試行すべて失敗")
             return False
             
         except Exception as e:
-            self.logger.error(f"Threadsテキストエリア認識エラー: {str(e)}")
+            self.logger.error(f"❌ テキストエリア認識エラー: {str(e)}")
+            import traceback
+            self.logger.error(f"詳細: {traceback.format_exc()}")
             return False
-    
+        
     def _click_threads_post_button(self) -> bool:
-        """Threads投稿ボタンクリック"""
+        """Threads投稿ボタンクリック（デバッグ強化版）"""
         try:
             post_image = self.image_dir / "threads_post_button.png"
             if not post_image.exists():
-                self.logger.error("threads_post_button.png が見つかりません")
+                self.logger.error(f"❌ 画像ファイルが存在しません: {post_image}")
                 return False
-            
+                        
             for attempt in range(3):
                 try:
                     location = pyautogui.locateOnScreen(str(post_image), confidence=0.95)
@@ -324,14 +343,20 @@ class ThreadsRotationPoster:
                         pyautogui.click(center.x, center.y)
                         time.sleep(5)
                         return True
+                    else:
+                        self.logger.warning(f"⚠️ 試行{attempt + 1}: 投稿ボタンが見つかりません")
                 except pyautogui.ImageNotFoundException:
-                    pass
+                    self.logger.warning(f"⚠️ 試行{attempt + 1}: ImageNotFoundException")
                 
                 if attempt < 2:
+                    self.logger.info("⏳ 2秒待機して再試行...")
                     time.sleep(2)
             
+            self.logger.error("❌ 3回の試行すべて失敗")
             return False
             
         except Exception as e:
-            self.logger.error(f"Threads投稿ボタン認識エラー: {str(e)}")
+            self.logger.error(f"❌ 投稿ボタン認識エラー: {str(e)}")
+            import traceback
+            self.logger.error(f"詳細: {traceback.format_exc()}")
             return False

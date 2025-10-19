@@ -38,7 +38,7 @@ class DailyMailAutomation(BaseAutomation):
             default_config = {
                 "daily_mail_ai_url": "https://claude.ai/project/01995cd1-e79f-7485-b9ff-7ed5770bf776",
                 "chrome_profile": "コンテンツ作成用プロファイル",
-                "wait_time": 45
+                "wait_time": 90
             }
             config_path.parent.mkdir(parents=True, exist_ok=True)
             with open(config_path, 'w', encoding='utf-8') as f:
@@ -56,7 +56,7 @@ class DailyMailAutomation(BaseAutomation):
         self.logger.info(f"URL: {url}")
         return url, ai_type
     
-    def run_automation(self, account_id: str, wait_time: int = 45) -> bool:
+    def run_automation(self, account_id: str, wait_time: int = 90) -> bool:
         """メイン自動化実行（AIタイプ対応版）"""
         try:
             # AIタイプ判定（content_creation_config.jsonから）
@@ -68,6 +68,11 @@ class DailyMailAutomation(BaseAutomation):
             # データフォルダパス
             mail_folder = Path(f"C:\\Users\\shiki\\AutoTweet\\data\\{account_id}\\デイリーメルマガ")
             self.logger.info(f"データフォルダ: {mail_folder}")
+
+            # 🆕 フォルダが存在しない場合は作成
+            if not mail_folder.exists():
+                mail_folder.mkdir(parents=True, exist_ok=True)
+                self.logger.info(f"📁 フォルダを作成しました: {mail_folder}")
             
             # 既存ファイル確認
             existing_files = self._check_existing_files(mail_folder)
@@ -201,7 +206,7 @@ class DailyMailAutomation(BaseAutomation):
             pyperclip.copy("スタート")
             pyautogui.hotkey('ctrl', 'v')
             pyautogui.press('enter')
-            time.sleep(15)
+            time.sleep(10)
             
             # ファイルアップロード（3回） - BaseAutomationのメソッド使用
             upload_files = [
@@ -220,14 +225,14 @@ class DailyMailAutomation(BaseAutomation):
             if not self._click_textarea(ai_type):
                 return False
             pyautogui.press('enter')
-            time.sleep(30)
+            time.sleep(60)
             
             # 1～10のランダム数値入力
             random_num = random.randint(1, 10)
             pyautogui.typewrite(str(random_num))
             pyautogui.press('enter')
-            time.sleep(wait_time)
             self.logger.info(f"ランダム数値入力: {random_num}")
+            time.sleep(wait_time)
             
             # 5章分のコンテンツ収集
             for chapter in range(1, 6):
