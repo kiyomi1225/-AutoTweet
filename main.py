@@ -82,7 +82,7 @@ class TwitterAutomationSystem:
             
             # Threads循環投稿
             print("🔄 Threads循環投稿初期化中...")
-            self.threads_rotation_poster = ThreadsRotationPoster(self.config, self.vpn_manager)  
+            self.threads_rotation_poster = ThreadsRotationPoster(self.config, self.vpn_manager,self.chrome_manager,self.discord)  
             print("✅ Threads循環投稿初期化完了")
             
              # フロントエンドnote自動作成
